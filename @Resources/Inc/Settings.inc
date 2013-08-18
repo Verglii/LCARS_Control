@@ -8,8 +8,8 @@ LMC2=1
 
 FONHID=0
 
-CompInfo=1
-CPU_MEM=0
+CompInfo=0
+CPU_MEM=1
 
 ;Drive1
 D1=C
@@ -67,8 +67,8 @@ QL4N=YouTube
 QL4L=http://youtube.com
 
 CP0=1
-CP1=0
-CP2=0
+CP1=1
+CP2=1
 CP3=1
 CP4=1
 CP5=1
