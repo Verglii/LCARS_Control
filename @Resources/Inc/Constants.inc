@@ -44,7 +44,7 @@ CoIn_Off=[!SetVariable "CompInfo" "1"][!RainmeterWriteKeyValue Variables "CompIn
 CPU_MEM_On=[!SetVariable "CPU_MEM" "0"][!RainmeterWriteKeyValue Variables "CPU_MEM" "0" "#@#\Inc\Settings.inc"]
 CPU_MEM_Off=[!SetVariable "CPU_MEM" "1"][!RainmeterWriteKeyValue Variables "CPU_MEM" "1" "#@#\Inc\Settings.inc"]
 CPU_MEM|N_On=[!SetVariable "CPU_MEM#GR|IND#" "0"][!RainmeterWriteKeyValue Variables "CPU_MEM#GR|IND#" "0" "#@#\Inc\Settings.inc"] [!SetVariable "CPU_MEM#IND|GR#" "1"][!RainmeterWriteKeyValue Variables "CPU_MEM#IND|GR#" "1" "#@#\Inc\Settings.inc"]
-CPU_MEM|N_Off=[!SetVariable "CPU_MEM#GR|IND#" "1"][!RainmeterWriteKeyValue Variables "CPU_MEM#GR|IND#" "1" "#@#\Inc\Settings.inc"][!SetVariable "CPU_MEM#IND|GR#" "0"][!RainmeterWriteKeyValue Variables "CPU_MEM#IND|GR#" "0" "#@#\Inc\Settings.inc"]
+CPU_MEM|N_Off=[!SetVariable "CPU_MEM#GR|IND#" "1"][!RainmeterWriteKeyValue Variables "CPU_MEM#GR|IND#" "1" "#@#\Inc\Settings.inc"][!SetVariable "CPU_MEM#IND|GR#" "1"][!RainmeterWriteKeyValue Variables "CPU_MEM#IND|GR#" "1" "#@#\Inc\Settings.inc"]
 GR|IND_On=[!SetVariable "GR|IND" "0"][!RainmeterWriteKeyValue Variables "GR|IND" "0" "#@#\Inc\Settings.inc"]
 GR_IND_Off=[!SetVariable "GR|IND" "1"][!RainmeterWriteKeyValue Variables "GR|IND" "1" "#@#\Inc\Settings.inc"]
 
