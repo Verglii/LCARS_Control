@@ -36,3 +36,17 @@ CPUName=лндекэ жемрпюкэмнцн опнжеяянпю
 PriGPU=нямнбмюъ бхденйюпрю
 RAMT=бяецн ноепюрхбмни оюлърх
 SubstBit="G":"ц","M":"л","k":"Й"
+
+;CPU and memory
+Core1N=ъдпн   1:
+Core2N=ъдпн   2:
+Core3N=ъдпн   3:
+Core4N=ъдпн   4:
+Core5N=ъдпн   5:
+Core6N=ъдпн   6:
+Core7N=ъдпн   7:
+Core8N=ъдпн   8:
+Core9N=ъдпн   9:
+Core10N=ъдпн 10:
+Core11N=ъдпн 11:
+Core12N=ъдпн 12:
