@@ -50,3 +50,4 @@ Core9N=ßÄÐÎ   9:
 Core10N=ßÄÐÎ 10:
 Core11N=ßÄÐÎ 11:
 Core12N=ßÄÐÎ 12:
+Memory=ÏÀÌßÒÜ :

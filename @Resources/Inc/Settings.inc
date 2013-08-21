@@ -10,8 +10,8 @@ FONHID=0
 
 CompInfo=1
 CPU_MEM=0
-CPU_MEM0=1
-CPU_MEM1=0
+CPU_MEM0=0
+CPU_MEM1=1
 
 ;Drive1
 D1=C
@@ -68,8 +68,8 @@ QL3L=http://vk.com/
 QL4N=YouTube
 QL4L=http://youtube.com
 
-GR|IND=1
-IND|GR=0
+GR|IND=0
+IND|GR=1
 
 CPULCount=5
 
