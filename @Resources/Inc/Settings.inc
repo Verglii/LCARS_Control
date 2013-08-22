@@ -12,6 +12,7 @@ CompInfo=1
 CPU_MEM=0
 CPU_MEM0=0
 CPU_MEM1=1
+DATABASE=1
 
 ;Drive1
 D1=C
@@ -68,12 +69,17 @@ QL3L=http://vk.com/
 QL4N=YouTube
 QL4L=http://youtube.com
 
+QL5N=LCARS
+QL5L=http://www.bracercom.com/tutorial/content/CoherentLCARSInterface/LCARSCoherentInterface.html
+
+QL6N=Yandex
+QL6L=http://Yandex.ru
+
 GR|IND=0
 IND|GR=1
 
-CPULCount=5
+CPULCount=4
 
-CP0=1
 CP1=0
 CP2=0
 CP3=0
@@ -87,7 +93,6 @@ CP10=1
 CP11=1
 CP12=1
 
-CP0_=1
 CP1_=0
 CP2_=0
 CP3_=0

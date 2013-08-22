@@ -7,7 +7,8 @@ SubstDay="Sunday":"бняйпеяемэе","Monday":"онмедекэмхй","Tuesday":"брнпмхй","Wedn
 SubstMonth="January":"ъмбюпъ","February":"тебпюкъ","March":"люпрю","April":"юопекъ","May":"люъ","June":"хчмъ","JulY":"хчкъ","August":"юбцсярю","September":"яемръапъ","October":"нйръапъ","November":"мнъапъ","December":"дейюапэ"
 
 ;Left menu settings
-AccessPanel=оюмекэ днярсою
+AccessPanel1=оюмекэ днярсою 1
+AccessPanel2=оюмекэ днярсою 2
 
 ;Left menu buttons
 LMB1_1=йнлоэчреп
@@ -50,4 +51,4 @@ Core9N=ъдпн   9:
 Core10N=ъдпн 10:
 Core11N=ъдпн 11:
 Core12N=ъдпн 12:
-Memory=оюлърэ :
+Memory=гюмърн :
