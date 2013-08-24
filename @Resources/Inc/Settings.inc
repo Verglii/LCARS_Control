@@ -110,3 +110,16 @@ CP9_=1
 CP10_=1
 CP11_=1
 CP12_=1
+
+;Database=================
+FBLB1Path=C:\
+FBLB1Name=C
+FBLCom1=[!SetOption MeasurePath Path "C:\"][!CommandMeasure MeasurePath Update]
+FBLB2Path=D:\
+FBLB2Name=D
+FBLCom2=[!SetOption MeasurePath Path "D:\"][!CommandMeasure MeasurePath Update]
+FBLB3Path=D:\Programs\
+FBLB3Name=Programs
+FBLCom3=[!SetOption MeasurePath Path "C:\Programs"][!CommandMeasure MeasurePath Update]
+
+LastPlace=D:\

@@ -86,20 +86,68 @@ CY9=685
 ;============================
 
 ;Database=================
-FBLB1Path=C:\
-FBLB1Name=C
-FBLCom1=[!SetOption MeasurePath Path "C:\"][!CommandMeasure MeasurePath Update]
-FBLB2Path=D:\
-FBLB2Name=D
-FBLCom2=[!SetOption MeasurePath Path "D:\"][!CommandMeasure MeasurePath Update]
-FBLB3Path=D:\Programs\
-FBLB3Name=Programs
-FBLCom3=[!SetOption MeasurePath Path "C:\Programs"][!CommandMeasure MeasurePath Update]
+IcSize=60
+NameH=40
 
-LastPlace=D:\
+IcX1=550
+IcX2=620
+IcX3=690
+IcX4=760
+IcX5=830
+IcX6=900
+IcX7=970
+
+IcY1=340
+IcY2=460
+IcY3=580
 
 ;Index commands
+LevelUp=[!CommandMeasure MeasurePath "PreviousFolder"] [!CommandMeasure MeasurePath Update]
+
 Ind1ComL=[!CommandMeasure MeasureIndex1Name "FollowPath"]
+Ind1ComR=
+Ind2ComL=[!CommandMeasure MeasureIndex2Name "FollowPath"]
+Ind2ComR=
+Ind3ComL=[!CommandMeasure MeasureIndex3Name "FollowPath"]
+Ind3ComR=
+Ind4ComL=[!CommandMeasure MeasureIndex4Name "FollowPath"]
+Ind4ComR=
+Ind5ComL=[!CommandMeasure MeasureIndex5Name "FollowPath"]
+Ind5ComR=
+Ind6ComL=[!CommandMeasure MeasureIndex6Name "FollowPath"]
+Ind6ComR=
+Ind7ComL=[!CommandMeasure MeasureIndex7Name "FollowPath"]
+Ind7ComR=
+
+Ind8ComL=[!CommandMeasure MeasureIndex8Name "FollowPath"]
+Ind8ComR=
+Ind9ComL=[!CommandMeasure MeasureIndex9Name "FollowPath"]
+Ind9ComR=
+Ind10ComL=[!CommandMeasure MeasureIndex10Name "FollowPath"]
+Ind10ComR=
+Ind11ComL=[!CommandMeasure MeasureIndex11Name "FollowPath"]
+Ind11ComR=
+Ind12ComL=[!CommandMeasure MeasureIndex12Name "FollowPath"]
+Ind12ComR=
+Ind13ComL=[!CommandMeasure MeasureIndex13Name "FollowPath"]
+Ind13ComR=
+Ind14ComL=[!CommandMeasure MeasureIndex14Name "FollowPath"]
+Ind14ComR=
+
+Ind15ComL=[!CommandMeasure MeasureIndex15Name "FollowPath"]
+Ind15ComR=
+Ind16ComL=[!CommandMeasure MeasureIndex16Name "FollowPath"]
+Ind16ComR=
+Ind17ComL=[!CommandMeasure MeasureIndex17Name "FollowPath"]
+Ind17ComR=
+Ind18ComL=[!CommandMeasure MeasureIndex18Name "FollowPath"]
+Ind18ComR=
+Ind19ComL=[!CommandMeasure MeasureIndex19Name "FollowPath"]
+Ind19ComR=
+Ind20ComL=[!CommandMeasure MeasureIndex20Name "FollowPath"]
+Ind20ComR=
+Ind21ComL=[!CommandMeasure MeasureIndex21Name "FollowPath"]
+Ind21ComR=
 ;=========================
 
 DynamicVariables=1
