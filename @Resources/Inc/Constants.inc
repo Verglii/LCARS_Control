@@ -53,7 +53,7 @@ GR|IND_Off=[!SetVariable "GR|IND" "1"][!SetVariable "IND|GR" "0"][!RainmeterWrit
 DATABASE_On=[!SetVariable "DATABASE" "0"][!RainmeterWriteKeyValue Variables "DATABASE" "0" "#@#\Inc\Settings.inc"]#Fon2#
 DATABASE_Off=[!SetVariable "DATABASE" "1"][!RainmeterWriteKeyValue Variables "DATABASE" "1" "#@#\Inc\Settings.inc"]#Fon1#
 Fon1=[!SetVariable "FONW" "750"][!RainmeterWriteKeyValue Variables "FONW" "750" "#@#\Inc\Settings.inc"]
-Fon2=[!SetVariable "FONW" "520"][!RainmeterWriteKeyValue Variables "FONW" "520" "#@#\Inc\Settings.inc"]
+Fon2=[!SetVariable "FONW" "640"][!RainmeterWriteKeyValue Variables "FONW" "640" "#@#\Inc\Settings.inc"]
 
 
 ;CPU stands
@@ -86,20 +86,21 @@ CY9=685
 ;============================
 
 ;Database=================
-IcSize=60
+IcSize=40
 NameH=40
+NameW=500
+IcW=550
 
 IcX1=550
-IcX2=620
-IcX3=690
-IcX4=760
-IcX5=830
-IcX6=900
-IcX7=970
+IcX2=600
 
-IcY1=340
-IcY2=460
-IcY3=580
+IcY1=350
+IcY2=400
+IcY3=450
+IcY4=500
+IcY5=550
+IcY6=600
+IcY7=650
 
 ;Index commands
 LevelUp=[!CommandMeasure MeasurePath "PreviousFolder"] [!CommandMeasure MeasurePath Update]
@@ -118,36 +119,6 @@ Ind6ComL=[!CommandMeasure MeasureIndex6Name "FollowPath"]
 Ind6ComR=
 Ind7ComL=[!CommandMeasure MeasureIndex7Name "FollowPath"]
 Ind7ComR=
-
-Ind8ComL=[!CommandMeasure MeasureIndex8Name "FollowPath"]
-Ind8ComR=
-Ind9ComL=[!CommandMeasure MeasureIndex9Name "FollowPath"]
-Ind9ComR=
-Ind10ComL=[!CommandMeasure MeasureIndex10Name "FollowPath"]
-Ind10ComR=
-Ind11ComL=[!CommandMeasure MeasureIndex11Name "FollowPath"]
-Ind11ComR=
-Ind12ComL=[!CommandMeasure MeasureIndex12Name "FollowPath"]
-Ind12ComR=
-Ind13ComL=[!CommandMeasure MeasureIndex13Name "FollowPath"]
-Ind13ComR=
-Ind14ComL=[!CommandMeasure MeasureIndex14Name "FollowPath"]
-Ind14ComR=
-
-Ind15ComL=[!CommandMeasure MeasureIndex15Name "FollowPath"]
-Ind15ComR=
-Ind16ComL=[!CommandMeasure MeasureIndex16Name "FollowPath"]
-Ind16ComR=
-Ind17ComL=[!CommandMeasure MeasureIndex17Name "FollowPath"]
-Ind17ComR=
-Ind18ComL=[!CommandMeasure MeasureIndex18Name "FollowPath"]
-Ind18ComR=
-Ind19ComL=[!CommandMeasure MeasureIndex19Name "FollowPath"]
-Ind19ComR=
-Ind20ComL=[!CommandMeasure MeasureIndex20Name "FollowPath"]
-Ind20ComR=
-Ind21ComL=[!CommandMeasure MeasureIndex21Name "FollowPath"]
-Ind21ComR=
 ;=========================
 
 DynamicVariables=1
