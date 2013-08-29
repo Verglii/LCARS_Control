@@ -21,18 +21,18 @@ QLL=950
 QLR=1060
 QLRR=1170
 
-LMY1=155
-LMY2=195
-LMY3=235
-LMY4=275
-LMY5=315
-LMY6=355
-LMY7=395
-LMY8=435
-LMY9=475
-LMY10=515
-LMY11=555
-LMY12=595
+LMY1=145
+LMY2=185
+LMY3=225
+LMY4=265
+LMY5=305
+LMY6=345
+LMY7=385
+LMY8=425
+LMY9=465
+LMY10=505
+LMY11=545
+LMY12=585
 
 ;=================================================!Bangs============================================
 ;============================================
@@ -50,11 +50,13 @@ CPU_MEM|N_On=[!SetVariable "CPU_MEM#GR|IND#" "0"][!RainmeterWriteKeyValue Variab
 CPU_MEM|N_Off=[!SetVariable "CPU_MEM0" "1"][!RainmeterWriteKeyValue Variables "CPU_MEM0" "1" "#@#\Inc\Settings.inc"][!SetVariable "CPU_MEM1" "1"][!RainmeterWriteKeyValue Variables "CPU_MEM1" "1" "#@#\Inc\Settings.inc"]
 GR|IND_On=[!SetVariable "GR|IND" "0"][!SetVariable "IND|GR" "1"][!RainmeterWriteKeyValue Variables "GR|IND" "0" "#@#\Inc\Settings.inc"][!RainmeterWriteKeyValue Variables "IND|GR" "1" "#@#\Inc\Settings.inc"]
 GR|IND_Off=[!SetVariable "GR|IND" "1"][!SetVariable "IND|GR" "0"][!RainmeterWriteKeyValue Variables "GR|IND" "1" "#@#\Inc\Settings.inc"][!RainmeterWriteKeyValue Variables "IND|GR" "0" "#@#\Inc\Settings.inc"]
-DATABASE_On=[!SetVariable "DATABASE" "0"][!RainmeterWriteKeyValue Variables "DATABASE" "0" "#@#\Inc\Settings.inc"]#Fon2#
-DATABASE_Off=[!SetVariable "DATABASE" "1"][!RainmeterWriteKeyValue Variables "DATABASE" "1" "#@#\Inc\Settings.inc"]#Fon1#
+DATABASE_On=[!SetVariable "DATABASE" "0"][!RainmeterWriteKeyValue Variables "DATABASE" "0" "#@#\Inc\Settings.inc"]#Fon2##DATABASELinksBorder_Off#
+DATABASE_Off=[!SetVariable "DATABASE" "1"][!RainmeterWriteKeyValue Variables "DATABASE" "1" "#@#\Inc\Settings.inc"]#Fon1##DATABASELinksBorder_On#
+
 Fon1=[!SetVariable "FONW" "750"][!RainmeterWriteKeyValue Variables "FONW" "750" "#@#\Inc\Settings.inc"]
 Fon2=[!SetVariable "FONW" "640"][!RainmeterWriteKeyValue Variables "FONW" "640" "#@#\Inc\Settings.inc"]
-
+DATABASELinksBorder_On=[!SetVariable "DATABASELinksBorder" "0"][!RainmeterWriteKeyValue Variables "DATABASELinksBorder" "0" "#@#\Inc\Settings.inc"]
+DATABASELinksBorder_Off=[!SetVariable "DATABASELinksBorder" "1"][!RainmeterWriteKeyValue Variables "DATABASELinksBorder" "1" "#@#\Inc\Settings.inc"]
 
 ;CPU stands
 CPU_On=[!SetVariable CP1 "#CP1_#"][!RainmeterWriteKeyValue Variables "CP1" "#CP1_#" "#@#\Inc\Settings.inc"][!SetVariable "CP2" "#CP2_#"][!RainmeterWriteKeyValue Variables "CP2" "#CP2_#" "#@#\Inc\Settings.inc"][!SetVariable "CP3" "#CP3_#"][!RainmeterWriteKeyValue Variables "CP3" "#CP3_#" "#@#\Inc\Settings.inc"][!SetVariable "CP4" "#CP4_#"][!RainmeterWriteKeyValue Variables "CP4" "#CP4_#" "#@#\Inc\Settings.inc"][!SetVariable "CP5" "#CP5_#"][!RainmeterWriteKeyValue Variables "CP5" "#CP5_#" "#@#\Inc\Settings.inc"][!SetVariable "CP6" "#CP6_#"][!RainmeterWriteKeyValue Variables "CP6" "#CP6_#" "#@#\Inc\Settings.inc"][!SetVariable "CP7" "#CP7_#"][!RainmeterWriteKeyValue Variables "CP7" "#CP7_#" "#@#\Inc\Settings.inc"][!SetVariable "CP8" "#CP8_#"][!RainmeterWriteKeyValue Variables "CP8" "#CP8_#" "#@#\Inc\Settings.inc"][!SetVariable "CP9" "#CP9_#"][!RainmeterWriteKeyValue Variables "CP9" "#CP9_#" "#@#\Inc\Settings.inc"][!SetVariable "CP10" "#CP10_#"][!RainmeterWriteKeyValue Variables "CP10" "#CP10_#" "#@#\Inc\Settings.inc"][!SetVariable "CP11" "#CP11_#"][!RainmeterWriteKeyValue Variables "CP11" "#CP11_#" "#@#\Inc\Settings.inc"][!SetVariable "CP12" "#CP12_#"][!RainmeterWriteKeyValue Variables "CP12" "#CP12_#" "#@#\Inc\Settings.inc"]
@@ -94,16 +96,20 @@ IcW=540
 IcX1=550
 IcX2=600
 
-IcY1=350
-IcY2=400
-IcY3=450
-IcY4=500
-IcY5=550
-IcY6=600
-IcY7=650
+IcY1=340
+IcY2=390
+IcY3=440
+IcY4=490
+IcY5=540
+IcY6=590
+;IcY7=650
 
 ;Index commands
 LevelUp=[!CommandMeasure MeasurePath "PreviousFolder"] [!CommandMeasure MeasurePath Update]
+UpToListCom=[!CommandMeasure MeasurePath "PageUp"]
+UpToStringCom=[!CommandMeasure MeasurePath "IndexUp"]
+DownToListCom=[!CommandMeasure MeasurePath "PageDown"]
+DownToStringCom=[!CommandMeasure MeasurePath "IndexDown"]
 
 Ind1ComL=[!CommandMeasure MeasureIndex1Name "FollowPath"]
 Ind1ComR=
@@ -117,8 +123,8 @@ Ind5ComL=[!CommandMeasure MeasureIndex5Name "FollowPath"]
 Ind5ComR=
 Ind6ComL=[!CommandMeasure MeasureIndex6Name "FollowPath"]
 Ind6ComR=
-Ind7ComL=[!CommandMeasure MeasureIndex7Name "FollowPath"]
-Ind7ComR=
+;Ind7ComL=[!CommandMeasure MeasureIndex7Name "FollowPath"]
+;Ind7ComR=
 ;=========================
 
 DynamicVariables=1
