@@ -88,8 +88,8 @@ CY9=685
 ;Database=================
 IcSize=40
 NameH=40
-NameW=500
-IcW=550
+NameW=490
+IcW=540
 
 IcX1=550
 IcX2=600
