@@ -19,6 +19,8 @@ CPU_MEM0=1
 CPU_MEM1=1
 DATABASE=0
 
+
+DATABASELinksBorder=1
 ;Drive1
 D1=C
 ;Drive2
@@ -112,14 +114,21 @@ CP11_=1
 CP12_=1
 
 ;Database=================
-FBLB1Path=C:\
-FBLB1Name=C
-FBLCom1=[!SetOption MeasurePath Path "C:\"][!CommandMeasure MeasurePath Update]
-FBLB2Path=D:\
-FBLB2Name=D
-FBLCom2=[!SetOption MeasurePath Path "D:\"][!CommandMeasure MeasurePath Update]
-FBLB3Path=D:\Programs\
-FBLB3Name=Programs
-FBLCom3=[!SetOption MeasurePath Path "C:\Programs"][!CommandMeasure MeasurePath Update]
+FBLB1Name=Компьютер
+FBLCom1=[!SetOption MeasurePath Path ""][!CommandMeasure MeasurePath Update]
+FBLB1Path=
+FBLB2Path=C:\
+FBLB2Name=C
+FBLCom2=[!SetOption MeasurePath Path "C:\"][!CommandMeasure MeasurePath Update]
+FBLB3Path=D:\
+FBLB3Name=D
+FBLCom3=[!SetOption MeasurePath Path "D:\"][!CommandMeasure MeasurePath Update]
+FBLB4Path=D:\Programs\
+FBLB4Name=Programs
+FBLCom4=[!SetOption MeasurePath Path "C:\Programs"][!CommandMeasure MeasurePath Update]
+
+SHMP=0
+FORMATMP=0
 
 LastPlace=D:\
+DATABASELinksBorder=0
