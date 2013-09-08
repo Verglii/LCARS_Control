@@ -52,6 +52,8 @@ GR|IND_On=[!SetVariable "GR|IND" "0"][!SetVariable "IND|GR" "1"][!RainmeterWrite
 GR|IND_Off=[!SetVariable "GR|IND" "1"][!SetVariable "IND|GR" "0"][!RainmeterWriteKeyValue Variables "GR|IND" "1" "#@#\Inc\Settings.inc"][!RainmeterWriteKeyValue Variables "IND|GR" "0" "#@#\Inc\Settings.inc"]
 DATABASE_On=[!SetVariable "DATABASE" "0"][!RainmeterWriteKeyValue Variables "DATABASE" "0" "#@#\Inc\Settings.inc"]#Fon2##DATABASELinksBorder_Off#
 DATABASE_Off=[!SetVariable "DATABASE" "1"][!RainmeterWriteKeyValue Variables "DATABASE" "1" "#@#\Inc\Settings.inc"]#Fon1##DATABASELinksBorder_On#
+PowerSource_On=[!SetVariable "PowerSource" "0"][!RainmeterWriteKeyValue Variables "PowerSource" "0" "#@#\Inc\Settings.inc"]
+PowerSource_Off=[!SetVariable "PowerSource" "1"][!RainmeterWriteKeyValue Variables "PowerSource" "1" "#@#\Inc\Settings.inc"]
 
 Fon1=[!SetVariable "FONW" "750"][!RainmeterWriteKeyValue Variables "FONW" "750" "#@#\Inc\Settings.inc"]
 Fon2=[!SetVariable "FONW" "640"][!RainmeterWriteKeyValue Variables "FONW" "640" "#@#\Inc\Settings.inc"]
