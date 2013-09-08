@@ -14,11 +14,11 @@ FONH=440
 FONW=750
 
 CompInfo=1
-CPU_MEM=1
+CPU_MEM=0
 CPU_MEM0=1
-CPU_MEM1=1
+CPU_MEM1=0
 DATABASE=1
-PowerSource=0
+PowerSource=1
 
 DATABASELinksBorder=0
 ;Drive1
@@ -82,15 +82,15 @@ QL5L=http://www.bracercom.com/tutorial/content/CoherentLCARSInterface/LCARSCoher
 QL6N=Yandex
 QL6L=http://Yandex.ru
 
-GR|IND=0
-IND|GR=1
+GR|IND=1
+IND|GR=0
 
 CPULCount=4
 
-CP1=1
-CP2=1
-CP3=1
-CP4=1
+CP1=0
+CP2=0
+CP3=0
+CP4=0
 CP5=1
 CP6=1
 CP7=1
