@@ -14,11 +14,11 @@ FONH=440
 FONW=750
 
 CompInfo=1
-CPU_MEM=0
+CPU_MEM=1
 CPU_MEM0=1
-CPU_MEM1=0
+CPU_MEM1=1
 DATABASE=1
-PowerSource=1
+PowerSource=0
 
 DATABASELinksBorder=0
 ;Drive1
@@ -87,10 +87,10 @@ IND|GR=0
 
 CPULCount=4
 
-CP1=0
-CP2=0
-CP3=0
-CP4=0
+CP1=1
+CP2=1
+CP3=1
+CP4=1
 CP5=1
 CP6=1
 CP7=1
