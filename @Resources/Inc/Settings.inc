@@ -19,6 +19,10 @@ CPU_MEM0=1
 CPU_MEM1=1
 DATABASE=1
 PowerSource=0
+STEAM_=1
+Weather_=1
+News_=0
+MediaPl=0
 
 DATABASELinksBorder=1
 ;Drive1
@@ -82,8 +86,8 @@ QL5L=http://www.bracercom.com/tutorial/content/CoherentLCARSInterface/LCARSCoher
 QL6N=Yandex
 QL6L=http://Yandex.ru
 
-GR|IND=0
-IND|GR=1
+GR|IND=1
+IND|GR=0
 
 CPULCount=4
 
@@ -131,4 +135,3 @@ SHMP=0
 FORMATMP=0
 
 LastPlace=D:\
-DATABASELinksBorder=0
