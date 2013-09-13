@@ -97,19 +97,19 @@ CY9=685
 ;Database=================
 IcSize=40
 NameH=40
-NameW=490
-IcW=540
+NameW=550
+IcW=600
 
 IcX1=550
 IcX2=600
 
 IcY1=340
-IcY2=390
-IcY3=440
-IcY4=490
-IcY5=540
-IcY6=590
-;IcY7=650
+IcY2=(#IcY1#+#IcSize#+#IcYD#)
+IcY3=(#IcY2#+#IcSize#+#IcYD#)
+IcY4=(#IcY3#+#IcSize#+#IcYD#)
+IcY5=(#IcY4#+#IcSize#+#IcYD#)
+IcY6=(#IcY5#+#IcSize#+#IcYD#)
+IcYD=10
 
 ;Index commands
 LevelUp=[!CommandMeasure MeasurePath "PreviousFolder"] [!CommandMeasure MeasurePath Update]
@@ -118,31 +118,7 @@ UpToStringCom=[!CommandMeasure MeasurePath "IndexUp"]
 DownToListCom=[!CommandMeasure MeasurePath "PageDown"]
 DownToStringCom=[!CommandMeasure MeasurePath "IndexDown"]
 
-Ind1ComL=[!CommandMeasure MeasureIndex1Name "FollowPath"]
-Ind1ComR=[!SetVariable "SelInd" "1"]#SelIn1#
-Ind2ComL=[!CommandMeasure MeasureIndex2Name "FollowPath"]
-Ind2ComR=[!SetVariable "SelInd" "2"]#SelIn2#
-Ind3ComL=[!CommandMeasure MeasureIndex3Name "FollowPath"]
-Ind3ComR=[!SetVariable "SelInd" "3"]#SelIn3#
-Ind4ComL=[!CommandMeasure MeasureIndex4Name "FollowPath"]
-Ind4ComR=[!SetVariable "SelInd" "4"]#SelIn4#
-Ind5ComL=[!CommandMeasure MeasureIndex5Name "FollowPath"]
-Ind5ComR=[!SetVariable "SelInd" "5"]#SelIn5#
-Ind6ComL=[!CommandMeasure MeasureIndex6Name "FollowPath"]
-Ind6ComR=[!SetVariable "SelInd" "6"]#SelIn6#
-
-SelIn1=[!SetOption Index1 SolidColor #SELC#][!SetOption Index2 SolidColor #PRI#90][!SetOption Index3 SolidColor #PRI#90][!SetOption Index4 SolidColor #PRI#90][!SetOption Index5 SolidColor #PRI#90][!SetOption Index6 SolidColor #PRI#90]
-SelIn2=[!SetOption Index2 SolidColor #SELC#][!SetOption Index1 SolidColor #PRI#90][!SetOption Index3 SolidColor #PRI#90][!SetOption Index4 SolidColor #PRI#90][!SetOption Index5 SolidColor #PRI#90][!SetOption Index6 SolidColor #PRI#90]
-SelIn3=[!SetOption Index3 SolidColor #SELC#][!SetOption Index2 SolidColor #PRI#90][!SetOption Index1 SolidColor #PRI#90][!SetOption Index4 SolidColor #PRI#90][!SetOption Index5 SolidColor #PRI#90][!SetOption Index6 SolidColor #PRI#90]
-SelIn4=[!SetOption Index4 SolidColor #SELC#][!SetOption Index2 SolidColor #PRI#90][!SetOption Index1 SolidColor #PRI#90][!SetOption Index3 SolidColor #PRI#90][!SetOption Index5 SolidColor #PRI#90][!SetOption Index6 SolidColor #PRI#90]
-SelIn5=[!SetOption Index5 SolidColor #SELC#][!SetOption Index2 SolidColor #PRI#90][!SetOption Index1 SolidColor #PRI#90][!SetOption Index3 SolidColor #PRI#90][!SetOption Index4 SolidColor #PRI#90][!SetOption Index6 SolidColor #PRI#90]
-SelIn6=[!SetOption Index6 SolidColor #SELC#][!SetOption Index2 SolidColor #PRI#90][!SetOption Index1 SolidColor #PRI#90][!SetOption Index3 SolidColor #PRI#90][!SetOption Index4 SolidColor #PRI#90][!SetOption Index5 SolidColor #PRI#90]
-
-;Ind7ComL=[!CommandMeasure MeasureIndex7Name "FollowPath"]
-;Ind7ComR=
-
 RemWay=[!SetVariable "LastPlace" "[MeasurePath]"][!RainmeterWriteKeyValue Variables "LastPlace" "[MeasurePath]" "#@#\Inc\Settings.inc"]
-SelInd=1
 ;=========================
 
 DynamicVariables=1
