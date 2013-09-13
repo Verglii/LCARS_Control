@@ -33,4 +33,9 @@ RAMCOL=00FF90
 
 Tr_CPU_RAM=
 
+;===Colors of battery
+
+Tr_BT=99
+
 test=00000080
+
