@@ -118,6 +118,20 @@ UpToStringCom=[!CommandMeasure MeasurePath "IndexUp"]
 DownToListCom=[!CommandMeasure MeasurePath "PageDown"]
 DownToStringCom=[!CommandMeasure MeasurePath "IndexDown"]
 
+Ind1ComL=[!CommandMeasure MeasureIndex1Name "FollowPath"]
+Ind1ComR=[!CommandMeasure MeasureIndex1Name "Open"]
+Ind2ComL=[!CommandMeasure MeasureIndex2Name "FollowPath"]
+Ind2ComR=[!CommandMeasure MeasureIndex2Name "Open"]
+Ind3ComL=[!CommandMeasure MeasureIndex3Name "FollowPath"]
+Ind3ComR=[!CommandMeasure MeasureIndex3Name "Open"]
+Ind4ComL=[!CommandMeasure MeasureIndex4Name "FollowPath"]
+Ind4ComR=[!CommandMeasure MeasureIndex4Name "Open"]
+Ind5ComL=[!CommandMeasure MeasureIndex5Name "FollowPath"]
+Ind5ComR=[!CommandMeasure MeasureIndex5Name "Open"]
+Ind6ComL=[!CommandMeasure MeasureIndex6Name "FollowPath"]
+Ind6ComR=[!CommandMeasure MeasureIndex6Name "Open"]
+
+
 RemWay=[!SetVariable "LastPlace" "[MeasurePath]"][!RainmeterWriteKeyValue Variables "LastPlace" "[MeasurePath]" "#@#\Inc\Settings.inc"]
 ;=========================
 
