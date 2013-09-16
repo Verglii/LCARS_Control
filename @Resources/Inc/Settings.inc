@@ -8,23 +8,23 @@ LMC2=1
 
 FONHID=0
 
-FONX=680
+FONX=530
 FONY=270
-FONH=185
-FONW=490
+FONH=440
+FONW=750
 
-CompInfo=1
+CompInfo=0
 CPU_MEM=1
 CPU_MEM0=1
 CPU_MEM1=1
 DATABASE=1
-PowerSource=0
+PowerSource=1
 STEAM_=1
 Weather_=1
 News_=0
 MediaPl=0
 
-DATABASELinksBorder=1
+DATABASELinksBorder=0
 ;Drive1
 D1=C
 ;Drive2
