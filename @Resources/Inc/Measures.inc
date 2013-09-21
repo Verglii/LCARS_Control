@@ -22,18 +22,20 @@
 	Plugin=Plugins\SysInfo.dll
 	SysInfoType=COMPUTER_NAME
 	SysInfoData=1
-	Disabled=#CompInfo#
+	UpdateDivider=-1
 
 [MeasureUserName]
 	Measure=Plugin
 	Plugin=Plugins\SysInfo.dll
 	SysInfoType=User_NAME
 	SysInfoData=1
+	Group=CompInfo
 	Disabled=#CompInfo#
 
 [MeasureUpTime]
 	Measure=Uptime
 	Substitute="d":" ÄÍÅÉ,",":":" ×ÀÑÎÂ, "
+	Group=CompInfo
 	Disabled=#CompInfo#
 
 [MeasureOS]
@@ -41,13 +43,13 @@
 	RegHKey=HKEY_LOCAL_MACHINE
 	RegKey=SOFTWARE\Microsoft\Windows NT\CurrentVersion
 	RegValue=ProductName
-	Disabled=#CompInfo#
+	UpdateDivider=-1
 
 [MeasureBit]
 	Measure=Plugin
 	Plugin=Plugins\SysInfo.dll
 	SysInfoType=OS_BITS
-	Disabled=#CompInfo#
+	UpdateDivider=-1
 
 [MeasureProcesses]
 	Measure=Plugin
@@ -56,6 +58,7 @@
 	PerfMonCounter="Processes"
 	PerfMonInstance=""
 	PerfMonDifference=0
+	Group=CompInfo
 	Disabled=#CompInfo#
 
 [MeasureTopProcessName] 
@@ -64,6 +67,7 @@
 	TopProcess=2 
 	CPUExclude=Idle
 	UpdateDivider=5
+	Group=CompInfo
 	Disabled=#CompInfo#
 
 [MeasureTopProcessUsage]
@@ -72,6 +76,7 @@
 	TopProcess=1
 	CPUExclude=Idle
 	UpdateDivider=5
+	Group=CompInfo
 	Disabled=#CompInfo#
 
 [MeasureCPUName]
@@ -81,7 +86,8 @@
 	RegValue=ProcessorNameString
 	UpdateDivider=3600
 	Substitute="@":""
-	Disabled=#CompInfo#
+	UpdateDivider=-1
+
 
 [MeasurePrimaryGPU]
 	Measure=Registry
@@ -89,14 +95,12 @@
 	RegKey=SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winsat
 	RegValue=PrimaryAdapterString
 	UpdateDivider=-1
-	Disabled=#CompInfo#
 
 [MeasurePhyMemoryTotal]
 	Measure=PhysicalMemory
 	Total=1
 	Substitute=#SubstBit#
-	Disabled=#CompInfo#
-
+	UpdateDivider=-1
 
 [MeasureCPU1]
 	Measure=CPU
@@ -358,49 +362,10 @@
 
 
 
-[FolderPathSet]
-	Measure=Plugin
-	Plugin=InputText.dll
-	SolidColor=#FONPATH#
-	StringAlign=Left
-	FontFace=#F#
-	FontSize=#F3#
-	FontColor=#COL2#
-	x=545
-	y=285
-	W=575
-	H=30
-	AntiAlias=1
-	FocusDismiss=0
-	DefaultValue="[MeasurePath]"
-	Command1=!Execute [!SetOption MeasurePath Path "$UserInput$"] [!CommandMeasure MeasurePath Update]
-	DynamicVariables=1
-	Disabled=#DATABASE#
-
-[FolderSearchSet]
-	Measure=Plugin
-	Plugin=InputText.dll
-	SolidColor=#FONPATH#
-	StringAlign=Left
-	FontFace=#F#
-	FontSize=#F3#
-	FontColor=#COL2#
-	x=545
-	y=285
-	W=575
-	H=30
-	AntiAlias=1
-	FocusDismiss=1
-	DefaultValue=""
-	Command1=!Execute [!SetOption MeasurePath WildcardSearch "*$UserInput$*"] [!CommandMeasure MeasurePath Update]
-	DynamicVariables=1
-	Disabled=#DATABASE#
-
-
 [MeasureCoreTime]
 	Measure=Time
 	Format="%S"
-	Disabled=#PowerSource#
+
 
 [PowerCoreMeasure]
 	Measure=Calc
@@ -408,21 +373,21 @@
 	Disabled=#PowerSource#
 	DynamicVariables=1
 	UpdateDivider=1
-	Disabled=#PowerSource#
+
 
 [MeasurePowerSource]
 	Measure=Plugin
 	PlugIn=PlugIns\PowerPlugin.dll
 	PowerState=ACLine
 	UpdateDivider=200
-	Disabled=#PowerSource#
+
 
 [MeasurePercent]
 	Measure=Plugin
 	PlugIn=PlugIns\PowerPlugin.dll
 	PowerState=Percent
 	UpdateDivider=200
-	Disabled=#PowerSource#
+
 
 [MeasureLifetime]
 	Measure=Plugin
@@ -431,7 +396,7 @@
 	Format=%H:%M:%S
 	UpdateDivider=200
 	Substitute=#BTSubs2#
-	Disabled=#PowerSource#
+
 
 [MeasurePowerStatus]
 	Measure=Plugin
@@ -439,7 +404,7 @@
 	PowerState=Status
 	Substitute=#BTSubs#
 	UpdateDivider=200
-	Disabled=#PowerSource#
+
 
 
 

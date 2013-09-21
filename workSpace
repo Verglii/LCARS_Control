@@ -113,12 +113,24 @@
                     </Folder>
                 </Folder>
                 <Folder name="Inc">
+                    <Folder name="1280x768">
+                        <File name="@Resources\Inc\1280x768\ComputerInfo.inc" />
+                        <File name="@Resources\Inc\1280x768\CPU_MEM.inc" />
+                        <File name="@Resources\Inc\1280x768\Database.inc" />
+                        <File name="@Resources\Inc\1280x768\ELBOS.inc" />
+                        <File name="@Resources\Inc\1280x768\LMB.inc" />
+                        <File name="@Resources\Inc\1280x768\PowerSource.inc" />
+                        <File name="@Resources\Inc\1280x768\QuickLinks.inc" />
+                        <File name="@Resources\Inc\1280x768\Steam.inc" />
+                        <File name="@Resources\Inc\1280x768\TimeDate.inc" />
+                    </Folder>
                     <File name="@Resources\Inc\Colours.inc" />
                     <File name="@Resources\Inc\Constants.inc" />
                     <File name="@Resources\Inc\Fonts.inc" />
                     <File name="@Resources\Inc\Language.inc" />
                     <File name="@Resources\Inc\LENG.inc" />
                     <File name="@Resources\Inc\LRUS.inc" />
+                    <File name="@Resources\Inc\Measures.inc" />
                     <File name="@Resources\Inc\Settings.inc" />
                 </Folder>
                 <Folder name="Sounds">
@@ -181,16 +193,10 @@
                 <File name="Tester\LCARS.ini" />
             </Folder>
             <File name="Clock.png" />
-            <File name="LCARS 1280x768.odg" />
-            <File name="LCARS settings.odg" />
-            <File name="LCARS Start.odg" />
-            <File name="LCARS &#x0448;&#x0430;&#x0431;&#x043B;&#x043E;&#x043D;&#x043D;&#x0438;&#x043A; Xperimental.odg" />
             <File name="Power.ini" />
             <File name="Settings.ini" />
             <File name="Start.ini" />
             <File name="TimeScreen.ini" />
-            <File name="&#x0431;&#x0430;&#x0442;&#x0430;&#x0440;&#x0435;&#x044F; &#x043E;&#x0440;&#x0438;&#x0433;&#x0438;&#x043D;&#x0430;&#x043B; 2.png" />
-            <File name="&#x0431;&#x0430;&#x0442;&#x0430;&#x0440;&#x0435;&#x044F; &#x043E;&#x0440;&#x0438;&#x0433;&#x0438;&#x043D;&#x0430;&#x043B;.png" />
         </Folder>
     </Project>
 </NotepadPlus>

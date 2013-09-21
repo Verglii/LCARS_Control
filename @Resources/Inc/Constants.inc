@@ -22,17 +22,7 @@ QLR=1060
 QLRR=1170
 
 LMY1=145
-LMY2=185
-LMY3=225
-LMY4=265
-LMY5=305
-LMY6=345
-LMY7=385
-LMY8=425
-LMY9=465
-LMY10=505
-LMY11=545
-LMY12=585
+LMYO=10R
 
 ;=================================================!Bangs============================================
 ;============================================
@@ -41,8 +31,8 @@ SoundBeep1=[PLAY "#@#Sounds\Computer\Beep1.wav"]
 SoundScreenUp=[PLAY "#@#Sounds\Computer\ScreenUp.wav"]
 ;==============================================
 ;Commands1======================================
-CoIn_On=[!SetVariable "CompInfo" "0"][!RainmeterWriteKeyValue Variables "CompInfo" "0" "#@#\Inc\Settings.inc"]#Fon1##DATABASELinksBorder_On#
-CoIn_Off=[!SetVariable "CompInfo" "1"][!RainmeterWriteKeyValue Variables "CompInfo" "1" "#@#\Inc\Settings.inc"]
+CoIn_On=[!SetVariable "CompInfo" "0"][!RainmeterWriteKeyValue Variables "CompInfo" "0" "#@#\Inc\Settings.inc"][!EnableMeasureGroup CompInfo]#Fon1##DATABASELinksBorder_On#
+CoIn_Off=[!SetVariable "CompInfo" "1"][!RainmeterWriteKeyValue Variables "CompInfo" "1" "#@#\Inc\Settings.inc"][!DisableMeasureGroup CompInfo]
 CPU_MEM_On=[!SetVariable "CPU_MEM" "0"][!RainmeterWriteKeyValue Variables "CPU_MEM" "0" "#@#\Inc\Settings.inc"]#Fon1##DATABASELinksBorder_On#
 CPU_MEM_Off=[!SetVariable "CPU_MEM" "1"][!RainmeterWriteKeyValue Variables "CPU_MEM" "1" "#@#\Inc\Settings.inc"]
 CPU_MEM|N_On=[!SetVariable "CPU_MEM#GR|IND#" "0"][!RainmeterWriteKeyValue Variables "CPU_MEM#GR|IND#" "0" "#@#\Inc\Settings.inc"] [!SetVariable "CPU_MEM#IND|GR#" "1"][!RainmeterWriteKeyValue Variables "CPU_MEM#IND|GR#" "1" "#@#\Inc\Settings.inc"]
@@ -51,7 +41,7 @@ GR|IND_On=[!SetVariable "GR|IND" "0"][!SetVariable "IND|GR" "1"][!RainmeterWrite
 GR|IND_Off=[!SetVariable "GR|IND" "1"][!SetVariable "IND|GR" "0"][!RainmeterWriteKeyValue Variables "GR|IND" "1" "#@#\Inc\Settings.inc"][!RainmeterWriteKeyValue Variables "IND|GR" "0" "#@#\Inc\Settings.inc"]
 DATABASE_On=[!SetVariable "DATABASE" "0"][!RainmeterWriteKeyValue Variables "DATABASE" "0" "#@#\Inc\Settings.inc"]#Fon2##DATABASELinksBorder_Off#
 DATABASE_Off=[!SetVariable "DATABASE" "1"][!RainmeterWriteKeyValue Variables "DATABASE" "1" "#@#\Inc\Settings.inc"]
-PowerSource_On=[!SetVariable "PowerSource" "0"][!RainmeterWriteKeyValue Variables "PowerSource" "0" "#@#\Inc\Settings.inc"]#Fon3##DATABASELinksBorder_Off#[!RainmeterRefresh]
+PowerSource_On=[!SetVariable "PowerSource" "0"][!RainmeterWriteKeyValue Variables "PowerSource" "0" "#@#\Inc\Settings.inc"]#Fon3##DATABASELinksBorder_Off#
 PowerSource_Off=[!SetVariable "PowerSource" "1"][!RainmeterWriteKeyValue Variables "PowerSource" "1" "#@#\Inc\Settings.inc"]
 STEAM_On=[!SetVariable "STEAM_" "0"][!RainmeterWriteKeyValue Variables "STEAM_" "0" "#@#\Inc\Settings.inc"]#Fon1##DATABASELinksBorder_On#
 STEAM_Off=[!SetVariable "STEAM_" "1"][!RainmeterWriteKeyValue Variables "STEAM_" "1" "#@#\Inc\Settings.inc"]
