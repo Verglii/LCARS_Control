@@ -125,4 +125,13 @@ Ind6ComR=[!CommandMeasure MeasureIndex6Name "Open"]
 RemWay=[!SetVariable "LastPlace" "[MeasurePath]"][!RainmeterWriteKeyValue Variables "LastPlace" "[MeasurePath]" "#@#\Inc\Settings.inc"]
 ;=========================
 
-DynamicVariables=1
+;=================================Steam
+GameIconX=550
+GameIcon1Y=290
+GameIcon2Y=400
+GameIcon3Y=510
+GameIconH=60
+GameIconW=80
+GameNameH=30
+
+

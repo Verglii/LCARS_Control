@@ -123,6 +123,7 @@
                         <File name="@Resources\Inc\1280x768\QuickLinks.inc" />
                         <File name="@Resources\Inc\1280x768\Steam.inc" />
                         <File name="@Resources\Inc\1280x768\TimeDate.inc" />
+                        <File name="@Resources\Inc\1280x768\SteamMeasures.inc" />
                     </Folder>
                     <File name="@Resources\Inc\Colours.inc" />
                     <File name="@Resources\Inc\Constants.inc" />
