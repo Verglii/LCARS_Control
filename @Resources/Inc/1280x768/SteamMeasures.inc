@@ -1,9 +1,12 @@
 [MeasureGamesIcons]
 	Measure=Plugin
 	Plugin=FileView
-	Path="#@#\SteamIcons\"
+	Path="C:\Users\Verglii\Documents\Rainmeter\Skins\LCARS_Control\@Resources\SteamIcons"
+	ShowHidden=0
 	ShowDotDot=0
-	Count=1
+	ShowFolder=0
+	HideExtensions=1
+	Count=3
 	FinishAction=[!UpdateMeterGroup LCARS-Steam]
 
 [MeasureGameIndex1Icon]
@@ -26,3 +29,42 @@
 	DynamicVariables=1
 	Disabled=#STEAM_#
 
+[MeasureGameIndex2Icon]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[MeasureGamesIcons]
+	Type=Icon
+	IconSize=Large
+	IconPath="#@#\Icons\Games\icon2.ico"
+	Index=2
+	DynamicVariables=1
+	Disabled=#STEAM_#
+
+[MeasureGameIndex2Name]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[MeasureGamesIcons]
+	Type=FileName
+	Index=2
+	DynamicVariables=1
+	Disabled=#STEAM_#
+
+[MeasureGameIndex3Icon]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[MeasureGamesIcons]
+	Type=Icon
+	IconSize=Large
+	IconPath="#@#\Icons\Games\icon3.ico"
+	Index=3
+	DynamicVariables=1
+	Disabled=#STEAM_#
+
+[MeasureGameIndex3Name]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[MeasureGamesIcons]
+	Type=FileName
+	Index=3
+	DynamicVariables=1
+	Disabled=#STEAM_#

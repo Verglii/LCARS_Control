@@ -225,6 +225,7 @@
 	Count=6
 	FinishAction=[!UpdateMeterGroup LCARS-PData]
 
+
 [MeasureFrameworkText]
 	Measure=Plugin
 	Plugin=FileView

@@ -38,17 +38,65 @@
 [Game1Name]
 	Meter=String
 	MeasureName=MeasureGameIndex1Name
-	X=r
-	Y=(10R+#GameNameH#/2)
+	X=(#GameIconW#/2)r
+	Y=(#GameNameH#/2+10)R
 	Text="%1"
 	W=#GameIconW#
 	H=#GameNameH#
 	FontColor=#COL2#
 	FontFace=#F#
-	FontSize=#F1_#
+	FontSize=#F1#
 	StringAlign=CenterCenter
 	AntiAlias=1
 	ClipString=1
 	Hidden=#STEAM_#
 	Group=LCARS-Steam
+	DynamicVariables=1
+
+[Game2]
+	Meter=Image
+	MeterStyle=Game1
+	X=(#GameIconX#+10+#GameIconW#)
+	LeftMouseUpAction=
+	RightMouseUpAction=
+	DynamicVariables=1
+
+[Game2Icon]
+	Meter=Image
+	X=r
+	MeterStyle=Game1Icon
+	MeasureName=MeasureGameIndex2Icon
+	DynamicVariables=1
+
+[Game2Name]
+	Meter=String
+	MeterStyle=Game1Name
+	MeasureName=MeasureGameIndex2Name
+	X=(#GameIconW#/2)r
+	Y=(#GameNameH#/2+10)R
+	Text="%1"
+	DynamicVariables=1
+
+[Game3]
+	Meter=Image
+	MeterStyle=Game1
+	X=(#GameIconX#+2*(10+#GameIconW#))
+	LeftMouseUpAction=
+	RightMouseUpAction=
+	DynamicVariables=1
+
+[Game3Icon]
+	Meter=Image
+	X=r
+	MeterStyle=Game1Icon
+	MeasureName=MeasureGameIndex3Icon
+	DynamicVariables=1
+
+[Game3Name]
+	Meter=String
+	MeterStyle=Game1Name
+	MeasureName=MeasureGameIndex3Name
+	X=(#GameIconW#/2)r
+	Y=(#GameNameH#/2+10)R
+	Text="%1"
 	DynamicVariables=1
