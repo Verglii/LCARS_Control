@@ -1,13 +1,54 @@
-[FonSteam]
+
+
+[FonGames]
 	Meter=Image
 	X=540
 	Y=280
-	H=340
-	W=730
+	H=370
+	W=340
 	SolidColor=#FONSt#
 	Hidden=#STEAM_#
 	DynamicVariables=1
 
+[FonSteam]
+	Meter=Image
+	X=890
+	Y=280
+	H=370
+	W=270
+	SolidColor=#FONSt#
+	Hidden=#STEAM_#
+	DynamicVariables=1
+
+[Elbos6St]
+	Meter=IMAGE
+	ImageName=#@#/Static/Elbos/Elbos3#CS#.png
+	X=1150
+	Y=230
+	AntiAlias=1
+	ImageFlip=Horizontal
+	DynamicVariables=1
+	Hidden=#STEAM_#
+
+[Elbos6StBlock1]
+	Meter=Image
+	X=1180
+	Y=290
+	W=100
+	H=30
+	SolidColor=#ELBOS#
+	Hidden=#STEAM_#
+	DynamicVariables=1
+
+[Elbos7St]
+	Meter=IMAGE
+	ImageName=#@#/Static/Elbos/Elbos5#CS#.png
+	X=1180
+	Y=610
+	AntiAlias=1
+	ImageFlip=Horizontal
+	DynamicVariables=1
+	Hidden=#STEAM_#
 
 
 [Game1]
@@ -39,13 +80,13 @@
 	Meter=String
 	MeasureName=MeasureGameIndex1Name
 	X=(#GameIconW#/2)r
-	Y=(#GameNameH#/2+10)R
+	Y=(#GameNameH#/2)R
 	Text="%1"
 	W=#GameIconW#
 	H=#GameNameH#
 	FontColor=#COL2#
 	FontFace=#F#
-	FontSize=#F1#
+	FontSize=#F1_#
 	StringAlign=CenterCenter
 	AntiAlias=1
 	ClipString=1
@@ -73,7 +114,7 @@
 	MeterStyle=Game1Name
 	MeasureName=MeasureGameIndex2Name
 	X=(#GameIconW#/2)r
-	Y=(#GameNameH#/2+10)R
+	Y=(#GameNameH#/2)R
 	Text="%1"
 	DynamicVariables=1
 
@@ -97,6 +138,6 @@
 	MeterStyle=Game1Name
 	MeasureName=MeasureGameIndex3Name
 	X=(#GameIconW#/2)r
-	Y=(#GameNameH#/2+10)R
+	Y=(#GameNameH#/2)R
 	Text="%1"
 	DynamicVariables=1
