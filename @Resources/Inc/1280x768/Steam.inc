@@ -143,7 +143,81 @@
 	Text="%1"
 	DynamicVariables=1
 
+[Game4]
+	Meter=Image
+	MeterStyle=Game1
+	X=#GameIconX#
+	Y=#GameIcon2Y#
+	LeftMouseUpAction=
+	RightMouseUpAction=
+	DynamicVariables=1
 
+[Game4Icon]
+	Meter=Image
+	X=r
+	Y=r
+	MeterStyle=Game1Icon
+	MeasureName=MeasureGameIndex4Icon
+	DynamicVariables=1
+
+[Game4Name]
+	Meter=String
+	MeterStyle=Game1Name
+	MeasureName=MeasureGameIndex4Name
+	X=(#GameIconW#/2)r
+	Y=(#GameNameH#/2)R
+	Text="%1"
+	DynamicVariables=1
+
+; [Game5]
+	; Meter=Image
+	; MeterStyle=Game1
+	; X=(#GameIconX#+10+#GameIconW#)
+	; LeftMouseUpAction=
+	; RightMouseUpAction=
+	; DynamicVariables=1
+
+; [Game5Icon]
+	; Meter=Image
+	; X=r
+	; Y=r
+	; MeterStyle=Game1Icon
+	; MeasureName=MeasureGameIndex5Icon
+	; DynamicVariables=1
+
+; [Game5Name]
+	; Meter=String
+	; MeterStyle=Game1Name
+	; MeasureName=MeasureGameIndex5Name
+	; X=(#GameIconW#/2)r
+	; Y=(#GameNameH#/2)R
+	; Text="%1"
+	; DynamicVariables=1
+
+; [Game6]
+	; Meter=Image
+	; MeterStyle=Game1
+	; X=(#GameIconX#+2*(10+#GameIconW#))
+	; LeftMouseUpAction=
+	; RightMouseUpAction=
+	; DynamicVariables=1
+
+; [Game6Icon]
+	; Meter=Image
+	; X=r
+	; Y=r
+	; MeterStyle=Game1Icon
+	; MeasureName=MeasureGameIndex6Icon
+	; DynamicVariables=1
+
+; [Game6Name]
+	; Meter=String
+	; MeterStyle=Game1Name
+	; MeasureName=MeasureGameIndex6Name
+	; X=(#GameIconW#/2)r
+	; Y=(#GameNameH#/2)R
+	; Text="%1"
+	; DynamicVariables=1
 
 ;;;;;;SteamIcons
 
@@ -158,8 +232,57 @@
 	H=60
 	PreserveAspectRatio=1
 	SolidColor=000000
+	LeftMouseUpAction=["steam://rungameid/#SteamGame1#"]
 	DynamicVariables=1
 
+[SteamIcon2]
+	Meter=Image
+	MeterStyle=SteamIcon1
+	X=10R
+	ImageName=#CURRENTPATH#\DownloadFile\#SteamGame2#.jpg
+	LeftMouseUpAction=["steam://rungameid/#SteamGame2#"]
 
+[SteamIcon3]
+	Meter=Image
+	MeterStyle=SteamIcon1
+	Y=10R
+	ImageName=#CURRENTPATH#\DownloadFile\#SteamGame3#.jpg
+	LeftMouseUpAction=["steam://rungameid/#SteamGame3#"]
 
+[SteamIcon4]
+	Meter=Image
+	MeterStyle=SteamIcon1
+	X=10R
+	Y=r
+	ImageName=#CURRENTPATH#\DownloadFile\#SteamGame4#.jpg
+	LeftMouseUpAction=["steam://rungameid/#SteamGame4#"]
 
+[SteamIcon5]
+	Meter=Image
+	MeterStyle=SteamIcon1
+	Y=10R
+	ImageName=#CURRENTPATH#\DownloadFile\#SteamGame5#.jpg
+	LeftMouseUpAction=["steam://rungameid/#SteamGame5#"]
+
+[SteamIcon6]
+	Meter=Image
+	MeterStyle=SteamIcon1
+	X=10R
+	Y=r
+	ImageName=#CURRENTPATH#\DownloadFile\#SteamGame6#.jpg
+	LeftMouseUpAction=["steam://rungameid/#SteamGame6#"]
+
+[SteamIcon7]
+	Meter=Image
+	MeterStyle=SteamIcon1
+	Y=10R
+	ImageName=#CURRENTPATH#\DownloadFile\#SteamGame7#.jpg
+	LeftMouseUpAction=["steam://rungameid/#SteamGame7#"]
+
+[SteamIcon8]
+	Meter=Image
+	MeterStyle=SteamIcon1
+	X=10R
+	Y=r
+	ImageName=#CURRENTPATH#\DownloadFile\#SteamGame8#.jpg
+	LeftMouseUpAction=["steam://rungameid/#SteamGame8#"]
