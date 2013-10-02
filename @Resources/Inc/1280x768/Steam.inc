@@ -71,6 +71,7 @@
 	Y=r
 	H=#GameIconH#
 	W=#GameIconW#
+	PreserveAspectRatio=1
 	AntiAlias=1
 	Hidden=#STEAM_#
 	Group=LCARS-Steam
@@ -141,3 +142,24 @@
 	Y=(#GameNameH#/2)R
 	Text="%1"
 	DynamicVariables=1
+
+
+
+;;;;;;SteamIcons
+
+
+
+[SteamIcon1]
+	Meter=Image
+	X=#SteamIconX#
+	Y=#SteamIconY#
+	ImageName=#CURRENTPATH#\DownloadFile\[MeasureSteamGame1Name].jpg
+	W=120
+	H=60
+	PreserveAspectRatio=1
+	SolidColor=000000
+	DynamicVariables=1
+
+
+
+

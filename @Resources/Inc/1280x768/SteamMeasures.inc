@@ -68,3 +68,41 @@
 	Index=3
 	DynamicVariables=1
 	Disabled=#STEAM_#
+
+
+
+
+;;;;;;Steam launch games
+[SteamPath]
+	
+[SteamPathFV]
+	Measure=Plugin
+	Plugin=FileView
+	Path="C:\Program Files (x86)\Steam\SteamApps"
+	ShowHidden=0
+	ShowDotDot=0
+	ShowFolder=0
+	HideExtensions=1
+	Count=2
+	FinishAction=[!UpdateMeterGroup LCARS-SteamIcons]
+
+[MeasureSteamGame1Name]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[SteamPathFV]
+	Substitute="appmanifest_":""
+	Type=FileName
+	Index=1
+	DynamicVariables=1
+	Disabled=#STEAM_#
+
+[Game1_Icon_WP]
+	Measure=Plugin
+	MeasureName=[MeasureSteamGame1Name]
+	Plugin=WebParser.dll
+	URL=http://cdn3.steampowered.com/v/gfx/apps/%1/header_292x136.jpg
+	Group=LCARS-SteamIcons
+	UpdateDivider=-1
+	Download=1
+	DownloadFile=%1.jpg
+	Disabled=#STEAM_#

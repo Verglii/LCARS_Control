@@ -134,4 +134,5 @@ GameIconH=70
 GameIconW=100
 GameNameH=40
 
-
+SteamIconX=900
+SteamIconY=370

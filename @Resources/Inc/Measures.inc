@@ -209,7 +209,7 @@
 	RecycleType=SIZE
 	Drives=ALL
 	Disabled=#Panel1#
-	Substitute=#SubstBin#
+	Substitute=#SubstBit#
 	DynamicVariables=1
 	Disabled=#DATABASE#
 

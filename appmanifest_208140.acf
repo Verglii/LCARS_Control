@@ -1,0 +1,28 @@
+"AppState"
+{
+	"appid"		"208140"
+	"Universe"		"1"
+	"StateFlags"		"4"
+	"installdir"		"Endless Space"
+	"LastUpdated"		"1380627438"
+	"UpdateResult"		"0"
+	"SizeOnDisk"		"3483515651"
+	"buildid"		"103170"
+	"LastOwner"		"76561198031999788"
+	"BytesToDownload"		"2132695088"
+	"BytesDownloaded"		"2132695088"
+	"UserConfig"
+	{
+		"name"		"Endless Space"
+		"gameid"		"208140"
+		"installed"		"1"
+		"appinstalldir"		"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Endless Space"
+		"language"		"russian"
+	}
+	"MountedDepots"
+	{
+		"208141"		"263479073609486361"
+		"208148"		"5681829609925772287"
+		"241430"		"7325444628466699093"
+	}
+}
