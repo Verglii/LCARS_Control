@@ -2,7 +2,7 @@
 	Meter=Image
 	X=540
 	Y=280
-	H=370
+	H=420
 	W=340
 	SolidColor=#FONSt#
 	Hidden=#STEAM_#
@@ -13,7 +13,7 @@
 	Meter=Image
 	X=890
 	Y=280
-	H=370
+	H=420
 	W=270
 	SolidColor=#FONSt#
 	Hidden=#STEAM_#
@@ -292,8 +292,8 @@
 [GameListUp]
 	Meter=Button
 	ButtonImage=#@#\Buttons\Button4#CS#.png
-	X=540
-	Y=660
+	X=550
+	Y=650
 	AntiAlias=1
 	Hidden=#STEAM_#
 	Group=LCARS-PData
@@ -304,8 +304,8 @@
 [GameListDown]
 	Meter=Button
 	ButtonImage=#@#\Buttons\Button4#CS#.png
-	X=820
-	Y=660
+	X=810
+	Y=650
 	ImageFlip=Horizontal
 	AntiAlias=1
 	Hidden=#STEAM_#
@@ -332,6 +332,7 @@
 	ImageName=#CURRENTPATH#\DownloadFile\#SteamGame1#.jpg
 	W=120
 	H=60
+	AntiAlias=1
 	PreserveAspectRatio=1
 	Hidden=#STEAM_#
 	SolidColor=000000
@@ -394,8 +395,8 @@
 [GameSteamListUp]
 	Meter=Button
 	ButtonImage=#@#\Buttons\Button4#CS#.png
-	X=890
-	Y=660
+	X=900
+	Y=650
 	AntiAlias=1
 	Hidden=#STEAM_#
 	Group=LCARS-PData
@@ -406,8 +407,8 @@
 [GameSteamListDown]
 	Meter=Button
 	ButtonImage=#@#\Buttons\Button4#CS#.png
-	X=1100
-	Y=660
+	X=1090
+	Y=650
 	ImageFlip=Horizontal
 	AntiAlias=1
 	Hidden=#STEAM_#

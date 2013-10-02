@@ -151,7 +151,6 @@ UpListGames=[!CommandMeasure MeasureGamesIcons "PageUp"]
 DownListGames=[!CommandMeasure MeasureGamesIcons "PageDown"]
 
 SteamPath=
-;"C:\Program Files (86)\Steam\SteamApps\"
 SteamGame1=
 SteamGame2=
 SteamGame3=
