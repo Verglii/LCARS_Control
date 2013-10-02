@@ -1,7 +1,7 @@
 [MeasureGamesIcons]
 	Measure=Plugin
 	Plugin=FileView
-	Path="C:\Users\Verglii\Documents\Rainmeter\Skins\LCARS_Control\@Resources\GameIcons"
+	Path="#@#GameIcons"
 	ShowHidden=0
 	ShowDotDot=0
 	ShowFolder=0

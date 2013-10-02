@@ -1,5 +1,3 @@
-
-
 [FonGames]
 	Meter=Image
 	X=540
@@ -8,6 +6,7 @@
 	W=340
 	SolidColor=#FONSt#
 	Hidden=#STEAM_#
+	RightMouseUpAction=["#@#GameIcons"]
 	DynamicVariables=1
 
 [FonSteam]
@@ -334,6 +333,7 @@
 	W=120
 	H=60
 	PreserveAspectRatio=1
+	Hidden=#STEAM_#
 	SolidColor=000000
 	LeftMouseUpAction=["steam://rungameid/#SteamGame1#"]
 	DynamicVariables=1
