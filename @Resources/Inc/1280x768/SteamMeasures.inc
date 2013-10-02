@@ -74,17 +74,25 @@
 
 ;;;;;;Steam launch games
 [SteamPath]
-	
+	Measure=Registry
+	RegHKey=HKEY_CURRENT_USER
+	RegKey=Software\Valve\Steam
+	RegValue=SteamPath
+	UpdateDivider=-1
+	OnUpdateAction=[!SetVariable SteamPath "[SteamPath]\SteamApps"]
+	DynamicVariables=1
+
 [SteamPathFV]
 	Measure=Plugin
 	Plugin=FileView
-	Path="C:\Program Files (x86)\Steam\SteamApps"
+	Path=#SteamPath#
 	ShowHidden=0
 	ShowDotDot=0
 	ShowFolder=0
 	HideExtensions=1
 	Count=2
 	FinishAction=[!UpdateMeterGroup LCARS-SteamIcons]
+	DynamicVariables=1
 
 [MeasureSteamGame1Name]
 	Measure=Plugin
@@ -92,17 +100,18 @@
 	Path=[SteamPathFV]
 	Substitute="appmanifest_":""
 	Type=FileName
+	Group=LCARS-SteamIcons
 	Index=1
 	DynamicVariables=1
+	OnUpdateAction=[!SetVariable SteamGame1 "[MeasureSteamGame1Name]"] [!UpdateMeasure "Game1_Icon_WP"]
 	Disabled=#STEAM_#
 
 [Game1_Icon_WP]
 	Measure=Plugin
-	MeasureName=[MeasureSteamGame1Name]
 	Plugin=WebParser.dll
-	URL=http://cdn3.steampowered.com/v/gfx/apps/%1/header_292x136.jpg
+	URL=http://cdn3.steampowered.com/v/gfx/apps/#SteamGame1#/header_292x136.jpg
 	Group=LCARS-SteamIcons
 	UpdateDivider=-1
 	Download=1
-	DownloadFile=%1.jpg
+	DownloadFile=#SteamGame1#.jpg
 	Disabled=#STEAM_#

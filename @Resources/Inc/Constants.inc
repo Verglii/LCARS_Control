@@ -136,3 +136,9 @@ GameNameH=40
 
 SteamIconX=900
 SteamIconY=370
+
+SteamPath=
+;"C:\Program Files (86)\Steam\SteamApps\"
+SteamGame1=
+SteamGame2=
+SteamGame3=

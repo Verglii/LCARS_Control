@@ -153,7 +153,7 @@
 	Meter=Image
 	X=#SteamIconX#
 	Y=#SteamIconY#
-	ImageName=#CURRENTPATH#\DownloadFile\[MeasureSteamGame1Name].jpg
+	ImageName=#CURRENTPATH#\DownloadFile\#SteamGame1#.jpg
 	W=120
 	H=60
 	PreserveAspectRatio=1
