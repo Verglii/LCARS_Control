@@ -1,11 +1,11 @@
 [MeasureGamesIcons]
 	Measure=Plugin
 	Plugin=FileView
-	Path="C:\Users\Verglii\Documents\Rainmeter\Skins\LCARS_Control\@Resources\SteamIcons"
+	Path="C:\Users\Verglii\Documents\Rainmeter\Skins\LCARS_Control\@Resources\GameIcons"
 	ShowHidden=0
 	ShowDotDot=0
 	ShowFolder=0
-	HideExtensions=1
+	HideExtensions=0
 	Count=9
 	FinishAction=[!UpdateMeterGroup LCARS-Steam]
 
@@ -69,9 +69,125 @@
 	DynamicVariables=1
 	Disabled=#STEAM_#
 
+[MeasureGameIndex4Icon]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[MeasureGamesIcons]
+	Type=Icon
+	IconSize=Large
+	IconPath="#@#\Icons\Games\icon4.ico"
+	Index=4
+	DynamicVariables=1
+	Disabled=#STEAM_#
 
+[MeasureGameIndex4Name]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[MeasureGamesIcons]
+	Type=FileName
+	Index=4
+	DynamicVariables=1
+	Disabled=#STEAM_#
 
+[MeasureGameIndex5Icon]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[MeasureGamesIcons]
+	Type=Icon
+	IconSize=Large
+	IconPath="#@#\Icons\Games\icon5.ico"
+	Index=5
+	DynamicVariables=1
+	Disabled=#STEAM_#
 
+[MeasureGameIndex5Name]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[MeasureGamesIcons]
+	Type=FileName
+	Index=5
+	DynamicVariables=1
+	Disabled=#STEAM_#
+
+[MeasureGameIndex6Icon]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[MeasureGamesIcons]
+	Type=Icon
+	IconSize=Large
+	IconPath="#@#\Icons\Games\icon6.ico"
+	Index=6
+	DynamicVariables=1
+	Disabled=#STEAM_#
+
+[MeasureGameIndex6Name]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[MeasureGamesIcons]
+	Type=FileName
+	Index=6
+	DynamicVariables=1
+	Disabled=#STEAM_#
+
+[MeasureGameIndex7Icon]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[MeasureGamesIcons]
+	Type=Icon
+	IconSize=Large
+	IconPath="#@#\Icons\Games\icon7.ico"
+	Index=7
+	DynamicVariables=1
+	Disabled=#STEAM_#
+
+[MeasureGameIndex7Name]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[MeasureGamesIcons]
+	Type=FileName
+	Index=7
+	DynamicVariables=1
+	Disabled=#STEAM_#
+
+[MeasureGameIndex8Icon]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[MeasureGamesIcons]
+	Type=Icon
+	IconSize=Large
+	IconPath="#@#\Icons\Games\icon8.ico"
+	Index=8
+	DynamicVariables=1
+	Disabled=#STEAM_#
+
+[MeasureGameIndex8Name]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[MeasureGamesIcons]
+	Type=FileName
+	Index=8
+	DynamicVariables=1
+	Disabled=#STEAM_#
+
+[MeasureGameIndex9Icon]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[MeasureGamesIcons]
+	Type=Icon
+	IconSize=Large
+	IconPath="#@#\Icons\Games\icon9.ico"
+	Index=9
+	DynamicVariables=1
+	Disabled=#STEAM_#
+
+[MeasureGameIndex9Name]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[MeasureGamesIcons]
+	Type=FileName
+	Index=9
+	DynamicVariables=1
+	Disabled=#STEAM_#
 ;;;;;;Steam launch games
 [SteamPath]
 	Measure=Registry
@@ -90,6 +206,7 @@
 	ShowDotDot=0
 	ShowFolder=0
 	HideExtensions=1
+	Extensions="acf"
 	Count=8
 	FinishAction=[!UpdateMeterGroup LCARS-SteamIcons]
 	DynamicVariables=1
@@ -223,5 +340,57 @@
 	Disabled=#STEAM_#
 	DynamicVariables=1
 
+[Game4_Icon_WP]
+	Measure=Plugin
+	Plugin=WebParser.dll
+	URL="http://cdn3.steampowered.com/v/gfx/apps/#SteamGame4#/header_292x136.jpg"
+	Group=LCARS-SteamIcons
+	UpdateDivider=-1
+	Download=1
+	DownloadFile="#SteamGame4#.jpg"
+	Disabled=#STEAM_#
+	DynamicVariables=1
 
+[Game5_Icon_WP]
+	Measure=Plugin
+	Plugin=WebParser.dll
+	URL="http://cdn3.steampowered.com/v/gfx/apps/#SteamGame5#/header_292x136.jpg"
+	Group=LCARS-SteamIcons
+	UpdateDivider=-1
+	Download=1
+	DownloadFile="#SteamGame5#.jpg"
+	Disabled=#STEAM_#
+	DynamicVariables=1
 
+[Game6_Icon_WP]
+	Measure=Plugin
+	Plugin=WebParser.dll
+	URL="http://cdn3.steampowered.com/v/gfx/apps/#SteamGame6#/header_292x136.jpg"
+	Group=LCARS-SteamIcons
+	UpdateDivider=-1
+	Download=1
+	DownloadFile="#SteamGame6#.jpg"
+	Disabled=#STEAM_#
+	DynamicVariables=1
+
+[Game7_Icon_WP]
+	Measure=Plugin
+	Plugin=WebParser.dll
+	URL="http://cdn3.steampowered.com/v/gfx/apps/#SteamGame7#/header_292x136.jpg"
+	Group=LCARS-SteamIcons
+	UpdateDivider=-1
+	Download=1
+	DownloadFile="#SteamGame7#.jpg"
+	Disabled=#STEAM_#
+	DynamicVariables=1
+
+[Game8_Icon_WP]
+	Measure=Plugin
+	Plugin=WebParser.dll
+	URL="http://cdn3.steampowered.com/v/gfx/apps/#SteamGame8#/header_292x136.jpg"
+	Group=LCARS-SteamIcons
+	UpdateDivider=-1
+	Download=1
+	DownloadFile="#SteamGame8#.jpg"
+	Disabled=#STEAM_#
+	DynamicVariables=1

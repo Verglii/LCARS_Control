@@ -128,14 +128,27 @@ RemWay=[!SetVariable "LastPlace" "[MeasurePath]"][!RainmeterWriteKeyValue Variab
 ;=================================Steam
 GameIconX=550
 GameIcon1Y=290
-GameIcon2Y=420
+GameIcon2Y=410
 GameIcon3Y=530
 GameIconH=70
 GameIconW=100
 GameNameH=40
 
+Game1ComL=[!CommandMeasure MeasureGameIndex1Name "Open"]
+Game2ComL=[!CommandMeasure MeasureGameIndex2Name "Open"]
+Game3ComL=[!CommandMeasure MeasureGameIndex3Name "Open"]
+Game4ComL=[!CommandMeasure MeasureGameIndex4Name "Open"]
+Game5ComL=[!CommandMeasure MeasureGameIndex5Name "Open"]
+Game6ComL=[!CommandMeasure MeasureGameIndex6Name "Open"]
+Game7ComL=[!CommandMeasure MeasureGameIndex7Name "Open"]
+Game8ComL=[!CommandMeasure MeasureGameIndex8Name "Open"]
+Game9ComL=[!CommandMeasure MeasureGameIndex9Name "Open"]
+
 SteamIconX=900
 SteamIconY=370
+
+UpListGames=[!CommandMeasure MeasureGamesIcons "PageUp"]
+DownListGames=[!CommandMeasure MeasureGamesIcons "PageDown"]
 
 SteamPath=
 ;"C:\Program Files (86)\Steam\SteamApps\"
@@ -147,3 +160,6 @@ SteamGame5=
 SteamGame6=
 SteamGame7=
 SteamGame8=
+
+UpListGamesSteam=[!CommandMeasure SteamPathFV "PageUp"]
+DownListGamesSteam=[!CommandMeasure SteamPathFV "PageDown"]

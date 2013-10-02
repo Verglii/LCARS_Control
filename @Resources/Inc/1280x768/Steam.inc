@@ -56,12 +56,11 @@
 	X=#GameIconX#
 	Y=#GameIcon1Y#
 	W=#GameIconW#
-	H=(#GameIconH#+10+#GameNameH#)
+	H=(#GameIconH#+#GameNameH#)
 	Hidden=#STEAM_#
 	SolidColor=#PRI#90
 	Group=LCARS-Steam
-	LeftMouseUpAction=
-	RightMouseUpAction=
+	LeftMouseUpAction=#Game1ComL#
 	DynamicVariables=1
 
 [Game1Icon]
@@ -99,8 +98,7 @@
 	Meter=Image
 	MeterStyle=Game1
 	X=(#GameIconX#+10+#GameIconW#)
-	LeftMouseUpAction=
-	RightMouseUpAction=
+	LeftMouseUpAction=#Game2ComL#
 	DynamicVariables=1
 
 [Game2Icon]
@@ -123,8 +121,7 @@
 	Meter=Image
 	MeterStyle=Game1
 	X=(#GameIconX#+2*(10+#GameIconW#))
-	LeftMouseUpAction=
-	RightMouseUpAction=
+	LeftMouseUpAction=#Game3ComL#
 	DynamicVariables=1
 
 [Game3Icon]
@@ -148,8 +145,7 @@
 	MeterStyle=Game1
 	X=#GameIconX#
 	Y=#GameIcon2Y#
-	LeftMouseUpAction=
-	RightMouseUpAction=
+	LeftMouseUpAction=#Game4ComL#
 	DynamicVariables=1
 
 [Game4Icon]
@@ -169,59 +165,166 @@
 	Text="%1"
 	DynamicVariables=1
 
-; [Game5]
-	; Meter=Image
-	; MeterStyle=Game1
-	; X=(#GameIconX#+10+#GameIconW#)
-	; LeftMouseUpAction=
-	; RightMouseUpAction=
-	; DynamicVariables=1
+[Game5]
+	Meter=Image
+	MeterStyle=Game1
+	X=(#GameIconX#+10+#GameIconW#)
+	Y=#GameIcon2Y#
+	LeftMouseUpAction=#Game5ComL#
+	DynamicVariables=1
 
-; [Game5Icon]
-	; Meter=Image
-	; X=r
-	; Y=r
-	; MeterStyle=Game1Icon
-	; MeasureName=MeasureGameIndex5Icon
-	; DynamicVariables=1
+[Game5Icon]
+	Meter=Image
+	X=r
+	Y=r
+	MeterStyle=Game1Icon
+	MeasureName=MeasureGameIndex5Icon
+	DynamicVariables=1
 
-; [Game5Name]
-	; Meter=String
-	; MeterStyle=Game1Name
-	; MeasureName=MeasureGameIndex5Name
-	; X=(#GameIconW#/2)r
-	; Y=(#GameNameH#/2)R
-	; Text="%1"
-	; DynamicVariables=1
+[Game5Name]
+	Meter=String
+	MeterStyle=Game1Name
+	MeasureName=MeasureGameIndex5Name
+	X=(#GameIconW#/2)r
+	Y=(#GameNameH#/2)R
+	Text="%1"
+	DynamicVariables=1
 
-; [Game6]
-	; Meter=Image
-	; MeterStyle=Game1
-	; X=(#GameIconX#+2*(10+#GameIconW#))
-	; LeftMouseUpAction=
-	; RightMouseUpAction=
-	; DynamicVariables=1
+[Game6]
+	Meter=Image
+	MeterStyle=Game1
+	X=(#GameIconX#+2*(10+#GameIconW#))
+	Y=#GameIcon2Y#
+	LeftMouseUpAction=#Game6ComL#
+	DynamicVariables=1
 
-; [Game6Icon]
-	; Meter=Image
-	; X=r
-	; Y=r
-	; MeterStyle=Game1Icon
-	; MeasureName=MeasureGameIndex6Icon
-	; DynamicVariables=1
+[Game6Icon]
+	Meter=Image
+	X=r
+	Y=r
+	MeterStyle=Game1Icon
+	MeasureName=MeasureGameIndex6Icon
+	DynamicVariables=1
 
-; [Game6Name]
-	; Meter=String
-	; MeterStyle=Game1Name
-	; MeasureName=MeasureGameIndex6Name
-	; X=(#GameIconW#/2)r
-	; Y=(#GameNameH#/2)R
-	; Text="%1"
-	; DynamicVariables=1
+[Game6Name]
+	Meter=String
+	MeterStyle=Game1Name
+	MeasureName=MeasureGameIndex6Name
+	X=(#GameIconW#/2)r
+	Y=(#GameNameH#/2)R
+	Text="%1"
+	DynamicVariables=1
+
+[Game7]
+	Meter=Image
+	MeterStyle=Game1
+	X=#GameIconX#
+	Y=#GameIcon3Y#
+	LeftMouseUpAction=#Game7ComL#
+	DynamicVariables=1
+
+[Game7Icon]
+	Meter=Image
+	X=r
+	Y=r
+	MeterStyle=Game1Icon
+	MeasureName=MeasureGameIndex7Icon
+	DynamicVariables=1
+
+[Game7Name]
+	Meter=String
+	MeterStyle=Game1Name
+	MeasureName=MeasureGameIndex7Name
+	X=(#GameIconW#/2)r
+	Y=(#GameNameH#/2)R
+	Text="%1"
+	DynamicVariables=1
+
+[Game8]
+	Meter=Image
+	MeterStyle=Game1
+	X=(#GameIconX#+10+#GameIconW#)
+	Y=#GameIcon3Y#
+	LeftMouseUpAction=#Game8ComL#
+	DynamicVariables=1
+
+[Game8Icon]
+	Meter=Image
+	X=r
+	Y=r
+	MeterStyle=Game1Icon
+	MeasureName=MeasureGameIndex8Icon
+	DynamicVariables=1
+
+[Game8Name]
+	Meter=String
+	MeterStyle=Game1Name
+	MeasureName=MeasureGameIndex8Name
+	X=(#GameIconW#/2)r
+	Y=(#GameNameH#/2)R
+	Text="%1"
+	DynamicVariables=1
+
+[Game9]
+	Meter=Image
+	MeterStyle=Game1
+	X=(#GameIconX#+2*(10+#GameIconW#))
+	Y=#GameIcon3Y#
+	LeftMouseUpAction=#Game9ComL#
+	DynamicVariables=1
+
+[Game9Icon]
+	Meter=Image
+	X=r
+	Y=r
+	MeterStyle=Game1Icon
+	MeasureName=MeasureGameIndex9Icon
+	DynamicVariables=1
+
+[Game9Name]
+	Meter=String
+	MeterStyle=Game1Name
+	MeasureName=MeasureGameIndex9Name
+	X=(#GameIconW#/2)r
+	Y=(#GameNameH#/2)R
+	Text="%1"
+	DynamicVariables=1
+
+[GameListUp]
+	Meter=Button
+	ButtonImage=#@#\Buttons\Button4#CS#.png
+	X=540
+	Y=660
+	AntiAlias=1
+	Hidden=#STEAM_#
+	Group=LCARS-PData
+	ImageAlpha=144
+	LeftMouseUpAction=!Execute #UpListGames##SoundBeep1#
+	DynamicVariables=1
+
+[GameListDown]
+	Meter=Button
+	ButtonImage=#@#\Buttons\Button4#CS#.png
+	X=820
+	Y=660
+	ImageFlip=Horizontal
+	AntiAlias=1
+	Hidden=#STEAM_#
+	Group=LCARS-PData
+	ImageAlpha=144
+	LeftMouseUpAction=!Execute #DownListGames##SoundBeep1#
+	DynamicVariables=1
+
 
 ;;;;;;SteamIcons
-
-
+[SteamLogo]
+	Meter=Image
+	X=900
+	Y=290
+	ImageName=#@#\Static\Steam.jpg
+	Hidden=#STEAM_#
+	AntiAlias=1
+	DynamicVariables=1
 
 [SteamIcon1]
 	Meter=Image
@@ -286,3 +389,29 @@
 	Y=r
 	ImageName=#CURRENTPATH#\DownloadFile\#SteamGame8#.jpg
 	LeftMouseUpAction=["steam://rungameid/#SteamGame8#"]
+
+
+[GameSteamListUp]
+	Meter=Button
+	ButtonImage=#@#\Buttons\Button4#CS#.png
+	X=890
+	Y=660
+	AntiAlias=1
+	Hidden=#STEAM_#
+	Group=LCARS-PData
+	ImageAlpha=144
+	LeftMouseUpAction=!Execute #UpListGamesSteam##SoundBeep1#
+	DynamicVariables=1
+
+[GameSteamListDown]
+	Meter=Button
+	ButtonImage=#@#\Buttons\Button4#CS#.png
+	X=1100
+	Y=660
+	ImageFlip=Horizontal
+	AntiAlias=1
+	Hidden=#STEAM_#
+	Group=LCARS-PData
+	ImageAlpha=144
+	LeftMouseUpAction=!Execute #DownListGamesSteam##SoundBeep1#
+	DynamicVariables=1
