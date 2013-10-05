@@ -47,6 +47,10 @@ STEAM_On=[!SetVariable "STEAM_" "0"][!RainmeterWriteKeyValue Variables "STEAM_" 
 STEAM_Off=[!SetVariable "STEAM_" "1"][!RainmeterWriteKeyValue Variables "STEAM_" "1" "#@#\Inc\Settings.inc"]
 Weather_On=[!SetVariable "Weather_" "0"][!RainmeterWriteKeyValue Variables "Weather_" "0" "#@#\Inc\Settings.inc"]#Fon1##DATABASELinksBorder_On#
 Weather_Off=[!SetVariable "Weather_" "1"][!RainmeterWriteKeyValue Variables "Weather_" "1" "#@#\Inc\Settings.inc"]
+News_On=[!SetVariable "News_" "0"][!RainmeterWriteKeyValue Variables "News_" "0" "#@#\Inc\Settings.inc"]#Fon1##DATABASELinksBorder_Off#
+News_Off=[!SetVariable "News_" "1"][!RainmeterWriteKeyValue Variables "News_" "1" "#@#\Inc\Settings.inc"]
+MediaPl_On=[!SetVariable "MediaPl" "0"][!RainmeterWriteKeyValue Variables "MediaPl" "0" "#@#\Inc\Settings.inc"]#Fon1##DATABASELinksBorder_On#
+MediaPl_Off=[!SetVariable "MediaPl" "1"][!RainmeterWriteKeyValue Variables "MediaPl" "1" "#@#\Inc\Settings.inc"]
 
 
 Fon1=[!SetVariable "FONH" "440"][!RainmeterWriteKeyValue Variables "FONH" "440" "#@#\Inc\Settings.inc"][!SetVariable "FONW" "750"][!RainmeterWriteKeyValue Variables "FONW" "750" "#@#\Inc\Settings.inc"][!SetVariable "FONX" "530"][!RainmeterWriteKeyValue Variables "FONX" "530" "#@#\Inc\Settings.inc"][!SetVariable "FONY" "270"][!RainmeterWriteKeyValue Variables "FONY" "270" "#@#\Inc\Settings.inc"]
@@ -162,3 +166,5 @@ SteamGame8=
 
 UpListGamesSteam=[!CommandMeasure SteamPathFV "PageUp"]
 DownListGamesSteam=[!CommandMeasure SteamPathFV "PageDown"]
+
+;======================Player
