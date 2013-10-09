@@ -4,7 +4,7 @@
 	Y=420
 	H=90
 	W=100
-	Text=√–¿‘» 
+	Text=#Graph#
 	FontFace=#F#
 	FontSize=#F3#
 	StringAlign=RightBottom
@@ -21,7 +21,7 @@
 	Y=510
 	H=80
 	W=100
-	Text=Õ¿—“–Œ… ¿
+	Text=#Settings#
 	FontFace=#F#
 	FontSize=#F3#
 	StringAlign=RightBottom
@@ -39,7 +39,7 @@
 	Y=600
 	H=80
 	W=100
-	Text=»Õƒ» ¿“Œ–€
+	Text=#Indicators#
 	FontFace=#F#
 	FontSize=#F3#
 	StringAlign=RightBottom
@@ -58,7 +58,7 @@
 	Y=280
 	H=40
 	W=500
-	Text=’–ŒÕŒÀŒ√»ﬂ «¿√–”« » ÷œ
+	Text=#CP_Chrono#
 	FontFace=#F#
 	FontSize=#F4#
 	StringAlign=Left
@@ -70,7 +70,7 @@
 [CPUHeadName1]
 	Meter=String
 	MeterStyle=CPUHeadName0
-	Text=»Õƒ» ¿“Œ–€ «¿√–”« » ÷œ
+	Text=#CP_Ind#
 	Hidden=#CPU_MEM1#
 
 [MeterCPUGrid]
@@ -522,7 +522,7 @@
 	MeterStyle=CPUHeadName0
 	X=1050
 	W=220
-	Text=’–ŒÕŒÀŒ√»ﬂ Œ«”
+	Text=#PHY_Chrono#
 	Hidden=#CPU_MEM#
 
 [MeterRAMGrid]
@@ -560,7 +560,7 @@
 	Meter=String
 	MeasureName=MeasurePhyMemory
 	MeasureName2=MeasurePhyMemoryTotal
-	Text=#Memory#   %1¡/%2¡
+	Text=#Memory#   %1#Byte#/%2#Byte#
 	X=1150
 	Y=615
 	H=35

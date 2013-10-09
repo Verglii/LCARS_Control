@@ -1,7 +1,9 @@
 [Variables]
 CS=PRI
 
-MediaPlayer=WMP
+Lang=RUS
+
+MediaPlayer=AIMP
 
 LMC1=0
 LMC2=1
@@ -11,7 +13,7 @@ FONHID=0
 FONX=530
 FONY=270
 FONH=440
-FONW=750
+FONW=640
 
 CompInfo=1
 CPU_MEM=1
@@ -19,12 +21,12 @@ CPU_MEM0=1
 CPU_MEM1=1
 DATABASE=1
 PowerSource=1
-STEAM_=1
+STEAM_=0
 Weather_=1
 News_=1
-MediaPl=0
+MediaPl=1
 
-DATABASELinksBorder=0
+DATABASELinksBorder=1
 ;Drive1
 D1=C
 ;Drive2

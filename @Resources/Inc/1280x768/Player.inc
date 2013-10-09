@@ -52,14 +52,15 @@
 	DynamicVariables=1
 	Hidden=#MediaPl#
 
-; [MeterRepeatInd]
-	; Meter=Bitmap
-	; MeasureName=MeasureRepeat
-	; BitmapImage=#@#/Anim/RepeatInd#CS#.png
-	; Bitmap=
-	; X=723
-	; Y=278
-	; Hidden=#MediaPl#
+[MeterRepeatInd]
+	Meter=Bitmap
+	MeasureName=[MeasureRepeatInd]
+	BitmapImage=#@#/Buttons/Player/RepeatInd#CS#.png
+	BitmapFrames=2
+	BitmapZeroFrame=1
+	X=723
+	Y=278
+	Hidden=#MediaPl#
 
 [MeterRepeat]
 	Meter=Button

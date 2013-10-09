@@ -84,7 +84,7 @@
 
 [DatabaseFind]					;Database control
 	Meter=String
-	Text=ПОИСК
+	Text=#Search#
 	X=520
 	Y=420
 	W=100
@@ -101,7 +101,7 @@
 
 [DatabaseSettings]
 	Meter=String
-	Text=НАСТРОЙКА
+	Text=#Settings#
 	X=520
 	Y=510
 	W=100
@@ -118,7 +118,7 @@
 
 [RemembPath]
 	Meter=String
-	Text=ЗАПОМНИТЬ
+	Text=#Remember#
 	X=520
 	Y=600
 	W=100
@@ -138,7 +138,7 @@
 
 [Bin]
 	Meter=String
-	Text=КОРЗИНА
+	Text=#RecycleBin#
 	X=1180
 	Y=460
 	W=100
@@ -155,7 +155,7 @@
 
 [Clear]
 	Meter=String
-	Text=ОЧИСТИТЬ
+	Text=#ClearBin#
 	MeterStyle=Bin
 	Y=500
 	LeftMouseUpAction=!Execute [!RainmeterPluginBang "MeasureKorz EmptyBin"] #SoundBeep1# [!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
@@ -537,12 +537,12 @@
 	Meter=String
 	X=540
 	Y=650
-	Text=Левая кнопка мыши - открыть файл или папку#CRLF#Правая кнопка мыши - открыть в проводнике текущую папку
+	Text=#LeftMouseInfo##CRLF##RightMouseInfo#
 	W=620
 	H=50
 	FontFace=#F#
 	FontColor=#COL2#
-	FontSize=#F1_#
+	FontSize=#F2#
 	SolidColor=#FONF#
 	StringAlign=Left
 	AntiAlias=1

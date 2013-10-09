@@ -1,6 +1,27 @@
+;Measures
+[MeasureTime]
+	Measure=Time
+	Format="%H:%M:%S"
+
+[MeasureDay]
+	Measure=Time
+	Format="%A"
+	Substitute=#SubstDay#
+
+[MeasureMonth]
+	Measure=Time
+	Format="%d %B"
+	Substitute=#SubstMonth#
+
+[MeasureYear]
+	Measure=Time
+	Format="%Y"
+
+
+;Meters
 [Meter1]
 	Meter=String
-	Text="ÂĞÅÌß"
+	Text=#Time#
 	X=520
 	Y=60
 	H=60

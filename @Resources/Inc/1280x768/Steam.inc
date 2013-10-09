@@ -49,6 +49,71 @@
 	DynamicVariables=1
 	Hidden=#STEAM_#
 
+[SteamLib]
+	Meter=String
+	Text=#LibrarySteam#
+	X=520
+	Y=420
+	W=100
+	H=90
+	AntiAlias=1
+	FontFace=#F#
+	FontSize=#F3#
+	StringAlign=RightBottom
+	SolidColor=#ELBOS#
+	Hidden=#STEAM_#
+	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute #SLGames# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
+	DynamicVariables=1
+
+[SteamSettings]
+	Meter=String
+	MeterStyle=SteamLib
+	Text=#Settings#
+	Y=510
+	H=80
+	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute #SLSett# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
+
+[SteamNews]
+	Meter=String
+	MeterStyle=SteamLib
+	Text=#NewsSteam#
+	Y=600
+	H=80
+	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute #SLN# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
+
+[SteamDownload]
+	Meter=String
+	MeterStyle=SteamLib
+	Text=#SteamDownload#
+	X=1180
+	StringAlign=LeftBottom
+	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute #SLDownl# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
+
+[SteamFriends]
+	Meter=String
+	MeterStyle=SteamLib
+	Text=#SteamFriends#
+	X=1180
+	Y=510
+	H=80
+	StringAlign=LeftBottom
+	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute #SLFr# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
+
+[SteamHome]
+	Meter=String
+	MeterStyle=SteamLib
+	Text=#SteamInventory#
+	X=1180
+	Y=600
+	H=80
+	StringAlign=LeftBottom
+	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute #SLInv# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
 
 [Game1]
 	Meter=Image

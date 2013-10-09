@@ -79,7 +79,7 @@
 
 [BTNameFunct]
 	Meter=String
-	Text=—Œ—“ŒﬂÕ»≈ œ»“¿Õ»ﬂ
+	Text=#PowerState_#
 	X=690
 	Y=280
 	H=30
@@ -110,7 +110,7 @@
 
 [BTLifeTimeName]
 	Meter=String
-	Text=¬–≈Ãﬂ «¿–ﬂƒ¿
+	Text=#PowerTime#
 	X=930
 	Y=280
 	H=30
@@ -167,7 +167,7 @@
 
 [Shotdown]
 	Meter=String
-	Text=¬€ Àﬁ◊≈Õ»≈
+	Text=#Shotdown#
 	X=745
 	Y=465
 	H=30
@@ -185,14 +185,14 @@
 [Reload]
 	Meter=String
 	MeterStyle=Shotdown
-	Text=œ≈–≈«¿√–”« ¿
+	Text=#Reload#
 	X=905
 	LeftMouseUpAction=!Execute [%windir%\System32\shutdown.exe -r -t 00] #SoundBeep1# [!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
 
 [Sleep]
 	Meter=String
 	MeterStyle=Shotdown
-	Text=√»¡≈–Õ¿÷»ﬂ
+	Text=#Hibernation#
 	X=1065
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
-	LeftMouseUpAction=!Execute #SoundBeep1# [!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute [rundll32.exe powrprof.dll,SetSuspendState] #SoundBeep1# [!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]

@@ -1,22 +1,3 @@
-[MeasureTime]
-	Measure=Time
-	Format="%H:%M:%S"
-
-[MeasureDay]
-	Measure=Time
-	Format="%A"
-	Substitute=#SubstDay#
-
-[MeasureMonth]
-	Measure=Time
-	Format="%d %B"
-	Substitute=#SubstMonth#
-
-[MeasureYear]
-	Measure=Time
-	Format="%Y"
-
-
 [MeasurePCName]
 	Measure=Plugin
 	Plugin=Plugins\SysInfo.dll
@@ -34,7 +15,7 @@
 
 [MeasureUpTime]
 	Measure=Uptime
-	Substitute="d":" ÄÍÅÉ,",":":" ×ÀÑÎÂ, "
+	Substitute="d":" #Days#,",":":" #Hours#, "
 	Group=CompInfo
 	Disabled=#CompInfo#
 

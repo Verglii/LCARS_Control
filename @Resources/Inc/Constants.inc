@@ -11,7 +11,8 @@ OpenHide1280x768=[!RainmeterActivateConfig "LCARS_Control\1280x768" "LCARS_Hidde
 Open1366x768=[!RainmeterActivateConfig "LCARS_Control\1366x768" "LCARS.ini"]
 Close1366x768=[!RainmeterDeActivateConfig "LCARS_Control\1366x768" "LCARS.ini"]
 
-
+TextRus=[!SetVariable "Lang" "RUS"][!RainmeterWriteKeyValue Variables "Lang" "RUS" "#@#\Inc\Settings.inc"]
+TextEng=[!SetVariable "Lang" "ENG"][!RainmeterWriteKeyValue Variables "Lang" "ENG" "#@#\Inc\Settings.inc"]
 
 
 
@@ -167,4 +168,10 @@ SteamGame8=
 UpListGamesSteam=[!CommandMeasure SteamPathFV "PageUp"]
 DownListGamesSteam=[!CommandMeasure SteamPathFV "PageDown"]
 
+SLGames=[steam://open/games]
+SLDownl=[steam://open/downloads]
+SLFr=[steam://open/friends]
+SLSett=[steam://open/settings]
+SLInv=[steam://open/inventory]
+SLN=[steam://open/news]
 ;======================Player

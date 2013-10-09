@@ -43,7 +43,7 @@ PlayerType=VOLUME
 DynamicVariables=1
 Disabled=#MediaPl#
 
-[MeasurePersentPlayed]
+[MeasurePercentPlayed]
 Measure=Plugin
 Plugin=NowPlaying
 PlayerName=[MeasurePlayer]
@@ -60,13 +60,13 @@ Disabled=#MediaPl#
 ; DynamicVariables=1
 ; Disabled=#MediaPl#
 
-; [MeasureRepeatInd]
-; Measure=Plugin
-; Plugin=NowPlaying
-; PlayerName=[MeasurePlayer]
-; PlayerType=REPEAT
-; DynamicVariables=1
-; Disabled=#MediaPl#
+[MeasureRepeatInd]
+Measure=Plugin
+Plugin=NowPlaying
+PlayerName=[MeasurePlayer]
+PlayerType=Repeat
+DynamicVariables=1
+Disabled=#MediaPl#
 
 ; [MeasureShuffleInd]
 ; Measure=Plugin

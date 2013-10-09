@@ -144,7 +144,7 @@
 	Text=%1
 	MeterStyle=Computer_PCInfo_Value
 	Y=#CY3#
-	Postfix=" Ã»Õ”“"
+	Postfix=" #Minutes#"
 
 
 [Computer_OS_Value]
@@ -193,7 +193,7 @@
 [Computer_PhyMemoryTotal_Value]
 	Meter=String
 	MeasureName=MeasurePhyMemoryTotal
-	Text=%1¡
+	Text=%1#Byte#
 	MeterStyle=Computer_PCInfo_Value
 	Y=#CY9#
 	AutoScale=1
