@@ -314,7 +314,7 @@
 	Group=LCARS-SteamIcons
 	UpdateDivider=-1
 	Download=1
-	DownloadFile="#SteamGame1#.jpg"
+	DownloadFile="Game_#SteamGame1#.jpg"
 	Disabled=#STEAM_#
 	DynamicVariables=1
 
@@ -325,7 +325,7 @@
 	Group=LCARS-SteamIcons
 	UpdateDivider=-1
 	Download=1
-	DownloadFile="#SteamGame2#.jpg"
+	DownloadFile="Game_#SteamGame2#.jpg"
 	Disabled=#STEAM_#
 	DynamicVariables=1
 
@@ -336,7 +336,7 @@
 	Group=LCARS-SteamIcons
 	UpdateDivider=-1
 	Download=1
-	DownloadFile="#SteamGame3#.jpg"
+	DownloadFile="Game_#SteamGame3#.jpg"
 	Disabled=#STEAM_#
 	DynamicVariables=1
 
@@ -347,7 +347,7 @@
 	Group=LCARS-SteamIcons
 	UpdateDivider=-1
 	Download=1
-	DownloadFile="#SteamGame4#.jpg"
+	DownloadFile="Game_#SteamGame4#.jpg"
 	Disabled=#STEAM_#
 	DynamicVariables=1
 
@@ -358,7 +358,7 @@
 	Group=LCARS-SteamIcons
 	UpdateDivider=-1
 	Download=1
-	DownloadFile="#SteamGame5#.jpg"
+	DownloadFile="Game_#SteamGame5#.jpg"
 	Disabled=#STEAM_#
 	DynamicVariables=1
 
@@ -369,7 +369,7 @@
 	Group=LCARS-SteamIcons
 	UpdateDivider=-1
 	Download=1
-	DownloadFile="#SteamGame6#.jpg"
+	DownloadFile="Game_#SteamGame6#.jpg"
 	Disabled=#STEAM_#
 	DynamicVariables=1
 
@@ -380,7 +380,7 @@
 	Group=LCARS-SteamIcons
 	UpdateDivider=-1
 	Download=1
-	DownloadFile="#SteamGame7#.jpg"
+	DownloadFile="Game_#SteamGame7#.jpg"
 	Disabled=#STEAM_#
 	DynamicVariables=1
 
@@ -391,6 +391,6 @@
 	Group=LCARS-SteamIcons
 	UpdateDivider=-1
 	Download=1
-	DownloadFile="#SteamGame8#.jpg"
+	DownloadFile="Game_#SteamGame8#.jpg"
 	Disabled=#STEAM_#
 	DynamicVariables=1

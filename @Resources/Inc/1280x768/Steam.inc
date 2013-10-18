@@ -394,7 +394,7 @@
 	Meter=Image
 	X=#SteamIconX#
 	Y=#SteamIconY#
-	ImageName=#CURRENTPATH#\DownloadFile\#SteamGame1#.jpg
+	ImageName=#CURRENTPATH#\DownloadFile\Game_#SteamGame1#.jpg
 	W=120
 	H=60
 	AntiAlias=1
@@ -408,14 +408,14 @@
 	Meter=Image
 	MeterStyle=SteamIcon1
 	X=10R
-	ImageName=#CURRENTPATH#\DownloadFile\#SteamGame2#.jpg
+	ImageName=#CURRENTPATH#\DownloadFile\Game_#SteamGame2#.jpg
 	LeftMouseUpAction=["steam://rungameid/#SteamGame2#"]
 
 [SteamIcon3]
 	Meter=Image
 	MeterStyle=SteamIcon1
 	Y=10R
-	ImageName=#CURRENTPATH#\DownloadFile\#SteamGame3#.jpg
+	ImageName=#CURRENTPATH#\DownloadFile\Game_#SteamGame3#.jpg
 	LeftMouseUpAction=["steam://rungameid/#SteamGame3#"]
 
 [SteamIcon4]
@@ -423,14 +423,14 @@
 	MeterStyle=SteamIcon1
 	X=10R
 	Y=r
-	ImageName=#CURRENTPATH#\DownloadFile\#SteamGame4#.jpg
+	ImageName=#CURRENTPATH#\DownloadFile\Game_#SteamGame4#.jpg
 	LeftMouseUpAction=["steam://rungameid/#SteamGame4#"]
 
 [SteamIcon5]
 	Meter=Image
 	MeterStyle=SteamIcon1
 	Y=10R
-	ImageName=#CURRENTPATH#\DownloadFile\#SteamGame5#.jpg
+	ImageName=#CURRENTPATH#\DownloadFile\Game_#SteamGame5#.jpg
 	LeftMouseUpAction=["steam://rungameid/#SteamGame5#"]
 
 [SteamIcon6]
@@ -438,14 +438,14 @@
 	MeterStyle=SteamIcon1
 	X=10R
 	Y=r
-	ImageName=#CURRENTPATH#\DownloadFile\#SteamGame6#.jpg
+	ImageName=#CURRENTPATH#\DownloadFile\Game_#SteamGame6#.jpg
 	LeftMouseUpAction=["steam://rungameid/#SteamGame6#"]
 
 [SteamIcon7]
 	Meter=Image
 	MeterStyle=SteamIcon1
 	Y=10R
-	ImageName=#CURRENTPATH#\DownloadFile\#SteamGame7#.jpg
+	ImageName=#CURRENTPATH#\DownloadFile\Game_#SteamGame7#.jpg
 	LeftMouseUpAction=["steam://rungameid/#SteamGame7#"]
 
 [SteamIcon8]
@@ -453,7 +453,7 @@
 	MeterStyle=SteamIcon1
 	X=10R
 	Y=r
-	ImageName=#CURRENTPATH#\DownloadFile\#SteamGame8#.jpg
+	ImageName=#CURRENTPATH#\DownloadFile\Game_#SteamGame8#.jpg
 	LeftMouseUpAction=["steam://rungameid/#SteamGame8#"]
 
 

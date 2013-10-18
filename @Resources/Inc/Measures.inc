@@ -83,6 +83,12 @@
 	Substitute=#SubstBit#
 	UpdateDivider=-1
 
+
+[LuaMeasure]
+	Measure=Script
+	ScriptFile=#@#Inc\LuaMeasures.lua
+
+
 [MeasureCPU1]
 	Measure=CPU
 	Disabled=#CP1#
@@ -93,77 +99,77 @@
 [MeasureCPU2]
 	Measure=CPU
 	Disabled=#CP2#
-	Processor=2
+	Processor=#CPN2#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
 
 [MeasureCPU3]
 	Measure=CPU
 	Disabled=#CP3#
-	Processor=3
+	Processor=#CPN3#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
 
 [MeasureCPU4]
 	Measure=CPU
 	Disabled=#CP4#
-	Processor=4
+	Processor=#CPN4#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
 
 [MeasureCPU5]
 	Measure=CPU
 	Disabled=#CP5#
-	Processor=5
+	Processor=#CPN5#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
 
 [MeasureCPU6]
 	Measure=CPU
 	Disabled=#CP6#
-	Processor=6
+	Processor=#CPN6#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
 
 [MeasureCPU7]
 	Measure=CPU
 	Disabled=#CP7#
-	Processor=7
+	Processor=#CPN7#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
 
 [MeasureCPU8]
 	Measure=CPU
 	Disabled=#CP8#
-	Processor=8
+	Processor=#CPN8#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
 
 [MeasureCPU9]
 	Measure=CPU
 	Disabled=#CP9#
-	Processor=9
+	Processor=#CPN9#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
 
 [MeasureCPU10]
 	Measure=CPU
 	Disabled=#CP10#
-	Processor=10
+	Processor=#CPN10#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
 
 [MeasureCPU11]
 	Measure=CPU
 	Disabled=#CP11#
-	Processor=11
+	Processor=#CPN11#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
 
 [MeasureCPU12]
 	Measure=CPU
 	Disabled=#CP12#
-	Processor=12
+	Processor=#CPN12#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
 

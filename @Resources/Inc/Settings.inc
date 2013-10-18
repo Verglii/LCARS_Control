@@ -1,4 +1,8 @@
 [Variables]
+
+ShowMe=10
+ShowMe2=
+
 CS=PRI
 
 Lang=RUS
@@ -13,20 +17,20 @@ FONHID=0
 FONX=530
 FONY=270
 FONH=440
-FONW=640
+FONW=750
 
 CompInfo=1
-CPU_MEM=1
-CPU_MEM0=1
+CPU_MEM=0
+CPU_MEM0=0
 CPU_MEM1=1
 DATABASE=1
 PowerSource=1
-STEAM_=0
+STEAM_=1
 Weather_=1
 News_=1
 MediaPl=1
 
-DATABASELinksBorder=1
+DATABASELinksBorder=0
 ;Drive1
 D1=C
 ;Drive2
@@ -91,10 +95,10 @@ QL6L=http://Yandex.ru
 GR|IND=0
 IND|GR=1
 
-CPULCount=4
+CPULCount=2
 
-CP1=1
-CP2=1
+CP1=0
+CP2=0
 CP3=1
 CP4=1
 CP5=1
@@ -108,8 +112,8 @@ CP12=1
 
 CP1_=0
 CP2_=0
-CP3_=0
-CP4_=0
+CP3_=1
+CP4_=1
 CP5_=1
 CP6_=1
 CP7_=1
@@ -118,6 +122,18 @@ CP9_=1
 CP10_=1
 CP11_=1
 CP12_=1
+
+CPN2=0
+CPN3=0
+CPN4=0
+CPN5=0
+CPN6=0
+CPN7=0
+CPN8=0
+CPN9=0
+CPN10=0
+CPN11=0
+CPN12=0
 
 ;Database=================
 FBLB1Name=Компьютер
