@@ -430,9 +430,6 @@
 	ShowFolder=0
 	HideExtensions=1
 	Group=LCARS-SteamIconView
-;/////////////////fix of 1st icon
-;	FinishAction=#IcUpd1#
-;/////////////////
 	WildcardSearch=Game_#SteamGame2#*
 	Count=1
 	DynamicVariables=1

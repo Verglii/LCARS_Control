@@ -25,8 +25,8 @@ CPU_MEM0=1
 CPU_MEM1=1
 DATABASE=1
 PowerSource=1
-STEAM_=0
-Weather_=1
+STEAM_=1
+Weather_=0
 News_=1
 MediaPl=1
 
@@ -159,4 +159,6 @@ LastPlace=D:\
 MediaPl_=0
 
 ;Weather==================
-URL_W=http://pogoda.yandex.ru/trehgorniy/
+URL=http://www.foreca.ru/Russia/Trekhgornyy?tenday
+URL1=http://www.foreca.ru/Russia/Trekhgornyy
+UpdateRateWeather=10000
