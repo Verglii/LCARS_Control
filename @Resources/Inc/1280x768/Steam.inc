@@ -394,11 +394,12 @@
 	Meter=Image
 	X=#SteamIconX#
 	Y=#SteamIconY#
-	ImageName=#CURRENTPATH#\DownloadFile\Game_#SteamGame1#.jpg
+	ImageName=#CURRENTPATH#\DownloadFile\Game_[SteamIconPath_1].jpg
 	W=120
 	H=60
 	AntiAlias=1
 	PreserveAspectRatio=1
+	Group=LCARS-SteamIcons
 	Hidden=#STEAM_#
 	SolidColor=000000
 	LeftMouseUpAction=["steam://rungameid/#SteamGame1#"]
@@ -408,14 +409,14 @@
 	Meter=Image
 	MeterStyle=SteamIcon1
 	X=10R
-	ImageName=#CURRENTPATH#\DownloadFile\Game_#SteamGame2#.jpg
+	ImageName=#CURRENTPATH#\DownloadFile\Game_[SteamIconPath_2].jpg
 	LeftMouseUpAction=["steam://rungameid/#SteamGame2#"]
 
 [SteamIcon3]
 	Meter=Image
 	MeterStyle=SteamIcon1
 	Y=10R
-	ImageName=#CURRENTPATH#\DownloadFile\Game_#SteamGame3#.jpg
+	ImageName=#CURRENTPATH#\DownloadFile\Game_[SteamIconPath_3].jpg
 	LeftMouseUpAction=["steam://rungameid/#SteamGame3#"]
 
 [SteamIcon4]
@@ -423,14 +424,14 @@
 	MeterStyle=SteamIcon1
 	X=10R
 	Y=r
-	ImageName=#CURRENTPATH#\DownloadFile\Game_#SteamGame4#.jpg
+	ImageName=#CURRENTPATH#\DownloadFile\Game_[SteamIconPath_4].jpg
 	LeftMouseUpAction=["steam://rungameid/#SteamGame4#"]
 
 [SteamIcon5]
 	Meter=Image
 	MeterStyle=SteamIcon1
 	Y=10R
-	ImageName=#CURRENTPATH#\DownloadFile\Game_#SteamGame5#.jpg
+	ImageName=#CURRENTPATH#\DownloadFile\Game_[SteamIconPath_5].jpg
 	LeftMouseUpAction=["steam://rungameid/#SteamGame5#"]
 
 [SteamIcon6]
@@ -438,14 +439,14 @@
 	MeterStyle=SteamIcon1
 	X=10R
 	Y=r
-	ImageName=#CURRENTPATH#\DownloadFile\Game_#SteamGame6#.jpg
+	ImageName=#CURRENTPATH#\DownloadFile\Game_[SteamIconPath_6].jpg
 	LeftMouseUpAction=["steam://rungameid/#SteamGame6#"]
 
 [SteamIcon7]
 	Meter=Image
 	MeterStyle=SteamIcon1
 	Y=10R
-	ImageName=#CURRENTPATH#\DownloadFile\Game_#SteamGame7#.jpg
+	ImageName=#CURRENTPATH#\DownloadFile\Game_[SteamIconPath_7].jpg
 	LeftMouseUpAction=["steam://rungameid/#SteamGame7#"]
 
 [SteamIcon8]
@@ -453,7 +454,7 @@
 	MeterStyle=SteamIcon1
 	X=10R
 	Y=r
-	ImageName=#CURRENTPATH#\DownloadFile\Game_#SteamGame8#.jpg
+	ImageName=#CURRENTPATH#\DownloadFile\Game_[SteamIconPath_8].jpg
 	LeftMouseUpAction=["steam://rungameid/#SteamGame8#"]
 
 
@@ -466,7 +467,7 @@
 	Hidden=#STEAM_#
 	Group=LCARS-PData
 	ImageAlpha=144
-	LeftMouseUpAction=!Execute #UpListGamesSteam##SoundBeep1#
+	LeftMouseUpAction=!Execute #UpListGamesSteam##SoundBeep1# #IcUpd1##IcUpd2##IcUpd3##IcUpd4##IcUpd5##IcUpd6##IcUpd7##IcUpd8#
 	DynamicVariables=1
 
 [GameSteamListDown]
@@ -479,5 +480,5 @@
 	Hidden=#STEAM_#
 	Group=LCARS-PData
 	ImageAlpha=144
-	LeftMouseUpAction=!Execute #DownListGamesSteam##SoundBeep1#
+	LeftMouseUpAction=!Execute #DownListGamesSteam##SoundBeep1# #IcUpd1##IcUpd2##IcUpd3##IcUpd4##IcUpd5##IcUpd6##IcUpd7##IcUpd8#
 	DynamicVariables=1

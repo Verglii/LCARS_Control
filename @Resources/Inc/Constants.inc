@@ -165,6 +165,15 @@ SteamGame6=
 SteamGame7=
 SteamGame8=
 
+IcUpd1=[!CommandMeasure SteamIconView_1 Update]
+IcUpd2=[!CommandMeasure SteamIconView_2 Update]
+IcUpd3=[!CommandMeasure SteamIconView_3 Update]
+IcUpd4=[!CommandMeasure SteamIconView_4 Update]
+IcUpd5=[!CommandMeasure SteamIconView_5 Update]
+IcUpd6=[!CommandMeasure SteamIconView_6 Update]
+IcUpd7=[!CommandMeasure SteamIconView_7 Update]
+IcUpd8=[!CommandMeasure SteamIconView_8 Update]
+
 UpListGamesSteam=[!CommandMeasure SteamPathFV "PageUp"]
 DownListGamesSteam=[!CommandMeasure SteamPathFV "PageDown"]
 

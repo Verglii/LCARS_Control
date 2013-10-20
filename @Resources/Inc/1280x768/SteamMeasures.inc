@@ -394,3 +394,195 @@
 	DownloadFile="Game_#SteamGame8#.jpg"
 	Disabled=#STEAM_#
 	DynamicVariables=1
+
+
+[SteamIconView_1]
+	Measure=Plugin
+	Plugin=FileView
+	Path=#CURRENTPATH#\DownloadFile
+	ShowHidden=0
+	ShowDotDot=0
+	ShowFolder=0
+	HideExtensions=1
+	Group=LCARS-SteamIconView
+	WildcardSearch=Game_#SteamGame1#*
+	Count=1
+	DynamicVariables=1
+	FinishAction=[!UpdateMeasureGroup LCARS-SteamIconMeasure]
+
+[SteamIconPath_1]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[SteamIconView_1]
+	Type=FileName
+	Index=1
+	DynamicVariables=1
+	Group=LCARS-SteamIconMeasure
+	Substitute="Game_":""
+	Disabled=#STEAM_#
+
+[SteamIconView_2]
+	Measure=Plugin
+	Plugin=FileView
+	Path=#CURRENTPATH#\DownloadFile
+	ShowHidden=0
+	ShowDotDot=0
+	ShowFolder=0
+	HideExtensions=1
+	Group=LCARS-SteamIconView
+;/////////////////fix of 1st icon
+	FinishAction=#IcUpd1#
+;/////////////////
+	WildcardSearch=Game_#SteamGame2#*
+	Count=1
+	DynamicVariables=1
+
+[SteamIconPath_2]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[SteamIconView_2]
+	Type=FileName
+	Index=1
+	DynamicVariables=1
+	Group=LCARS-SteamIconMeasure
+	Substitute="Game_":""
+	Disabled=#STEAM_#
+
+[SteamIconView_3]
+	Measure=Plugin
+	Plugin=FileView
+	Path=#CURRENTPATH#\DownloadFile
+	ShowHidden=0
+	ShowDotDot=0
+	ShowFolder=0
+	HideExtensions=1
+	Group=LCARS-SteamIconView
+	WildcardSearch=Game_#SteamGame3#*
+	Count=1
+	DynamicVariables=1
+
+[SteamIconPath_3]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[SteamIconView_3]
+	Type=FileName
+	Index=1
+	DynamicVariables=1
+	Group=LCARS-SteamIconMeasure
+	Substitute="Game_":""
+	Disabled=#STEAM_#
+
+[SteamIconView_4]
+	Measure=Plugin
+	Plugin=FileView
+	Path=#CURRENTPATH#\DownloadFile
+	ShowHidden=0
+	ShowDotDot=0
+	ShowFolder=0
+	HideExtensions=1
+	Group=LCARS-SteamIconView
+	WildcardSearch=Game_#SteamGame4#*
+	Count=1
+	DynamicVariables=1
+
+[SteamIconPath_4]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[SteamIconView_4]
+	Type=FileName
+	Index=1
+	DynamicVariables=1
+	Substitute="Game_":""
+	Disabled=#STEAM_#
+
+[SteamIconView_5]
+	Measure=Plugin
+	Plugin=FileView
+	Path=#CURRENTPATH#\DownloadFile
+	ShowHidden=0
+	ShowDotDot=0
+	ShowFolder=0
+	HideExtensions=1
+	Group=LCARS-SteamIconView
+	WildcardSearch=Game_#SteamGame5#*
+	Count=1
+	DynamicVariables=1
+
+[SteamIconPath_5]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[SteamIconView_5]
+	Type=FileName
+	Index=1
+	DynamicVariables=1
+	Substitute="Game_":""
+	Disabled=#STEAM_#
+
+[SteamIconView_6]
+	Measure=Plugin
+	Plugin=FileView
+	Path=#CURRENTPATH#\DownloadFile
+	ShowHidden=0
+	ShowDotDot=0
+	ShowFolder=0
+	HideExtensions=1
+	Group=LCARS-SteamIconView
+	WildcardSearch=Game_#SteamGame6#*
+	Count=1
+	DynamicVariables=1
+
+[SteamIconPath_6]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[SteamIconView_6]
+	Type=FileName
+	Index=1
+	DynamicVariables=1
+	Substitute="Game_":""
+	Disabled=#STEAM_#
+
+[SteamIconView_7]
+	Measure=Plugin
+	Plugin=FileView
+	Path=#CURRENTPATH#\DownloadFile
+	ShowHidden=0
+	ShowDotDot=0
+	ShowFolder=0
+	HideExtensions=1
+	Group=LCARS-SteamIconView
+	WildcardSearch=Game_#SteamGame7#*
+	Count=1
+	DynamicVariables=1
+
+[SteamIconPath_7]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[SteamIconView_7]
+	Type=FileName
+	Index=1
+	DynamicVariables=1
+	Substitute="Game_":""
+	Disabled=#STEAM_#
+
+[SteamIconView_8]
+	Measure=Plugin
+	Plugin=FileView
+	Path=#CURRENTPATH#\DownloadFile
+	ShowHidden=0
+	ShowDotDot=0
+	ShowFolder=0
+	HideExtensions=1
+	Group=LCARS-SteamIconView
+	WildcardSearch=Game_#SteamGame8#*
+	Count=1
+	DynamicVariables=1
+
+[SteamIconPath_8]
+	Measure=Plugin
+	Plugin=FileView
+	Path=[SteamIconView_8]
+	Type=FileName
+	Index=1
+	DynamicVariables=1
+	Substitute="Game_":""
+	Disabled=#STEAM_#
