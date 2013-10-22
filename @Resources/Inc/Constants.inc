@@ -48,8 +48,8 @@ STEAM_On=[!SetVariable "STEAM_" "0"][!RainmeterWriteKeyValue Variables "STEAM_" 
 STEAM_Off=[!SetVariable "STEAM_" "1"][!RainmeterWriteKeyValue Variables "STEAM_" "1" "#@#\Inc\Settings.inc"]
 Weather_On=[!SetVariable "Weather_" "0"][!RainmeterWriteKeyValue Variables "Weather_" "0" "#@#\Inc\Settings.inc"]#Fon2##DATABASELinksBorder_Off#
 Weather_Off=[!SetVariable "Weather_" "1"][!RainmeterWriteKeyValue Variables "Weather_" "1" "#@#\Inc\Settings.inc"]
-News_On=[!SetVariable "News_" "0"][!RainmeterWriteKeyValue Variables "News_" "0" "#@#\Inc\Settings.inc"]#Fon1##DATABASELinksBorder_Off#
-News_Off=[!SetVariable "News_" "1"][!RainmeterWriteKeyValue Variables "News_" "1" "#@#\Inc\Settings.inc"]
+_On=[!SetVariable "News_" "0"][!RainmeterWriteKeyValue Variables "News_" "0" "#@#\Inc\Settings.inc"]#Fon1##DATABASELinksBorder_Off#
+_Off=[!SetVariable "News_" "1"][!RainmeterWriteKeyValue Variables "News_" "1" "#@#\Inc\Settings.inc"]
 MediaPl_On=[!SetVariable "MediaPl" "0"][!RainmeterWriteKeyValue Variables "MediaPl" "0" "#@#\Inc\Settings.inc"]#Fon1##DATABASELinksBorder_On#
 MediaPl_Off=[!SetVariable "MediaPl" "1"][!RainmeterWriteKeyValue Variables "MediaPl" "1" "#@#\Inc\Settings.inc"]
 

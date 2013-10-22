@@ -9,34 +9,22 @@
 	DynamicVariables=1
 
 ;//////////////////////////////////////
-[WMeterFO]
-Meter=String
-MeasureName=WMeasureFO
-X=1005
-Y=280
-W=310
-H=100
-FontColor=#COL2#
-FontFace=#F#
-StringAlign=Center
-FontSize=#F5#
-AntiAlias=1
-ClipString=1
-SolidColor=#FONWeath#
-
 [WMeterName]
 Meter=String
 MeasureName=WMeasureName
 X=1005
-Y=280
+Y=330
 W=310
-H=50
+H=100
 FontColor=#COL2#
 FontFace=#F#
-StringAlign=Center
+StringAlign=CenterCenter
+SolidColor=#FONWeath#
 AntiAlias=1
 ClipString=1
 FontSize=#F5#
+DynamicVariables=1
+Hidden=#Weather_#
 
 [WMeterIconF]
 Meter=Image
@@ -44,26 +32,28 @@ MeasureName=MeasureWeatherIconF
 Path="#CURRENTPATH#WeatherIcons Big"
 X=0
 Y=0
+DynamicVariables=1
+Hidden=#Weather_#
 
 
 
 [WMeterTF]
 Meter=String
 MeasureName=WMeasureTF
-X=140
-Y=15
-W=200
-H=80
-FontColor=250,250,250,250
-StringStyle=NORMAL
-StringEffect=SHADOW
-FontFace=calibri
-StringAlign=Left
-FontEffectColor=0,0,0,80
+X=795
+Y=330
+W=90
+H=100
+FontColor=#COL2#
+FontFace=#F#
+StringAlign=CenterCenter
 AntiAlias=1
 ClipString=1
-FontSize=35
+SolidColor=#FONWeath#
+FontSize=#F5#
 Postfix=" °C"
+DynamicVariables=1
+Hidden=#Weather_#
 
 [WMeterON]
 Meter=String
@@ -82,6 +72,8 @@ FontEffectColor=0,0,0,80
 AntiAlias=1
 ClipString=1
 Prefix="Ощущаемая температура: "
+DynamicVariables=1
+Hidden=#Weather_#
 
 [WMeterFD]
 Meter=String
@@ -100,6 +92,8 @@ FontEffectColor=0,0,0,80
 AntiAlias=1
 ClipString=1
 Prefix="Давленение: "
+DynamicVariables=1
+Hidden=#Weather_#
 
 
 [WMeterOW]
@@ -119,6 +113,8 @@ FontEffectColor=0,0,0,80
 AntiAlias=1
 ClipString=1
 Prefix="Влажность: "
+DynamicVariables=1
+Hidden=#Weather_#
 
 [WMeterwind]
 Meter=String
@@ -137,6 +133,8 @@ FontEffectColor=0,0,0,80
 AntiAlias=1
 ClipString=1
 Prefix="Скорость ветра: "
+DynamicVariables=1
+Hidden=#Weather_#
 
 [WMeterIconWet]
 Meter=Image
@@ -144,6 +142,8 @@ MeasureName=WMeasureWET
 Path="#CURRENTPATH#WeatherIcons W"
 X=5R
 Y=190
+DynamicVariables=1
+Hidden=#Weather_#
 
 [WMeterwind2]
 Meter=String
@@ -160,6 +160,8 @@ FontFace=calibri
 StringAlign=Left
 FontEffectColor=0,0,0,80
 AntiAlias=1
+DynamicVariables=1
+Hidden=#Weather_#
  
 
 
