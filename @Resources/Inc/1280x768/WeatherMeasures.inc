@@ -167,7 +167,7 @@ UpdateRate=#UpdateRateWeather#
 
 
 
-[WMeasureWeatherIconF]
+[WMeasureWeatherIconD1]
 Measure=Plugin
 Plugin=Plugins/WebParser.dll
 Url=#URL1#
@@ -259,12 +259,3 @@ Url=#URL1#
 RegExp="(?siU).*img/symb-wind/w(.*).gif" alt=".*".*"
 UpdateRate=#UpdateRateWeather#
 StringIndex=1
-
-[WMeasureWET2]
-Measure=Plugin
-Plugin=Plugins/WebParser.dll
-Url=#URL1#
-RegExp="(?siU).*img/symb-wind/w(.*).gif" alt="(.*)".*"
-UpdateRate=#UpdateRateWeather#
-StringIndex=2
-Substitute="N":"Ñ","W":"Ç","S":"Þ","E":"Â","NW":"ÑÇ","NE":"ÑÂ","SW":"ÞÇ","SE":"ÞÂ","NNW":"ÑÑÇ","NNE":"ÑÑÂ","SSW":"ÞÞÇ","SSE":"ÞÞÂ","ENE":"ÂÑÂ","WSW":"ÇÞÇ","WNW":"ÇÑÇ","ESE":"ÂÞÂ","CALM":"ØÒÈËÜ","VAR":""
