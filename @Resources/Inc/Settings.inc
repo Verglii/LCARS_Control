@@ -17,7 +17,7 @@ FONHID=0
 FONX=530
 FONY=270
 FONH=440
-FONW=640
+FONW=750
 
 CompInfo=1
 CPU_MEM=1
@@ -26,11 +26,11 @@ CPU_MEM1=1
 DATABASE=1
 PowerSource=1
 STEAM_=1
-Weather_=0
-News_=1
+Weather_=1
+Schedule_=0
 MediaPl=1
 
-DATABASELinksBorder=1
+DATABASELinksBorder=0
 ;Drive1
 D1=C
 ;Drive2
@@ -162,3 +162,7 @@ MediaPl_=0
 URL=http://www.foreca.ru/Russia/Trekhgornyy?tenday
 URL1=http://www.foreca.ru/Russia/Trekhgornyy
 UpdateRateWeather=10000
+
+;Schedule=================
+WeekNumber=1
+WeekHNumber=1

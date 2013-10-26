@@ -176,39 +176,6 @@ StringIndex=1
 UpdateRate=#UpdateRateWeather#
 
 
-[WMeasureF]
-Measure=Plugin
-Plugin=Plugins/WebParser.dll
-Url=#URL1#
-RegExp="(?siU)<h4 class="entry-title">(.*)</h4>.*"
-UpdateRate=#UpdateRateWeather#
-StringIndex=1
-
-[WMeasureTF]
-Measure=Plugin
-Plugin=Plugins/WebParser.dll
-Url=#URL1#
-RegExp="(?siU)<span class=".* txt-xxlarge"><strong>(.*)</strong>.*"
-UpdateRate=#UpdateRateWeather#
-StringIndex=1
-
-[WMeasureFO]
-Measure=Plugin
-Plugin=Plugins/WebParser.dll
-Url=#URL1#
-RegExp="(?siU)<div class="right txt-tight">(.*)<br />.*"
-UpdateRate=#UpdateRateWeather#
-StringIndex=1
-
-[WMeasureOBN]
-Measure=Plugin
-Plugin=Plugins/WebParser.dll
-Url=#URL1#
-RegExp="(?siU)<div class="bot txt-tight grey">.*(.*)<br />.*"
-UpdateRate=#UpdateRateWeather#
-StringIndex=1
-Substitute="В":"на"
-
 [WMeasureON]
 Measure=Plugin
 Plugin=Plugins/WebParser.dll
@@ -239,15 +206,6 @@ Measure=Plugin
 Plugin=Plugins/WebParser.dll
 Url=#URL1#
 RegExp="(?siU).*height="28" /> <strong>(.*)</strong>.*"
-UpdateRate=#UpdateRateWeather#
-StringIndex=1
-Substitute="&deg;":""
-
-[WMeasureTR]
-Measure=Plugin
-Plugin=Plugins/WebParser.dll
-Url=#URL1#
-RegExp="(?siU).*Точка росы:   <strong>(.*)</strong>.*"
 UpdateRate=#UpdateRateWeather#
 StringIndex=1
 Substitute="&deg;":""

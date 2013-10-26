@@ -22,7 +22,7 @@ LMB1_3=НАКОПИТЕЛИ
 LMB1_4=ПИТАНИЕ
 LMB1_5=STEAM И ИГРЫ
 LMB1_6=ПОГОДА
-LMB1_7=НОВОСТИ
+LMB1_7=РАСПИСАНИЕ
 LMB1_8=НАСТРОЙКИ
 LMB1_9=ПАНЕЛЬ УПРАВЛЕНИЯ
 LMB1_10=ПРОИГРЫВАТЕЛЬ
@@ -91,3 +91,11 @@ NewsSteam=НОВОСТИ
 SteamDownload=ЗАГРУЗКИ
 SteamFriends=ДРУЗЬЯ
 SteamInventory=ИНВЕНТАРЬ
+
+;Schedule
+WeekDay1=Понедельник
+WeekDay2=Вторник
+WeekDay3=Среда
+WeekDay4=Четверг
+WeekDay5=Пятница
+WeekDay6=Суббота
