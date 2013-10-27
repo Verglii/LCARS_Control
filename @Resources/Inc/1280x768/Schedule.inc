@@ -11,7 +11,7 @@ ScriptFile=#@#Inc/1280x768/LuaSchedule.lua
 	SolidColor=00000000
 	Hidden=#Schedule_#
 	DynamicVariables=1
-	OnUpdateAction=!Execute [!CommandMeasure "ScheduleLua" "SpawnText()"]
+	OnUpdateAction=!Execute #SchReload#
 
 [Week1]
 	Meter=String
@@ -27,7 +27,7 @@ ScriptFile=#@#Inc/1280x768/LuaSchedule.lua
 	SolidColor=#ELBOS#
 	Hidden=#Schedule_#
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
-	LeftMouseUpAction=!Execute #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute #Week1# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
 	DynamicVariables=1
 
 [Week2]
@@ -36,8 +36,9 @@ ScriptFile=#@#Inc/1280x768/LuaSchedule.lua
 	Text=#Week2Text#
 	Y=510
 	H=80
+	SolidColor=#ELBOS#
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
-	LeftMouseUpAction=!Execute #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute #Week2# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
 
 [WeatherSettings]
 	Meter=String
@@ -45,6 +46,7 @@ ScriptFile=#@#Inc/1280x768/LuaSchedule.lua
 	Text=#ScheduleSettings#
 	Y=600
 	H=80
+	SolidColor=#ELBOS#
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
 	LeftMouseUpAction=!Execute #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
 

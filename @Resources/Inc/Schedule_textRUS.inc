@@ -40,3 +40,45 @@ Week1Day6_3=3 пара
 Week1Day6_4=4 пара
 Week1Day6_5=5 пара
 Week1Day6_6=6 пара
+
+Week2Day1_1=1 пара
+Week2Day1_2=2 пара
+Week2Day1_3=3 пара
+Week2Day1_4=4 пара
+Week2Day1_5=5 пара
+Week2Day1_6=6 пара
+
+Week2Day2_1=1 пара
+Week2Day2_2=2 пара
+Week2Day2_3=3 пара
+Week2Day2_4=4 пара
+Week2Day2_5=5 пара
+Week2Day2_6=6 пара
+
+Week2Day3_1=1 пара
+Week2Day3_2=2 пара
+Week2Day3_3=3 пара
+Week2Day3_4=4 пара
+Week2Day3_5=5 пара
+Week2Day3_6=6 пара
+
+Week2Day4_1=1 пара
+Week2Day4_2=2 пара
+Week2Day4_3=3 пара
+Week2Day4_4=4 пара
+Week2Day4_5=5 пара
+Week2Day4_6=6 пара
+
+Week2Day5_1=1 пара
+Week2Day5_2=2 пара
+Week2Day5_3=3 пара
+Week2Day5_4=4 пара
+Week2Day5_5=5 пара
+Week2Day5_6=6 пара
+
+Week2Day6_1=1 пара
+Week2Day6_2=2 пара
+Week2Day6_3=3 пара
+Week2Day6_4=4 пара
+Week2Day6_5=5 пара
+Week2Day6_6=6 пара

@@ -184,3 +184,8 @@ SLSett=[steam://open/settings]
 SLInv=[steam://open/inventory]
 SLN=[steam://open/news]
 ;======================Player
+
+;======================Schedule
+Week1=[!SetVariable "WeekNumber" "1"][!RainmeterWriteKeyValue Variables "WeekNumber" "1" "#@#\Inc\Settings.inc"]
+Week2=[!SetVariable "WeekNumber" "2"][!RainmeterWriteKeyValue Variables "WeekNumber" "2" "#@#\Inc\Settings.inc"]
+SchReload=[!CommandMeasure "ScheduleLua" "SpawnText()"]

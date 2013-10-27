@@ -72,6 +72,7 @@
 	Text=#Settings#
 	Y=510
 	H=80
+	SolidColor=#ELBOS#
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
 	LeftMouseUpAction=!Execute #SLSett# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
 
@@ -81,6 +82,7 @@
 	Text=#NewsSteam#
 	Y=600
 	H=80
+	SolidColor=#ELBOS#
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
 	LeftMouseUpAction=!Execute #SLN# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
 
@@ -89,6 +91,7 @@
 	MeterStyle=SteamLib
 	Text=#SteamDownload#
 	X=1180
+	SolidColor=#ELBOS#
 	StringAlign=LeftBottom
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
 	LeftMouseUpAction=!Execute #SLDownl# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
@@ -100,6 +103,7 @@
 	X=1180
 	Y=510
 	H=80
+	SolidColor=#ELBOS#
 	StringAlign=LeftBottom
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
 	LeftMouseUpAction=!Execute #SLFr# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
@@ -111,6 +115,7 @@
 	X=1180
 	Y=600
 	H=80
+	SolidColor=#ELBOS#
 	StringAlign=LeftBottom
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
 	LeftMouseUpAction=!Execute #SLInv# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]

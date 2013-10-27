@@ -82,9 +82,9 @@
 [WMeterName]
 	Meter=String
 	MeasureName=WMeasureName
-	X=1010
+	X=1030
 	Y=330
-	W=300
+	W=260
 	H=100
 	FontColor=#COL2#
 	FontFace=#F#
@@ -99,9 +99,9 @@
 [WMeterTMAX1]
 	Meter=String
 	MeasureName=WMeasureTMAX
-	X=800
+	X=820
 	Y=330
-	W=100
+	W=140
 	H=100
 	FontColor=#COL2#
 	FontFace=#F#
@@ -123,9 +123,9 @@
 [WMeterON]
 	Meter=String
 	MeasureName=WMeasureON
-	X=860
+	X=900
 	Y=390
-	W=300
+	W=260
 	H=25
 	FontSize=#F2#
 	FontColor=#COL2#
