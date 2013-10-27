@@ -17,7 +17,7 @@ FONHID=0
 FONX=530
 FONY=270
 FONH=440
-FONW=750
+FONW=640
 
 CompInfo=1
 CPU_MEM=1
@@ -26,11 +26,11 @@ CPU_MEM1=1
 DATABASE=1
 PowerSource=1
 STEAM_=1
-Weather_=1
-Schedule_=0
+Weather_=0
+Schedule_=1
 MediaPl=1
 
-DATABASELinksBorder=0
+DATABASELinksBorder=1
 ;Drive1
 D1=C
 ;Drive2

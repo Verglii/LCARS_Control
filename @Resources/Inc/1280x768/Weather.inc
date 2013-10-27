@@ -175,7 +175,7 @@
 	Text=%1
 	X=r
 	Y=r
-	W=150
+	W=130
 	H=40
 	FontColor=#COL2#
 	FontFace=#F#
@@ -189,9 +189,9 @@
 [WMeterDay+1TMax]
 	Meter=String
 	MeasureName=WMeasureTMAX2
-	X=50R
+	X=70R
 	Y=r
-	W=50
+	W=70
 	H=20
 	FontColor=#COL2#
 	FontFace=#F#
@@ -227,48 +227,22 @@
 
 [WMeterDay+2Fon]
 	Meter=Image
+	MeterStyle=WMeterDay+1Fon
 	X=10R
-	Y=500
-	W=200
-	H=200
-	SolidColor=#FONWeath#
-	Hidden=#Weather_#
-	DynamicVariables=1
 
 [WMeterDay+2Name]
 	Meter=String
+	MeterStyle=WMeterDay+1Name
 	MeasureName=WMeasureDAY3
-	Text=%1
 	X=r
 	Y=r
-	W=150
-	H=40
-	FontColor=#COL2#
-	FontFace=#F#
-	AntiAlias=1
-	ClipString=1
-	SolidColor=#FONWeath#
-	FontSize=#F4#
-	DynamicVariables=1
-	Hidden=#Weather_#
 
 [WMeterDay+2TMax]
 	Meter=String
+	MeterStyle=WMeterDay+1TMax
 	MeasureName=WMeasureTMAX3
-	X=50R
+	X=70R
 	Y=r
-	W=50
-	H=20
-	FontColor=#COL2#
-	FontFace=#F#
-	AntiAlias=1
-	ClipString=1
-	StringAlign=Right
-	SolidColor=#FONWeath#
-	FontSize=#F2#
-	Postfix=" °C"
-	DynamicVariables=1
-	Hidden=#Weather_#
 
 [WMeterDay+2TMin]
 	Meter=String
@@ -279,62 +253,28 @@
 
 [WMeterDay+2Icon]
 	Meter=Image
+	MeterStyle=WMeterDay+1Icon
 	MeasureName=WMeasureWeatherIcon3
-	Path=#@#Static/WeatherIcons/
-	ImageName=d%1
 	X=-200r
-	Y=540
-	W=200
-	H=160
-	PreserveAspectRatio=1
-	Antialias=1
-	Hidden=#Weather_#
-	DynamicVariables=1
 
 [WMeterDay+3Fon]
 	Meter=Image
+	MeterStyle=WMeterDay+1Fon
 	X=10R
-	Y=500
-	W=200
-	H=200
-	SolidColor=#FONWeath#
-	Hidden=#Weather_#
-	DynamicVariables=1
 
 [WMeterDay+3Name]
 	Meter=String
+	MeterStyle=WMeterDay+1Name
 	MeasureName=WMeasureDAY4
-	Text=%1
 	X=r
 	Y=r
-	W=150
-	H=40
-	FontColor=#COL2#
-	FontFace=#F#
-	AntiAlias=1
-	ClipString=1
-	SolidColor=#FONWeath#
-	FontSize=#F4#
-	DynamicVariables=1
-	Hidden=#Weather_#
 
 [WMeterDay+3TMax]
 	Meter=String
+	MeterStyle=WMeterDay+1TMax
 	MeasureName=WMeasureTMAX4
-	X=50R
+	X=70R
 	Y=r
-	W=50
-	H=20
-	FontColor=#COL2#
-	FontFace=#F#
-	AntiAlias=1
-	ClipString=1
-	StringAlign=Right
-	SolidColor=#FONWeath#
-	FontSize=#F2#
-	Postfix=" °C"
-	DynamicVariables=1
-	Hidden=#Weather_#
 
 [WMeterDay+3TMin]
 	Meter=String
@@ -345,18 +285,9 @@
 
 [WMeterDay+3Icon]
 	Meter=Image
+	MeterStyle=WMeterDay+1Icon
 	MeasureName=WMeasureWeatherIcon4
-	Path=#@#Static/WeatherIcons/
-	ImageName=d%1
 	X=-200r
-	Y=540
-	W=200
-	H=160
-	PreserveAspectRatio=1
-	Antialias=1
-	Hidden=#Weather_#
-	DynamicVariables=1
-
 
 
 
