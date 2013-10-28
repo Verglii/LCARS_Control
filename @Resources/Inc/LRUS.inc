@@ -93,6 +93,11 @@ SteamFriends=ДРУЗЬЯ
 SteamInventory=ИНВЕНТАРЬ
 
 ;Schedule
+Week1Text=1 неделя
+Week2Text=2 неделя
+ScheduleSettings=Настройки
+HWeek1Text="‡••"
+HWeek2Text="••‰"
 WeekDay1=Понедельник
 WeekDay2=Вторник
 WeekDay3=Среда

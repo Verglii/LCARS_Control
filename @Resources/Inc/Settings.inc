@@ -92,8 +92,8 @@ QL5L=http://www.bracercom.com/tutorial/content/CoherentLCARSInterface/LCARSCoher
 QL6N=Yandex
 QL6L=http://Yandex.ru
 
-GR|IND=0
-IND|GR=1
+GR|IND=1
+IND|GR=0
 
 CPULCount=2
 

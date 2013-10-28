@@ -188,4 +188,6 @@ SLN=[steam://open/news]
 ;======================Schedule
 Week1=[!SetVariable "WeekNumber" "1"][!RainmeterWriteKeyValue Variables "WeekNumber" "1" "#@#\Inc\Settings.inc"]
 Week2=[!SetVariable "WeekNumber" "2"][!RainmeterWriteKeyValue Variables "WeekNumber" "2" "#@#\Inc\Settings.inc"]
+HWeek1=[!SetVariable "WeekHNumber" "1"][!RainmeterWriteKeyValue Variables "WeekHNumber" "1" "#@#\Inc\Settings.inc"]
+HWeek2=[!SetVariable "WeekHNumber" "2"][!RainmeterWriteKeyValue Variables "WeekHNumber" "2" "#@#\Inc\Settings.inc"]
 SchReload=[!CommandMeasure "ScheduleLua" "SpawnText()"]

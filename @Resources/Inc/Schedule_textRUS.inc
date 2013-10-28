@@ -1,10 +1,10 @@
 [Variables]
-Week1Day1_1=1 пара
-Week1Day1_2=2 пара
-Week1Day1_3=3 пара
-Week1Day1_4=4 пара
-Week1Day1_5=5 пара
-Week1Day1_6=6 пара
+Week1Day1_1=-
+Week1Day1_2=-
+Week1Day1_3=Информатика, 1 группа
+Week1Day1_4=Информатика, 2 группа
+Week1Day1_5=17:10 Основы телевидения
+Week1Day1_6=-
 
 Week1Day2_1=1 пара
 Week1Day2_2=2 пара
