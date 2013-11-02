@@ -1,7 +1,7 @@
 [WMeasureName]
 Measure=Plugin
 Plugin=Plugins/WebParser.dll
-Url=#URL#
+Url=#URL#?tenday
 RegExp="(?siU)<h1>(.*)</h1>.*"
 UpdateRate=#UpdateRateWeather#
 Substitute="&deg;":""
@@ -10,7 +10,7 @@ StringIndex=1
 [WMeasureDAY]
 Measure=Plugin
 Plugin=Plugins/WebParser.dll
-Url=#URL#
+Url=#URL#?tenday
 RegExp="(?siU)<span class="h5">(.*)</span>.*<span class="h5">(.*)</span>.*<span class="h5">(.*)</span>.*<span class="h5">(.*)</span>.*<span class="h5">(.*)</span>.*<span class="h5">(.*)</span>.*<span class="h5">(.*)</span>.*<span class="h5">(.*)</span>.*<span class="h5">(.*)</span>.*<span class="h5">(.*)</span>.*"
 UpdateRate=#UpdateRateWeather#
 StringIndex=1
@@ -47,7 +47,7 @@ StringIndex=5
 [WMeasureTMAX]
 Measure=Plugin
 Plugin=Plugins/WebParser.dll
-Url=#URL#
+Url=#URL#?tenday
 RegExp="(?siU)Макс: <strong>(.*)</strong>.*Макс: <strong>(.*)</strong>.*Макс: <strong>(.*)</strong>.*Макс: <strong>(.*)</strong>.*Макс: <strong>(.*)</strong>.*Макс: <strong>(.*)</strong>.*Макс: <strong>(.*)</strong>.*Макс: <strong>(.*)</strong>.*Макс: <strong>(.*)</strong>.*Макс: <strong>(.*)</strong>.*"
 UpdateRate=#UpdateRateWeather#
 StringIndex=1
@@ -88,7 +88,7 @@ Substitute="&deg;":""
 [WMeasureTMIN]
 Measure=Plugin
 Plugin=Plugins/WebParser.dll
-Url=#URL#
+Url=#URL#?tenday
 RegExp="(?siU)Мин: <strong>(.*)</strong>.*Мин: <strong>(.*)</strong>.*Мин: <strong>(.*)</strong>.*Мин: <strong>(.*)</strong>.*Мин: <strong>(.*)</strong>.*Мин: <strong>(.*)</strong>.*Мин: <strong>(.*)</strong>.*Мин: <strong>(.*)</strong>.*Мин: <strong>(.*)</strong>.*Мин: <strong>(.*)</strong>.*"
 UpdateRate=#UpdateRateWeather#
 StringIndex=1
@@ -131,7 +131,7 @@ Substitute="&deg;":""
 [WMeasureWeatherIcon]
 Measure=Plugin
 Plugin=Plugins/WebParser.dll
-Url=#URL#
+Url=#URL#?tenday
 RegExp="(?siU)<img src="/img/symb-50x50/d(.*).png.*<img src="/img/symb-50x50/d(.*).png.*<img src="/img/symb-50x50/d(.*).png.*<img src="/img/symb-50x50/d(.*).png.*<img src="/img/symb-50x50/d(.*).png.*<img src="/img/symb-50x50/d(.*).png.*<img src="/img/symb-50x50/d(.*).png.*<img src="/img/symb-50x50/d(.*).png.*<img src="/img/symb-50x50/d(.*).png.*<img src="/img/symb-50x50/d(.*).png.*"
 StringIndex=1
 UpdateRate=#UpdateRateWeather#
@@ -170,7 +170,7 @@ UpdateRate=#UpdateRateWeather#
 [WMeasureWeatherIconD1]
 Measure=Plugin
 Plugin=Plugins/WebParser.dll
-Url=#URL1#
+Url=#URL#
 RegExp="(?siU)<img class="symb" src="/img/symb-70x70/(.*).png.*"
 StringIndex=1
 UpdateRate=#UpdateRateWeather#
@@ -179,7 +179,7 @@ UpdateRate=#UpdateRateWeather#
 [WMeasureON]
 Measure=Plugin
 Plugin=Plugins/WebParser.dll
-Url=#URL1#
+Url=#URL#
 RegExp="(?siU)Ощущается как: <strong>(.*)</strong>.*"
 UpdateRate=#UpdateRateWeather#
 StringIndex=1
@@ -188,7 +188,7 @@ Substitute="&deg;":""
 [WMeasureFD]
 Measure=Plugin
 Plugin=Plugins/WebParser.dll
-Url=#URL1#
+Url=#URL#
 RegExp="(?siU)Барометр:  <strong>(.*)</strong>.*"
 UpdateRate=#UpdateRateWeather#
 StringIndex=1
@@ -196,7 +196,7 @@ StringIndex=1
 [WMeasureOW]
 Measure=Plugin
 Plugin=Plugins/WebParser.dll
-Url=#URL1#
+Url=#URL#
 RegExp="(?siU)От. влажность:   <strong>(.*)</strong>.*"
 UpdateRate=#UpdateRateWeather#
 StringIndex=1
@@ -204,7 +204,7 @@ StringIndex=1
 [WMeasurewind]
 Measure=Plugin
 Plugin=Plugins/WebParser.dll
-Url=#URL1#
+Url=#URL#
 RegExp="(?siU).*height="28" /> <strong>(.*)</strong>.*"
 UpdateRate=#UpdateRateWeather#
 StringIndex=1
@@ -213,7 +213,7 @@ Substitute="&deg;":""
 [WMeasureWET]
 Measure=Plugin
 Plugin=Plugins/WebParser.dll
-Url=#URL1#
+Url=#URL#
 RegExp="(?siU).*img/symb-wind/w(.*).gif" alt=".*".*"
 UpdateRate=#UpdateRateWeather#
 StringIndex=1

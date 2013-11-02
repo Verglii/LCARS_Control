@@ -1,5 +1,15 @@
+[Elbos6WeatherBlock4]
+	Meter=Image
+	X=420
+	Y=320
+	W=100
+	H=290
+	SolidColor=#ELBOS#
+	Hidden=#Weather_#
+	DynamicVariables=1
+
 [Elbos6Weather]
-	Meter=IMAGE
+	Meter=Image
 	ImageName=#@#/Static/Elbos/Elbos3#CS#.png
 	X=1150
 	Y=230
@@ -28,6 +38,47 @@
 	DynamicVariables=1
 	Hidden=#Weather_#
 
+[WeatherCity1]
+	Meter=String
+	Text=#City1Name#
+	X=1180
+	Y=380
+	W=100
+	H=50
+	AntiAlias=1
+	FontFace=#F#
+	FontSize=#F3#
+	SolidColor=#ELBOS#
+	Hidden=#Weather_#
+	DynamicVariables=1
+	StringAlign=LeftBottom
+	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute #WCity1# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
+
+[WeatherCity2]
+	Meter=String
+	MeterStyle=WeatherCity1
+	Text=#City2Name#
+	Y=10R
+	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute #WCity2# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
+
+[WeatherCity3]
+	Meter=String
+	MeterStyle=WeatherCity1
+	Text=#City3Name#
+	Y=10R
+	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute #WCity3# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
+
+[WeatherMeterSettings]
+	Meter=String
+	MeterStyle=WeatherCity1
+	Text=#WeatherSettings#
+	Y=50R
+	H=90
+	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute #WeathSettings# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
 
 [WMeterFonToday]
 	Meter=Image
@@ -143,7 +194,6 @@
 	MeasureName=WMeasureFD
 	Y=R
 	Prefix="Давленение: "
-
 
 [WMeterOW]
 	Meter=String

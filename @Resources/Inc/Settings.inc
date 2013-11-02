@@ -17,20 +17,20 @@ FONHID=0
 FONX=530
 FONY=270
 FONH=440
-FONW=750
+FONW=640
 
 CompInfo=1
 CPU_MEM=1
 CPU_MEM0=1
 CPU_MEM1=1
-DATABASE=1
+DATABASE=0
 PowerSource=1
 STEAM_=1
 Weather_=1
-Schedule_=0
+Schedule_=1
 MediaPl=1
 
-DATABASELinksBorder=0
+DATABASELinksBorder=1
 ;Drive1
 D1=C
 ;Drive2
@@ -159,10 +159,20 @@ LastPlace=D:\
 MediaPl_=0
 
 ;Weather==================
-URL=http://www.foreca.ru/Russia/Trekhgornyy?tenday
-URL1=http://www.foreca.ru/Russia/Trekhgornyy
-UpdateRateWeather=10000
+URL=http://www.foreca.ru/Russia/Trekhgornyy
+UpdateRateWeather=5000
 
+Country1=Russia
+City1=Trekhgornyy
+City1Name=Трёхгорный
+Country2=Russia
+City2=Moskow
+City2Name=Москва
+Country3=Russia
+City3=Chelyabinsk
+City3Name=Челябинск
+
+WeatherSettings=НАСТРОЙКА
 ;Schedule=================
 WeekNumber=1
 WeekHNumber=1

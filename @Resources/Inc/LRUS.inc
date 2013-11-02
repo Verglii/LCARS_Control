@@ -95,7 +95,7 @@ SteamInventory=ИНВЕНТАРЬ
 ;Schedule
 Week1Text=1 неделя
 Week2Text=2 неделя
-ScheduleSettings=Настройки
+ScheduleSettings=НАСТРОЙКА
 HWeek1Text="‡••"
 HWeek2Text="••‰"
 WeekDay1=Понедельник
