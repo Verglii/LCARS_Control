@@ -53,28 +53,31 @@
 	DynamicVariables=1
 	StringAlign=LeftBottom
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
-	LeftMouseUpAction=!Execute #WCity1# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute #WCity1# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!Refresh]
 
 [WeatherCity2]
 	Meter=String
 	MeterStyle=WeatherCity1
 	Text=#City2Name#
+	SolidColor=#ELBOS#
 	Y=10R
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
-	LeftMouseUpAction=!Execute #WCity2# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute #WCity2# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!Refresh]
 
 [WeatherCity3]
 	Meter=String
 	MeterStyle=WeatherCity1
 	Text=#City3Name#
+	SolidColor=#ELBOS#
 	Y=10R
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
-	LeftMouseUpAction=!Execute #WCity3# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute #WCity3# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!Refresh]
 
 [WeatherMeterSettings]
 	Meter=String
 	MeterStyle=WeatherCity1
 	Text=#WeatherSettings#
+	SolidColor=#ELBOS#
 	Y=50R
 	H=90
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]

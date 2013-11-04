@@ -185,6 +185,11 @@ SLInv=[steam://open/inventory]
 SLN=[steam://open/news]
 ;======================Player
 
+
+;======================Weather
+WCity1=[!SetVariable "URL" "http://www.foreca.ru/#Country1#/#City1#"][!RainmeterWriteKeyValue Variables "URL" "http://www.foreca.ru/#Country1#/#City1#" "#@#\Inc\Settings.inc"]
+WCity2=[!SetVariable "URL" "http://www.foreca.ru/#Country2#/#City2#"][!RainmeterWriteKeyValue Variables "URL" "http://www.foreca.ru/#Country2#/#City2#" "#@#\Inc\Settings.inc"]
+WCity3=[!SetVariable "URL" "http://www.foreca.ru/#Country3#/#City3#"][!RainmeterWriteKeyValue Variables "URL" "http://www.foreca.ru/#Country3#/#City3#" "#@#\Inc\Settings.inc"]
 ;======================Schedule
 Week1=[!SetVariable "WeekNumber" "1"][!RainmeterWriteKeyValue Variables "WeekNumber" "1" "#@#\Inc\Settings.inc"]
 Week2=[!SetVariable "WeekNumber" "2"][!RainmeterWriteKeyValue Variables "WeekNumber" "2" "#@#\Inc\Settings.inc"]

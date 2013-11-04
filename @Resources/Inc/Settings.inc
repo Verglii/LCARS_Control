@@ -23,10 +23,10 @@ CompInfo=1
 CPU_MEM=1
 CPU_MEM0=1
 CPU_MEM1=1
-DATABASE=0
+DATABASE=1
 PowerSource=1
 STEAM_=1
-Weather_=1
+Weather_=0
 Schedule_=1
 MediaPl=1
 
