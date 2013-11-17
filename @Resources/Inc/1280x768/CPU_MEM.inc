@@ -62,7 +62,7 @@
 	FontFace=#F#
 	FontSize=#F4#
 	StringAlign=Left
-	SolidColor=#BKGCLH##Tr_CPU_RAM#
+	SolidColor=#CPU_COL_A#
 	AntiAlias=1
 	DynamicVariables=1
 	Hidden=#CPU_MEM0#
@@ -85,7 +85,7 @@
 	y=330
 	h=250
 	w=500
-	SolidColor=#BKGCLH##Tr_CPU_RAM#
+	SolidColor=#CPU_COL_A#
 	DynamicVariables=1
 	Hidden=#CPU_MEM1#
 
@@ -138,7 +138,7 @@
 	FontSize=#F3#
 	FontColor=#CPUCL1#
 	AntiAlias=1
-	SolidColor=#BKGCLH##Tr_CPU_RAM#
+	SolidColor=#CPU_COL_A#
 	Hidden=#CPU_MEM#
 	DynamicVariables=1
 
@@ -154,7 +154,7 @@
 	FontSize=#F3#
 	FontColor=#CPUCL2#
 	AntiAlias=1
-	SolidColor=#BKGCLH##Tr_CPU_RAM#
+	SolidColor=#CPU_COL_A#
 	Hidden=#CPU_MEM#
 	DynamicVariables=1
 
@@ -170,7 +170,7 @@
 	FontSize=#F3#
 	FontColor=#CPUCL3#
 	AntiAlias=1
-	SolidColor=#BKGCLH##Tr_CPU_RAM#
+	SolidColor=#CPU_COL_A#
 	Hidden=#CPU_MEM#
 	DynamicVariables=1
 
@@ -186,7 +186,7 @@
 	FontSize=#F3#
 	FontColor=#CPUCL4#
 	AntiAlias=1
-	SolidColor=#BKGCLH##Tr_CPU_RAM#
+	SolidColor=#CPU_COL_A#
 	Hidden=#CPU_MEM#
 	DynamicVariables=1
 
@@ -202,7 +202,7 @@
 	FontSize=#F3#
 	FontColor=#CPUCL5#
 	AntiAlias=1
-	SolidColor=#BKGCLH##Tr_CPU_RAM#
+	SolidColor=#CPU_COL_A#
 	Hidden=#CPU_MEM#
 	DynamicVariables=1
 
@@ -218,7 +218,7 @@
 	FontSize=#F3#
 	FontColor=#CPUCL6#
 	AntiAlias=1
-	SolidColor=#BKGCLH##Tr_CPU_RAM#
+	SolidColor=#CPU_COL_A#
 	Hidden=#CPU_MEM#
 	DynamicVariables=1
 
@@ -234,7 +234,7 @@
 	FontSize=#F3#
 	FontColor=#CPUCL7#
 	AntiAlias=1
-	SolidColor=#BKGCLH##Tr_CPU_RAM#
+	SolidColor=#CPU_COL_A#
 	Hidden=#CPU_MEM#
 	DynamicVariables=1
 
@@ -250,7 +250,7 @@
 	FontSize=#F3#
 	FontColor=#CPUCL8#
 	AntiAlias=1
-	SolidColor=#BKGCLH##Tr_CPU_RAM#
+	SolidColor=#CPU_COL_A#
 	Hidden=#CPU_MEM#
 	DynamicVariables=1
 
@@ -266,7 +266,7 @@
 	FontSize=#F3#
 	FontColor=#CPUCL9#
 	AntiAlias=1
-	SolidColor=#BKGCLH##Tr_CPU_RAM#
+	SolidColor=#CPU_COL_A#
 	Hidden=#CPU_MEM#
 	DynamicVariables=1
 
@@ -282,7 +282,7 @@
 	FontSize=#F3#
 	FontColor=#CPUCL10#
 	AntiAlias=1
-	SolidColor=#BKGCLH##Tr_CPU_RAM#
+	SolidColor=#CPU_COL_A#
 	Hidden=#CPU_MEM#
 	DynamicVariables=1
 
@@ -298,7 +298,7 @@
 	FontSize=#F3#
 	FontColor=#CPUCL11#
 	AntiAlias=1
-	SolidColor=#BKGCLH##Tr_CPU_RAM#
+	SolidColor=#CPU_COL_A#
 	Hidden=#CPU_MEM#
 	DynamicVariables=1
 
@@ -314,7 +314,7 @@
 	FontSize=#F3#
 	FontColor=#CPUCL12#
 	AntiAlias=1
-	SolidColor=#BKGCLH##Tr_CPU_RAM#
+	SolidColor=#CPU_COL_A#
 	Hidden=#CPU_MEM#
 	DynamicVariables=1
 
@@ -552,7 +552,7 @@
 	ImageName=#@#\Static\Isochip.png
 	x=1050
 	y=590
-	SolidColor=#BKGCLH##Tr_CPU_RAM#
+	SolidColor=#CPU_COL_A#
 	DynamicVariables=1
 	Hidden=#CPU_MEM#
 

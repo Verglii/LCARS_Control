@@ -47,8 +47,8 @@ ScriptFile=#@#Inc/1280x768/LuaSchedule.lua
 	Y=40R
 	H=70
 	SolidColor=#ELBOS#
-	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
-	LeftMouseUpAction=!Execute #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
+	LeftMouseDownAction=!Execute #LSettings7# [!SetOption #CURRENTSECTION# SolidColor #COL2#]
+	LeftMouseUpAction=!Execute #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#]#Close1280x768##OpenSettings#
 
 [HWeek1]
 	Meter=String
@@ -240,41 +240,4 @@ ScriptFile=#@#Inc/1280x768/LuaSchedule.lua
 	X=r
 	Y=R
 	SolidColor=#FONSchedule2#
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

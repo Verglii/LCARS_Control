@@ -88,7 +88,7 @@
 	FontFace=#F#
 	FontSize=#F3#
 	FontColor=#COL2#
-	SolidColor=#COL3##Tr_BT#
+	SolidColor=#Col_Btt_A#
 	Hidden=#PowerSource#
 	DynamicVariables=1
 
@@ -104,7 +104,7 @@
 	AntiAlias=1
 	FontFace=#F#
 	FontSize=#F3#
-	FontColor=#PRI#
+	FontColor=#Col_Btt_Font#
 	Hidden=#PowerSource#
 	DynamicVariables=1
 
@@ -119,7 +119,7 @@
 	FontFace=#F#
 	FontSize=#F3#
 	FontColor=#COL2#
-	SolidColor=#COL3##Tr_BT#
+	SolidColor=#Col_Btt_A#
 	Hidden=#PowerSource#
 	DynamicVariables=1
 
@@ -133,7 +133,7 @@
 	AntiAlias=1
 	FontFace=#F#
 	FontSize=#F3#
-	FontColor=#PRI#
+	FontColor=#Col_Btt_Font#
 	Hidden=#PowerSource#
 	DynamicVariables=1
 

@@ -12,7 +12,7 @@
 	AntiAlias=1
 	ClipString=1
 	DynamicVariables=1
-	LeftMouseDownAction=!Execute #PowerSource_Off# #DATABASE_On# #CoIn_Off# #CPU_MEM_Off# #CPU_MEM|N_Off# #CPU_Off# [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
+	LeftMouseDownAction=!Execute #MediaPl_Off# #Schedule_Off# #Weather_Off# #STEAM_Off# #PowerSource_Off# #DATABASE_On# #CoIn_Off# #CPU_MEM_Off# #CPU_MEM|N_Off# #CPU_Off# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #PRI#]
 	LeftMouseUpAction=!Execute #FBLCom1# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
 
 
@@ -112,8 +112,8 @@
 	StringAlign=RightBottom
 	SolidColor=#ELBOS#
 	Hidden=#DATABASE#
-	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
-	LeftMouseUpAction=!Execute #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
+	LeftMouseDownAction=!Execute #LSettings3# [!SetOption #CURRENTSECTION# SolidColor #COL2#]
+	LeftMouseUpAction=!Execute #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#]#Close1280x768##OpenSettings#
 	DynamicVariables=1
 
 [RemembPath]
@@ -232,7 +232,7 @@
 	W=#IcW#
 	H=#IcSize#
 	Hidden=#DATABASE#
-	SolidColor=#PRI#90
+	SolidColor=#Color_DB_A#
 	Group=LCARS-PData
 	LeftMouseUpAction=!Execute #Ind1ComL#[!RainmeterRedraw]
 	RightMouseUpAction=!Execute #Ind1ComR#[!RainmeterRedraw]
@@ -276,7 +276,7 @@
 	W=#IcW#
 	H=#IcSize#
 	Hidden=#DATABASE#
-	SolidColor=#PRI#90
+	SolidColor=#Color_DB_A#
 	Group=LCARS-PData
 	LeftMouseUpAction=!Execute #Ind2ComL#[!RainmeterRedraw]
 	RightMouseUpAction=!Execute #Ind2ComR#[!RainmeterRedraw]
@@ -320,7 +320,7 @@
 	W=#IcW#
 	H=#IcSize#
 	Hidden=#DATABASE#
-	SolidColor=#PRI#90
+	SolidColor=#Color_DB_A#
 	Group=LCARS-PData
 	LeftMouseUpAction=!Execute #Ind3ComL#[!RainmeterRedraw]
 	RightMouseUpAction=!Execute #Ind3ComR#[!RainmeterRedraw]
@@ -364,7 +364,7 @@
 	W=#IcW#
 	H=#IcSize#
 	Hidden=#DATABASE#
-	SolidColor=#PRI#90
+	SolidColor=#Color_DB_A#
 	Group=LCARS-PData
 	LeftMouseUpAction=!Execute #Ind4ComL#[!RainmeterRedraw]
 	RightMouseUpAction=!Execute #Ind4ComR#[!RainmeterRedraw]
@@ -408,7 +408,7 @@
 	W=#IcW#
 	H=#IcSize#
 	Hidden=#DATABASE#
-	SolidColor=#PRI#90
+	SolidColor=#Color_DB_A#
 	Group=LCARS-PData
 	LeftMouseUpAction=!Execute #Ind5ComL#[!RainmeterRedraw]
 	RightMouseUpAction=!Execute #Ind5ComR#[!RainmeterRedraw]
@@ -452,7 +452,7 @@
 	W=#IcW#
 	H=#IcSize#
 	Hidden=#DATABASE#
-	SolidColor=#PRI#90
+	SolidColor=#Color_DB_A#
 	Group=LCARS-PData
 	LeftMouseUpAction=!Execute #Ind6ComL#[!RainmeterRedraw]
 	RightMouseUpAction=!Execute #Ind6ComR#[!RainmeterRedraw]
@@ -504,7 +504,7 @@
 	ImageName=#@#\Static\UpLevel.png
 	X=1125
 	Y=285
-	SolidColor=#COL3#99
+	SolidColor=#Color_DB_B#
 	AntiAlias=1
 	Hidden=#DATABASE#
 	Group=LCARS-PData
@@ -523,7 +523,7 @@
 	FontFace=#F#
 	FontSize=#F3#
 	FontColor=#COL2#
-	SolidColor=#COL3#99
+	SolidColor=#Color_DB_B#
 	StringAlign=Left
 	AntiAlias=1
 	Clipstring=1

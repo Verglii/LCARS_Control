@@ -11,11 +11,6 @@ OpenHide1280x768=[!RainmeterActivateConfig "LCARS_Control\1280x768" "LCARS_Hidde
 Open1366x768=[!RainmeterActivateConfig "LCARS_Control\1366x768" "LCARS.ini"]
 Close1366x768=[!RainmeterDeActivateConfig "LCARS_Control\1366x768" "LCARS.ini"]
 
-TextRus=[!SetVariable "Lang" "RUS"][!RainmeterWriteKeyValue Variables "Lang" "RUS" "#@#\Inc\Settings.inc"]
-TextEng=[!SetVariable "Lang" "ENG"][!RainmeterWriteKeyValue Variables "Lang" "ENG" "#@#\Inc\Settings.inc"]
-
-
-
 QLU=110
 QLD=150
 QLL=950
@@ -196,3 +191,29 @@ Week2=[!SetVariable "WeekNumber" "2"][!RainmeterWriteKeyValue Variables "WeekNum
 HWeek1=[!SetVariable "WeekHNumber" "1"][!RainmeterWriteKeyValue Variables "WeekHNumber" "1" "#@#\Inc\Settings.inc"]
 HWeek2=[!SetVariable "WeekHNumber" "2"][!RainmeterWriteKeyValue Variables "WeekHNumber" "2" "#@#\Inc\Settings.inc"]
 SchReload=[!CommandMeasure "ScheduleLua" "SpawnText()"]
+
+;======================Settings
+LSettings0=[!RainmeterWriteKeyValue Variables "Settings_Stage" "0" "#@#\Inc\Settings.inc"]
+LSettings1=[!RainmeterWriteKeyValue Variables "Settings_Stage" "1" "#@#\Inc\Settings.inc"]
+LSettings2=[!RainmeterWriteKeyValue Variables "Settings_Stage" "2" "#@#\Inc\Settings.inc"]
+LSettings3=[!RainmeterWriteKeyValue Variables "Settings_Stage" "3" "#@#\Inc\Settings.inc"]
+LSettings4=[!RainmeterWriteKeyValue Variables "Settings_Stage" "4" "#@#\Inc\Settings.inc"]
+LSettings5=[!RainmeterWriteKeyValue Variables "Settings_Stage" "5" "#@#\Inc\Settings.inc"]
+LSettings6=[!RainmeterWriteKeyValue Variables "Settings_Stage" "6" "#@#\Inc\Settings.inc"]
+LSettings7=[!RainmeterWriteKeyValue Variables "Settings_Stage" "7" "#@#\Inc\Settings.inc"]
+LSettings8=[!RainmeterWriteKeyValue Variables "Settings_Stage" "8" "#@#\Inc\Settings.inc"]
+
+TextRus=[!SetVariable "Lang" "RUS"][!RainmeterWriteKeyValue Variables "Lang" "RUS" "#@#\Inc\Settings.inc"]
+TextEng=[!SetVariable "Lang" "ENG"][!RainmeterWriteKeyValue Variables "Lang" "ENG" "#@#\Inc\Settings.inc"]
+
+SStLoad=[!CommandMeasure "SettingsLua" "Control()"]
+
+SStage0=[!SetVariable "Settings_Stage" "0"][!RainmeterWriteKeyValue Variables "Settings_Stage" "0" "#@#\Inc\Settings.inc"]
+SStage1=[!SetVariable "Settings_Stage" "1"][!RainmeterWriteKeyValue Variables "Settings_Stage" "1" "#@#\Inc\Settings.inc"]
+SStage2=[!SetVariable "Settings_Stage" "2"][!RainmeterWriteKeyValue Variables "Settings_Stage" "2" "#@#\Inc\Settings.inc"]
+SStage3=[!SetVariable "Settings_Stage" "3"][!RainmeterWriteKeyValue Variables "Settings_Stage" "3" "#@#\Inc\Settings.inc"]
+SStage4=[!SetVariable "Settings_Stage" "4"][!RainmeterWriteKeyValue Variables "Settings_Stage" "4" "#@#\Inc\Settings.inc"]
+SStage5=[!SetVariable "Settings_Stage" "5"][!RainmeterWriteKeyValue Variables "Settings_Stage" "5" "#@#\Inc\Settings.inc"]
+SStage6=[!SetVariable "Settings_Stage" "6"][!RainmeterWriteKeyValue Variables "Settings_Stage" "6" "#@#\Inc\Settings.inc"]
+SStage7=[!SetVariable "Settings_Stage" "7"][!RainmeterWriteKeyValue Variables "Settings_Stage" "7" "#@#\Inc\Settings.inc"]
+SStage8=[!SetVariable "Settings_Stage" "8"][!RainmeterWriteKeyValue Variables "Settings_Stage" "8" "#@#\Inc\Settings.inc"]

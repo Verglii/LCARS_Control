@@ -104,3 +104,13 @@ WeekDay3=Среда
 WeekDay4=Четверг
 WeekDay5=Пятница
 WeekDay6=Суббота
+
+;Settings
+LMB1_0=ОБЩИЕ
+
+
+;=Global
+LCARSUserName=ИМЯ
+LCARSUserRank=РАНГ
+LCARSColorScheme=ЦВЕТОВАЯ СХЕМА
+LCARSFon=ЦВЕТ ФОНА

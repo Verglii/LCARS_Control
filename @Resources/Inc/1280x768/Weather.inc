@@ -89,7 +89,7 @@
 	Y=280
 	W=200
 	H=210
-	SolidColor=#FONWeath#
+	SolidColor=#FONWeath_#
 	Hidden=#Weather_#
 	DynamicVariables=1
 
@@ -143,7 +143,7 @@
 	FontColor=#COL2#
 	FontFace=#F#
 	StringAlign=CenterCenter
-	SolidColor=#FONWeath#
+	SolidColor=#FONWeath_#
 	AntiAlias=1
 	ClipString=1
 	FontSize=#F5#
@@ -162,7 +162,7 @@
 	StringAlign=CenterCenter
 	AntiAlias=1
 	ClipString=1
-	SolidColor=#FONWeath#
+	SolidColor=#FONWeath_#
 	FontSize=#F5#
 	Postfix=" °C"
 	DynamicVariables=1
@@ -183,7 +183,7 @@
 	H=25
 	FontSize=#F2#
 	FontColor=#COL2#
-	SolidColor=#FONWeath#
+	SolidColor=#FONWeath_#
 	FontFace=#F#
 	AntiAlias=1
 	ClipString=1
@@ -218,7 +218,7 @@
 	Y=500
 	W=200
 	H=200
-	SolidColor=#FONWeath#
+	SolidColor=#FONWeath_#
 	Hidden=#Weather_#
 	DynamicVariables=1
 
@@ -341,31 +341,5 @@
 	MeterStyle=WMeterDay+1Icon
 	MeasureName=WMeasureWeatherIcon4
 	X=-200r
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

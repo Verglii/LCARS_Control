@@ -1,14 +1,40 @@
-[ELBOS_block_computer]
+[ELBOS_block_computer1]
 	Meter=Image
 	X=420
 	Y=320
-	H=290
+	H=100
 	W=100
 	SolidColor=#ELBOS#
 	Hidden=#CompInfo#
 	DynamicVariables=1
 
+[Computer_Settings]
+	Meter=String
+	Text=#Settings#
+	X=R
+	Y=90R
+	H=80
+	W=100
+	FontFace=#F#
+	FontSize=#F3#
+	StringAlign=RightBottom
+	AntiAlias=1
+	SolidColor=#ELBOS#
+	ClipString=1
+	Hidden=#CompInfo#
+	LeftMouseDownAction=!Execute #LSettings1# [!SetOption #CURRENTSECTION# SolidColor #COL2#]
+	LeftMouseUpAction=!Execute #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#]#Close1280x768##OpenSettings#
+	DynamicVariables=1
 
+[ELBOS_block_computer2]
+	Meter=Image
+	X=-100r
+	Y=10r
+	H=90
+	W=100
+	SolidColor=#ELBOS#
+	Hidden=#CompInfo#
+	DynamicVariables=1
 ;=============================================================Computer
 ;Head
 [Computer_Head_Name]			;Computer info
@@ -22,7 +48,7 @@
 	FontSize=#F4#
 	FontColor=#COL2#
 	AntiAlias=1
-	SolidColor=#COL3#99
+	SolidColor=#CompInfoHeadFon#
 	ClipString=1
 	Hidden=#CompInfo#
 	DynamicVariables=1
@@ -38,7 +64,7 @@
 	FontSize=#F4#
 	FontColor=#COL2#
 	AntiAlias=1
-	SolidColor=#COL3#99
+	SolidColor=#CompInfoHeadFon#
 	ClipString=1
 	Hidden=#CompInfo#
 	DynamicVariables=1
@@ -56,7 +82,7 @@
 	FontColor=#COL2#
 	AntiAlias=1
 	StringAlign=LeftCenter
-	SolidColor=#PRI#99
+	SolidColor=#CompInfoNormalFon#
 	ClipString=1
 	Hidden=#CompInfo#
 	DynamicVariables=1
@@ -125,7 +151,7 @@
 	FontColor=#COL2#
 	AntiAlias=1
 	StringAlign=LeftCenter
-	SolidColor=#PRI#99
+	SolidColor=#CompInfoNormalFon#
 	ClipString=1
 	Hidden=#CompInfo#
 	DynamicVariables=1

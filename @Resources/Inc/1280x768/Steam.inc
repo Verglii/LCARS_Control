@@ -73,8 +73,8 @@
 	Y=510
 	H=80
 	SolidColor=#ELBOS#
-	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
-	LeftMouseUpAction=!Execute #SLSett# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
+	LeftMouseDownAction=!Execute #LSettings5# [!SetOption #CURRENTSECTION# SolidColor #COL2#]
+	LeftMouseUpAction=!Execute #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#]#Close1280x768##OpenSettings#
 
 [SteamNews]
 	Meter=String
@@ -127,7 +127,7 @@
 	W=#GameIconW#
 	H=(#GameIconH#+#GameNameH#)
 	Hidden=#STEAM_#
-	SolidColor=#PRI#90
+	SolidColor=#FonIconSt#
 	Group=LCARS-Steam
 	LeftMouseUpAction=#Game1ComL#
 	DynamicVariables=1
@@ -362,7 +362,7 @@
 [GameListUp]
 	Meter=Button
 	ButtonImage=#@#\Buttons\Button4#CS#.png
-	X=550
+	X=645
 	Y=650
 	AntiAlias=1
 	Hidden=#STEAM_#
@@ -374,7 +374,7 @@
 [GameListDown]
 	Meter=Button
 	ButtonImage=#@#\Buttons\Button4#CS#.png
-	X=810
+	X=715
 	Y=650
 	ImageFlip=Horizontal
 	AntiAlias=1
@@ -466,7 +466,7 @@
 [GameSteamListUp]
 	Meter=Button
 	ButtonImage=#@#\Buttons\Button4#CS#.png
-	X=900
+	X=960
 	Y=650
 	AntiAlias=1
 	Hidden=#STEAM_#
@@ -478,7 +478,7 @@
 [GameSteamListDown]
 	Meter=Button
 	ButtonImage=#@#\Buttons\Button4#CS#.png
-	X=1090
+	X=1030
 	Y=650
 	ImageFlip=Horizontal
 	AntiAlias=1

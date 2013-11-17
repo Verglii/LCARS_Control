@@ -15,7 +15,7 @@
 	Y=#LMY1#
 	Text=#LMB1_1#
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
-	LeftMouseUpAction=!Execute #MediaPl_Off# #Schedule_Off# #Weather_Off# #STEAM_Off# #PowerSource_Off# #DATABASE_Off# #CoIn_On# #CPU_MEM_Off# #CPU_MEM|N_Off# #CPU_Off# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #PRI#][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute #MediaPl_Off# #Schedule_Off# #Weather_Off# #STEAM_Off# #PowerSource_Off# #DATABASE_Off# #CoIn_On# #CPU_MEM_Off# #CPU_MEM|N_Off# #CPU_Off# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #PRI#]
 	DynamicVariables=1
 	Hidden=#LMC1#
 
@@ -26,7 +26,7 @@
 	Y=#LMYO#
 	Text=#LMB1_2#
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
-	LeftMouseUpAction=!Execute #MediaPl_Off# #Schedule_Off# #Weather_Off# #STEAM_Off# #PowerSource_Off# #DATABASE_Off# #CoIn_Off# #CPU_MEM_On# #CPU_MEM|N_On# #CPU_On# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #PRI#][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute #MediaPl_Off# #Schedule_Off# #Weather_Off# #STEAM_Off# #PowerSource_Off# #DATABASE_Off# #CoIn_Off# #CPU_MEM_On# #CPU_MEM|N_On# #CPU_On# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #PRI#]
 	DynamicVariables=1
 	Hidden=#LMC1#
 
@@ -36,7 +36,7 @@
 	Y=#LMYO#
 	Text=#LMB1_3#
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
-	LeftMouseUpAction=!Execute #MediaPl_Off# #Schedule_Off# #Weather_Off# #STEAM_Off# #PowerSource_Off# #DATABASE_On# #CoIn_Off# #CPU_MEM_Off# #CPU_MEM|N_Off# #CPU_Off# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #PRI#][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute #MediaPl_Off# #Schedule_Off# #Weather_Off# #STEAM_Off# #PowerSource_Off# #DATABASE_On# #CoIn_Off# #CPU_MEM_Off# #CPU_MEM|N_Off# #CPU_Off# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #PRI#]
 	DynamicVariables=1
 	Hidden=#LMC1#
 
@@ -47,7 +47,7 @@
 	Text=#LMB1_4#
 	SolidColor=[MeasureBatteryButton]
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
-	LeftMouseUpAction=!Execute #MediaPl_Off# #Schedule_Off# #Weather_Off# #STEAM_Off# #PowerSource_On# #DATABASE_Off# #CoIn_Off# #CPU_MEM_Off# #CPU_MEM|N_Off# #CPU_Off# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor [MeasureBatteryButton]][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute #MediaPl_Off# #Schedule_Off# #Weather_Off# #STEAM_Off# #PowerSource_On# #DATABASE_Off# #CoIn_Off# #CPU_MEM_Off# #CPU_MEM|N_Off# #CPU_Off# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor [MeasureBatteryButton]]
 	DynamicVariables=1
 	Hidden=#LMC1#
 
@@ -87,7 +87,7 @@
 	MeterStyle=MenuButtonStyle
 	Y=#LMYO#
 	Text=#LMB1_8#
-	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
+	LeftMouseDownAction=!Execute #LSettings0# [!SetOption #CURRENTSECTION# SolidColor #COL2#]
 	LeftMouseUpAction=!Execute #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #PRI#]#Close1280x768##OpenSettings#
 	DynamicVariables=1
 	Hidden=#LMC1#
