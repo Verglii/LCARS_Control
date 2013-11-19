@@ -217,3 +217,5 @@ SStage5=[!SetVariable "Settings_Stage" "5"][!RainmeterWriteKeyValue Variables "S
 SStage6=[!SetVariable "Settings_Stage" "6"][!RainmeterWriteKeyValue Variables "Settings_Stage" "6" "#@#\Inc\Settings.inc"]
 SStage7=[!SetVariable "Settings_Stage" "7"][!RainmeterWriteKeyValue Variables "Settings_Stage" "7" "#@#\Inc\Settings.inc"]
 SStage8=[!SetVariable "Settings_Stage" "8"][!RainmeterWriteKeyValue Variables "Settings_Stage" "8" "#@#\Inc\Settings.inc"]
+
+CTestSize=24

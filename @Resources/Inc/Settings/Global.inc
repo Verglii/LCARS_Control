@@ -52,7 +52,7 @@
 
 [ChangeNameVal]
 	Measure=Plugin
-	Plugin=InputText.dll
+	Plugin=InputText
 	SolidColor=#PRI#
 	FontFace=#F#
 	FontSize=#F3#
@@ -62,9 +62,8 @@
 	H=30
 	AntiAlias=1
 	FocusDismiss=0
-	DefaultValue="#LCARSUserNameVar#"
-	Command1=!Execute [!SetVariable "LCARSUserNameVar" "$UserInput$"][!RainmeterWriteKeyValue Variables "LCARSUserNameVar" "$UserInput$" "#@#\Inc\Settings.inc"]
-	DynamicVariables=1
+	DefaultValue=#LCARSUserNameVar#
+	Command1=!Execute[!WriteKeyValue Variables LCARSUserNameVar "$UserInput$" #@#inc/Settings.inc][!Refresh]
 
 [GlobalRank]
 	Meter=String
@@ -100,7 +99,7 @@
 
 [ChangeRankVal]
 	Measure=Plugin
-	Plugin=InputText.dll
+	Plugin=InputText
 	SolidColor=#PRI#
 	FontFace=#F#
 	FontSize=#F3#
@@ -110,9 +109,8 @@
 	H=30
 	AntiAlias=1
 	FocusDismiss=0
-	DefaultValue="#LCARSUserRankVar#"
-	Command1=!Execute [!CommandMeasure "SettingsLua" "SetValue(); Value = $UserInput$; Var = LCARSUserRankVar"; Place = #@#Inc/Settings.inc] [!SetVariable "LCARSUserRankVar" "$UserInput$"]
-	DynamicVariables=1
+	DefaultValue=#LCARSUserRankVar#
+	Command1=!Execute [!WriteKeyValue Variables LCARSUserRankVar "$UserInput$" #@#inc/Settings.inc][!Refresh]
 
 [GlobalCS]
 	Meter=String
@@ -211,9 +209,9 @@
 	Meter=String
 	X=430
 	Y=320
-	W=250
+	W=80
 	H=30
-	Text=
+	Text=#FON#
 	FontFace=#F#
 	FontSize=#F3#
 	AntiAlias=1
@@ -226,19 +224,91 @@
 
 [Change_FonChangeVal]
 	Measure=Plugin
-	Plugin=InputText.dll
+	Plugin=InputText
 	SolidColor=#PRI#
 	FontFace=#F#
 	FontSize=#F3#
-	x=430
-	y=320
-	W=250
+	X=430
+	Y=320
+	W=80
 	H=30
 	AntiAlias=1
 	FocusDismiss=0
-	DefaultValue=""
-	Command1=!Execute [!RainmeterWriteKeyValue Variables "LCARSUserNameVar" "$UserInput$" "#@#Inc\Settings.inc"]
+	DefaultValue=#FON#
+	Command1=!Execute [!WriteKeyValue Variables FON "$UserInput$" #@#inc/Colours#CS#.inc][!Refresh]
+
+[FonColorTestFon1]
+	Meter=Image
+	X=5R
+	Y=r
+	ImageName=#@#/Static/ColorTester1.png
+
+[FonColorTestCenter1]
+	Meter=Image
+	X=3r
+	Y=3r
+	W=#CTestSize#
+	H=#CTestSize#
+	SolidColor=#FON#
 	DynamicVariables=1
+
+[FonColorTestFon2]
+	Meter=Image
+	X=8R
+	Y=-3r
+	ImageName=#@#/Static/ColorTester2.png
+
+[FonColorTestCenter2]
+	Meter=Image
+	X=3r
+	Y=3r
+	W=#CTestSize#
+	H=#CTestSize#
+	SolidColor=#FON#
+	DynamicVariables=1
+
+[FonColorTestFon3]
+	Meter=Image
+	X=8R
+	Y=-3r
+	ImageName=#@#/Static/ColorTester3.png
+
+[FonColorTestCenter3]
+	Meter=Image
+	X=3r
+	Y=3r
+	W=#CTestSize#
+	H=#CTestSize#
+	SolidColor=#FON#
+	DynamicVariables=1
+
+[FonColorTestFon4]
+	Meter=Image
+	X=8R
+	Y=-3r
+	ImageName=#@#/Static/ColorTester4.png
+
+[FonColorTestCenter4]
+	Meter=Image
+	X=3r
+	Y=3r
+	W=#CTestSize#
+	H=#CTestSize#
+	SolidColor=#FON#
+	DynamicVariables=1
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
