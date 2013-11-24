@@ -1,5 +1,5 @@
 [Variables]
-CS=PRI
+CS=SEC
 
 Lang=RUS
 
