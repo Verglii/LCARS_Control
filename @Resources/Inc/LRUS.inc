@@ -115,6 +115,8 @@ LCARSUserRank=РАНГ
 LCARSColorScheme=ЦВЕТОВАЯ СХЕМА
 LCARSFon=ЦВЕТ ФОНА
 
+QLAdress=Адрес
+
 SettLink1=Ссылка 1
 SettLink2=Ссылка 2
 SettLink3=Ссылка 3

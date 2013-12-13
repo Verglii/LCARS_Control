@@ -114,6 +114,8 @@ LCARSUserRank=RANK
 LCARSColorScheme=COLOR SCHEME
 LCARSFon=FON COLOR
 
+QLAdress=Address
+
 SettLink1=LINK 1
 SettLink2=LINK 2
 SettLink3=LINK 3
@@ -129,3 +131,25 @@ SettLink12=LINK 12
 
 SettingsLinkName="Command name"
 SettingsLinkCom="Command"
+
+;ComputerInfo
+LCARSCI_Head_Fon=Head color
+LCARSCI_Normal_Fon=Data color
+
+LCARSCM_A_Fon=Background of elements
+LCARSCM_A_Core1=Core 1
+LCARSCM_A_Core2=Core 2
+LCARSCM_A_Core3=Core 3
+LCARSCM_A_Core4=Core 4
+LCARSCM_A_Core5=Core 5
+LCARSCM_A_Core6=Core 6
+LCARSCM_A_Core7=Core 7
+LCARSCM_A_Core8=Core 8
+LCARSCM_A_Core9=Core 9
+LCARSCM_A_Core10=Core 10
+LCARSCM_A_Core11=Core 11
+LCARSCM_A_Core12=Core 12
+
+LitCore=CORE
+Lit234Cores=CORES
+LitMoreCores=CORES

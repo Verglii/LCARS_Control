@@ -3,20 +3,137 @@
 	X=250
 	Y=150
 	W=440
-	H=440
+	H=460
 	SolidColor=101010AA
 	Hidden=#SSt0#
 	DynamicVariables=1
 
-[SidePanelGlobal]
+[SidePanelGlobal1]
 	Meter=Image
 	X=700
 	Y=170
 	W=100
-	H=430
+	H=60
 	SolidColor=#ELBOS#
 	Hidden=#SSt0#
 	DynamicVariables=1
+
+[SidePanelGlobal2]
+	Meter=Image
+	X=700
+	Y=540
+	W=100
+	H=60
+	SolidColor=#ELBOS#
+	Hidden=#SSt0#
+	DynamicVariables=1
+
+[GlobalQL1]
+	Meter=String
+	X=700
+	Y=260
+	W=100
+	H=40
+	Text=#QL1N#
+	FontFace=#F#
+	FontSize=#F3#
+	StringAlign=LeftCenter
+	AntiAlias=1
+	ClipString=1
+	SolidColor=#PRI#
+	Hidden=#SSt0#
+	DynamicVariables=1
+	LeftMouseDownAction=!Execute [!ShowMeter "ChangeQLButton"] [!SetOption #CURRENTSECTION# SolidColor #COL2#]
+	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#][!SetVariable "QL" "1"][!SetVariable "QLN" "#QL1N#"][!SetVariable "QLL" "#QL1L#"] #SoundBeep1#
+
+[GlobalQL2]
+	Meter=String
+	MeterStyle=GlobalQL1
+	Y=10R
+	Text=#QL2N#
+	SolidColor=#PRI#
+	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#][!SetVariable "QL" "2"][!SetVariable "QLN" "#QL2N#"][!SetVariable "QLL" "#QL2L#"] #SoundBeep1#
+
+[GlobalQL3]
+	Meter=String
+	MeterStyle=GlobalQL1
+	Y=10R
+	Text=#QL3N#
+	SolidColor=#PRI#
+	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#][!SetVariable "QL" "3"][!SetVariable "QLN" "#QL3N#"][!SetVariable "QLL" "#QL3L#"] #SoundBeep1#
+
+[GlobalQL4]
+	Meter=String
+	MeterStyle=GlobalQL1
+	Y=10R
+	Text=#QL4N#
+	SolidColor=#PRI#
+	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#][!SetVariable "QL" "4"][!SetVariable "QLN" "#QL4N#"][!SetVariable "QLL" "#QL4L#"] #SoundBeep1#
+
+[GlobalQL5]
+	Meter=String
+	MeterStyle=GlobalQL1
+	Y=10R
+	Text=#QL5N#
+	SolidColor=#PRI#
+	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#][!SetVariable "QL" "5"][!SetVariable "QLN" "#QL5N#"][!SetVariable "QLL" "#QL5L#"] #SoundBeep1#
+
+[GlobalQL6]
+	Meter=String
+	MeterStyle=GlobalQL1
+	Y=10R
+	Text=#QL6N#
+	SolidColor=#PRI#
+	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#][!SetVariable "QL" "6"][!SetVariable "QLN" "#QL6N#"][!SetVariable "QLL" "#QL6L#"] #SoundBeep1#
+
+[ChangeQLButton]
+	Meter=String
+	X=260
+	Y=360
+	W=420
+	H=30
+	Text=#QLAdress# #QL#:  #QLL#
+	FontFace=#F#
+	FontSize=#F3#
+	AntiAlias=1
+	ClipString=1
+	SolidColor=#PRI#
+	Group=Panel2Set
+	Hidden=1
+	DynamicVariables=1
+	LeftMouseUpAction=!Execute [!PluginBang "Change_QLN ExecuteBatch 1"]
+
+[Change_QLN]
+	Measure=Plugin
+	Plugin=InputText
+	SolidColor=#PRI#
+	FontFace=#F#
+	FontSize=#F3#
+	X=260
+	Y=360
+	W=420
+	H=30
+	AntiAlias=1
+	FocusDismiss=0
+	DefaultValue=#QLN#
+	DynamicVariables=1
+	Command1=!Execute [!WriteKeyValue Variables "QL#QL#N" "$UserInput$" #@#inc/Settings.inc][!PluginBang "Change_QLL ExecuteBatch 1"]
+
+[Change_QLL]
+	Measure=Plugin
+	Plugin=InputText
+	SolidColor=#PRI#
+	FontFace=#F#
+	FontSize=#F3#
+	X=260
+	Y=360
+	W=420
+	H=30
+	AntiAlias=1
+	FocusDismiss=0
+	DefaultValue=#QLL#
+	DynamicVariables=1
+	Command1=!Execute [!WriteKeyValue Variables "QL#QL#L" "$UserInput$" #@#inc/Settings.inc][!Refresh]
 
 [GlobalName]
 	Meter=String
@@ -46,7 +163,7 @@
 	ClipString=1
 	SolidColor=#PRI#
 	Hidden=#SSt0#
-	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
+	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#]
 	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#] [!PluginBang "ChangeNameVal ExecuteBatch 1"] #SoundBeep1#
 	DynamicVariables=1
 
@@ -93,7 +210,7 @@
 	ClipString=1
 	SolidColor=#PRI#
 	Hidden=#SSt0#
-	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
+	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#]
 	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#] [!PluginBang "ChangeRankVal ExecuteBatch 1"] #SoundBeep1#
 	DynamicVariables=1
 
@@ -312,9 +429,9 @@
 [FonLinks]
 	Meter=Image
 	X=260
-	Y=360
+	Y=400
 	W=420
-	H=220
+	H=200
 	SolidColor=202020AA
 	Hidden=#SSt0#
 	DynamicVariables=1
@@ -322,7 +439,7 @@
 [SettLink1]
 	Meter=String
 	X=265
-	Y=365
+	Y=405
 	W=95
 	H=30
 	Text=#SettLink1#
@@ -333,7 +450,7 @@
 	SolidColor=#PRI#
 	Hidden=#SSt0#
 	DynamicVariables=1
-	LeftMouseDownAction=!Execute [!ShowMeterGroup "Panel2Set"] [!SetOption #CURRENTSECTION# SolidColor #COL2#]
+	LeftMouseDownAction=!Execute [!ShowMeter "ChangeNameButton"] [!SetOption #CURRENTSECTION# SolidColor #COL2#]
 	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#][!SetVariable "LinkNum" "1"][!SetVariable "LMCT" "#LMCT1#"][!SetVariable "LMCL" "#LMCL1#"] #SoundBeep1#
 
 [SettLink2]
@@ -434,9 +551,9 @@
 [ChangeNameButton]
 	Meter=String
 	X=265
-	Y=470
+	Y=510
 	W=410
-	H=105
+	H=85
 	Text=#SettingsLinkName# #LinkNum#:  #LMCT##CRLF##SettingsLinkCom# #LinkNum#:  #LMCL#
 	FontFace=#F#
 	FontSize=#F3#
@@ -455,9 +572,9 @@
 	FontFace=#F#
 	FontSize=#F3#
 	X=265
-	Y=470
+	Y=510
 	W=410
-	H=105
+	H=85
 	AntiAlias=1
 	FocusDismiss=0
 	DefaultValue=#LMCT#
@@ -471,9 +588,9 @@
 	FontFace=#F#
 	FontSize=#F3#
 	X=265
-	Y=470
+	Y=510
 	W=410
-	H=105
+	H=85
 	AntiAlias=1
 	FocusDismiss=0
 	DefaultValue=#LMCL#

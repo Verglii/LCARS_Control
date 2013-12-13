@@ -37,9 +37,6 @@ LinkNum=
 LMCT=
 LMCL=
 
-LMCT_=
-LMCL_=
-
 ;Links
 LMCT1=ÃŒ…  ŒÃœ‹ﬁ“≈–
 LMCL1=::{20D04FE0-3AEA-1069-A2D8-08002B30309D}
@@ -78,6 +75,11 @@ LMCT12=——€À ¿ 12
 LMCL12=
 
 ;Quick links
+QL
+QLN
+QLL
+
+
 QL1N=deviantART
 QL1L=http://deviantart.com/
 
@@ -96,8 +98,8 @@ QL5L=http://www.bracercom.com/tutorial/content/CoherentLCARSInterface/LCARSCoher
 QL6N=Yandex
 QL6L=http://Yandex.ru
 
-GR|IND=0
-IND|GR=1
+GR|IND=1
+IND|GR=0
 
 CPULCount=2
 
@@ -143,7 +145,7 @@ FBLCom4=[!SetOption MeasurePath Path "C:\Programs"][!CommandMeasure MeasurePath 
 SHMP=0
 FORMATMP=0
 
-LastPlace=D:\
+LastPlace=
 
 ;Player===================
 

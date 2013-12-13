@@ -1,0 +1,31 @@
+[DatabaseFon]
+	Meter=Image
+	X=250
+	Y=150
+	W=440
+	H=440
+	SolidColor=101010AA
+	Hidden=#SSt3#
+	DynamicVariables=1
+
+[DatabaseAdress1]
+	Meter=String
+	X=260
+	Y=160
+	W=205
+	H=30
+	Text=#LCARSUserName#
+	FontFace=#F#
+	FontSize=#F3#
+	AntiAlias=1
+	ClipString=1
+	SolidColor=#PRI#
+	Hidden=#SSt3#
+	DynamicVariables=1
+
+[DatabaseAdress2]
+	Meter=String
+	MeterStyle=DatabaseAdress1
+	X=10R
+	Text=#LCARSUserName#
+	SolidColor=#PRI#
