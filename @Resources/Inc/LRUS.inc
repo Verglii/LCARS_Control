@@ -114,3 +114,41 @@ LCARSUserName=»ћя
 LCARSUserRank=–јЌ√
 LCARSColorScheme=÷¬≈“ќ¬јя —’≈ћј
 LCARSFon=÷¬≈“ ‘ќЌј
+
+SettLink1=—сылка 1
+SettLink2=—сылка 2
+SettLink3=—сылка 3
+SettLink4=—сылка 4
+SettLink5=—сылка 5
+SettLink6=—сылка 6
+SettLink7=—сылка 7
+SettLink8=—сылка 8
+SettLink9=—сылка 9
+SettLink10=—сылка 10
+SettLink11=—сылка 11
+SettLink12=—сылка 12
+
+SettingsLinkName="»м€ комманды"
+SettingsLinkCom=" омманда"
+
+;ComputerInfo
+LCARSCI_Head_Fon=÷вет шапки
+LCARSCI_Normal_Fon=÷вет данных
+
+LCARSCM_A_Fon=‘он элементов
+LCARSCM_A_Core1=ядро 1
+LCARSCM_A_Core2=ядро 2
+LCARSCM_A_Core3=ядро 3
+LCARSCM_A_Core4=ядро 4
+LCARSCM_A_Core5=ядро 5
+LCARSCM_A_Core6=ядро 6
+LCARSCM_A_Core7=ядро 7
+LCARSCM_A_Core8=ядро 8
+LCARSCM_A_Core9=ядро 9
+LCARSCM_A_Core10=ядро 10
+LCARSCM_A_Core11=ядро 11
+LCARSCM_A_Core12=ядро 12
+
+LitCore=яƒ–ќ
+Lit234Cores=яƒ–ј
+LitMoreCores=яƒ≈–

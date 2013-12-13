@@ -83,11 +83,11 @@
 	Meter=String
 	X=455
 	Y=R
-	H=60
+	H=40
 	W=130
 	Text=#Done#
 	FontFace=#F#
-	FontSize=#F4#
+	FontSize=#F3#
 	StringAlign=CenterBottom
 	SolidColor=#SPEC#
 	AntiAlias=1
@@ -175,7 +175,7 @@ ScriptFile=#@#Inc/Settings.lua
 	Meter=Button
 	MeterStyle=BLFT0
 	Y=30r
-	ButtonCommand=!Execute #SStage1# #SStLoad# #SoundBeep1#
+	ButtonCommand=!Execute #SStage1# #SStLoad# [!HideMeterGroup "Panel2Set"] #SoundBeep1#
 
 [BLFT1T]
 	Meter=String
@@ -187,7 +187,7 @@ ScriptFile=#@#Inc/Settings.lua
 	Meter=Button
 	MeterStyle=BLFT0
 	Y=30r
-	ButtonCommand=!Execute #SStage2# #SStLoad# #SoundBeep1#
+	ButtonCommand=!Execute #SStage2# #SStLoad# [!HideMeterGroup "Panel2Set"] #SoundBeep1#
 
 [BLFT2T]
 	Meter=String
@@ -199,7 +199,7 @@ ScriptFile=#@#Inc/Settings.lua
 	Meter=Button
 	MeterStyle=BLFT0
 	Y=30r
-	ButtonCommand=!Execute #SStage3# #SStLoad# #SoundBeep1#
+	ButtonCommand=!Execute #SStage3# #SStLoad# [!HideMeterGroup "Panel2Set"] #SoundBeep1#
 
 [BLFT3T]
 	Meter=String
@@ -211,7 +211,7 @@ ScriptFile=#@#Inc/Settings.lua
 	Meter=Button
 	MeterStyle=BLFT0
 	Y=30r
-	ButtonCommand=!Execute #SStage4# #SStLoad# #SoundBeep1#
+	ButtonCommand=!Execute #SStage4# #SStLoad# [!HideMeterGroup "Panel2Set"] #SoundBeep1#
 
 [BLFT4T]
 	Meter=String
@@ -223,7 +223,7 @@ ScriptFile=#@#Inc/Settings.lua
 	Meter=Button
 	MeterStyle=BLFT0
 	Y=30r
-	ButtonCommand=!Execute #SStage5# #SStLoad# #SoundBeep1#
+	ButtonCommand=!Execute #SStage5# #SStLoad# [!HideMeterGroup "Panel2Set"] #SoundBeep1#
 
 [BLFT5T]
 	Meter=String
@@ -235,7 +235,7 @@ ScriptFile=#@#Inc/Settings.lua
 	Meter=Button
 	MeterStyle=BLFT0
 	Y=30r
-	ButtonCommand=!Execute #SStage6# #SStLoad# #SoundBeep1#
+	ButtonCommand=!Execute #SStage6# #SStLoad# [!HideMeterGroup "Panel2Set"] #SoundBeep1#
 
 [BLFT6T]
 	Meter=String
@@ -247,7 +247,7 @@ ScriptFile=#@#Inc/Settings.lua
 	Meter=Button
 	MeterStyle=BLFT0
 	Y=30r
-	ButtonCommand=!Execute #SStage7# #SStLoad# #SoundBeep1#
+	ButtonCommand=!Execute #SStage7# #SStLoad# [!HideMeterGroup "Panel2Set"] #SoundBeep1#
 
 [BLFT7T]
 	Meter=String
@@ -259,7 +259,7 @@ ScriptFile=#@#Inc/Settings.lua
 	Meter=Button
 	MeterStyle=BLFT0
 	Y=30r
-	ButtonCommand=!Execute #SStage8# #SStLoad# #SoundBeep1#
+	ButtonCommand=!Execute #SStage8# #SStLoad# [!HideMeterGroup "Panel2Set"] #SoundBeep1#
 
 [BLFT8T]
 	Meter=String

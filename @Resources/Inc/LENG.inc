@@ -76,10 +76,10 @@ LeftMouseInfo=Left mouse button - Open file or folder
 RightMouseInfo=Right mouse button - Open path in explorer
 
 ;Battery
-BTSubs="0":"Œ“ —≈“»","1":"«¿–ﬂƒ ¿","2":"Õ»« Œ","3":"—–≈ƒÕ≈","4":"¬€—Œ Œ"
+BTSubs="0":"AC LINE","1":"CHARGING","2":"LOW","3":"NORMAL","4":"HIGHT"
 BTSubs2="Unknown":"UNKNOWN"
 PowerState_=POWER STATE
-PowerTime=POWER TIME
+PowerTime=BACK-UP TIME
 Shotdown=SHOTDOWN
 Reload=RELOAD
 Hibernation=HIBERNATION
@@ -90,3 +90,42 @@ NewsSteam=NEWS
 SteamDownload=DOWNLOADS
 SteamFriends=FRIENDS
 SteamInventory=INVENTORY
+
+;Schedule
+Week1Text=1 week
+Week2Text=2 week
+ScheduleSettings=SETTINGS
+HWeek1Text="áïï"
+HWeek2Text="ïïâ"
+WeekDay1=Monday
+WeekDay2=Tuesday
+WeekDay3=Wednesday
+WeekDay4=Thursday
+WeekDay5=Friday
+WeekDay6=Saturday
+
+;Settings
+LMB1_0=GENERAL
+
+
+;=Global
+LCARSUserName=NAME
+LCARSUserRank=RANK
+LCARSColorScheme=COLOR SCHEME
+LCARSFon=FON COLOR
+
+SettLink1=LINK 1
+SettLink2=LINK 2
+SettLink3=LINK 3
+SettLink4=LINK 4
+SettLink5=LINK 5
+SettLink6=LINK 6
+SettLink7=LINK 7
+SettLink8=LINK 8
+SettLink9=LINK 9
+SettLink10=LINK 10
+SettLink11=LINK 11
+SettLink12=LINK 12
+
+SettingsLinkName="Command name"
+SettingsLinkCom="Command"

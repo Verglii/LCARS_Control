@@ -32,9 +32,17 @@ D1=C
 ;Drive2
 D2=D
 
+LinkNum=
+
+LMCT=
+LMCL=
+
+LMCT_=
+LMCL_=
+
 ;Links
 LMCT1=ÃŒ…  ŒÃœ‹ﬁ“≈–
-LMCL1="::{20D04FE0-3AEA-1069-A2D8-08002B30309D}"
+LMCL1=::{20D04FE0-3AEA-1069-A2D8-08002B30309D}
 
 LMCT2=——€À ¿ 2
 LMCL2=
@@ -88,8 +96,8 @@ QL5L=http://www.bracercom.com/tutorial/content/CoherentLCARSInterface/LCARSCoher
 QL6N=Yandex
 QL6L=http://Yandex.ru
 
-GR|IND=1
-IND|GR=0
+GR|IND=0
+IND|GR=1
 
 CPULCount=2
 
@@ -105,19 +113,6 @@ CP9=1
 CP10=1
 CP11=1
 CP12=1
-
-CP1_=0
-CP2_=0
-CP3_=1
-CP4_=1
-CP5_=1
-CP6_=1
-CP7_=1
-CP8_=1
-CP9_=1
-CP10_=1
-CP11_=1
-CP12_=1
 
 CPN2=0
 CPN3=0
@@ -174,10 +169,10 @@ WeekNumber=1
 WeekHNumber=1
 
 ;Settings=================
-Settings_Stage=0
-SSt0=0
+Settings_Stage=2
+SSt0=1
 SSt1=1
-SSt2=1
+SSt2=0
 SSt3=1
 SSt4=1
 SSt5=1

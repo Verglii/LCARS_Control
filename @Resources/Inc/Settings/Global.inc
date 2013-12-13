@@ -4,7 +4,7 @@
 	Y=150
 	W=440
 	H=440
-	SolidColor=15151599
+	SolidColor=101010AA
 	Hidden=#SSt0#
 	DynamicVariables=1
 
@@ -242,6 +242,8 @@
 	X=5R
 	Y=r
 	ImageName=#@#/Static/ColorTester1.png
+	Hidden=#SSt0#
+	DynamicVariables=1
 
 [FonColorTestCenter1]
 	Meter=Image
@@ -250,6 +252,7 @@
 	W=#CTestSize#
 	H=#CTestSize#
 	SolidColor=#FON#
+	Hidden=#SSt0#
 	DynamicVariables=1
 
 [FonColorTestFon2]
@@ -257,6 +260,8 @@
 	X=8R
 	Y=-3r
 	ImageName=#@#/Static/ColorTester2.png
+	Hidden=#SSt0#
+	DynamicVariables=1
 
 [FonColorTestCenter2]
 	Meter=Image
@@ -265,6 +270,7 @@
 	W=#CTestSize#
 	H=#CTestSize#
 	SolidColor=#FON#
+	Hidden=#SSt0#
 	DynamicVariables=1
 
 [FonColorTestFon3]
@@ -272,6 +278,8 @@
 	X=8R
 	Y=-3r
 	ImageName=#@#/Static/ColorTester3.png
+	Hidden=#SSt0#
+	DynamicVariables=1
 
 [FonColorTestCenter3]
 	Meter=Image
@@ -280,6 +288,7 @@
 	W=#CTestSize#
 	H=#CTestSize#
 	SolidColor=#FON#
+	Hidden=#SSt0#
 	DynamicVariables=1
 
 [FonColorTestFon4]
@@ -287,6 +296,8 @@
 	X=8R
 	Y=-3r
 	ImageName=#@#/Static/ColorTester4.png
+	Hidden=#SSt0#
+	DynamicVariables=1
 
 [FonColorTestCenter4]
 	Meter=Image
@@ -295,26 +306,179 @@
 	W=#CTestSize#
 	H=#CTestSize#
 	SolidColor=#FON#
+	Hidden=#SSt0#
 	DynamicVariables=1
 
+[FonLinks]
+	Meter=Image
+	X=260
+	Y=360
+	W=420
+	H=220
+	SolidColor=202020AA
+	Hidden=#SSt0#
+	DynamicVariables=1
+
+[SettLink1]
+	Meter=String
+	X=265
+	Y=365
+	W=95
+	H=30
+	Text=#SettLink1#
+	FontFace=#F#
+	FontSize=#F3#
+	AntiAlias=1
+	ClipString=1
+	SolidColor=#PRI#
+	Hidden=#SSt0#
+	DynamicVariables=1
+	LeftMouseDownAction=!Execute [!ShowMeterGroup "Panel2Set"] [!SetOption #CURRENTSECTION# SolidColor #COL2#]
+	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#][!SetVariable "LinkNum" "1"][!SetVariable "LMCT" "#LMCT1#"][!SetVariable "LMCL" "#LMCL1#"] #SoundBeep1#
+
+[SettLink2]
+	Meter=String
+	MeterStyle=SettLink1
+	X=10R
+	SolidColor=#PRI#
+	Text=#SettLink2#
+	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#][!SetVariable "LinkNum" "2"][!SetVariable "LMCT" "#LMCT2#"][!SetVariable "LMCL" "#LMCL2#"] #SoundBeep1#
+
+[SettLink3]
+	Meter=String
+	MeterStyle=SettLink1
+	X=10R
+	SolidColor=#PRI#
+	Text=#SettLink3#
+	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#][!SetVariable "LinkNum" "3"][!SetVariable "LMCT" "#LMCT3#"][!SetVariable "LMCL" "#LMCL3#"] #SoundBeep1#
+
+[SettLink4]
+	Meter=String
+	MeterStyle=SettLink1
+	X=10R
+	SolidColor=#PRI#
+	Text=#SettLink4#
+	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#][!SetVariable "LinkNum" "4"][!SetVariable "LMCT" "#LMCT4#"][!SetVariable "LMCL" "#LMCL4#"] #SoundBeep1#
+
+[SettLink5]
+	Meter=String
+	MeterStyle=SettLink1
+	Y=5R
+	SolidColor=#PRI#
+	Text=#SettLink5#
+	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#][!SetVariable "LinkNum" "5"][!SetVariable "LMCT" "#LMCT5#"][!SetVariable "LMCL" "#LMCL5#"] #SoundBeep1#
+
+[SettLink6]
+	Meter=String
+	MeterStyle=SettLink1
+	X=10R
+	Y=r
+	SolidColor=#PRI#
+	Text=#SettLink6#
+	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#][!SetVariable "LinkNum" "6"][!SetVariable "LMCT" "#LMCT6#"][!SetVariable "LMCL" "#LMCL6#"] #SoundBeep1#
+
+[SettLink7]
+	Meter=String
+	MeterStyle=SettLink1
+	X=10R
+	Y=r
+	SolidColor=#PRI#
+	Text=#SettLink7#
+	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#][!SetVariable "LinkNum" "7"][!SetVariable "LMCT" "#LMCT7#"][!SetVariable "LMCL" "#LMCL7#"] #SoundBeep1#
+
+[SettLink8]
+	Meter=String
+	MeterStyle=SettLink1
+	X=10R
+	Y=r
+	SolidColor=#PRI#
+	Text=#SettLink8#
+	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#][!SetVariable "LinkNum" "8"][!SetVariable "LMCT" "#LMCT8#"][!SetVariable "LMCL" "#LMCL8#"] #SoundBeep1#
+
+[SettLink9]
+	Meter=String
+	MeterStyle=SettLink1
+	Y=5R
+	SolidColor=#PRI#
+	Text=#SettLink9#
+	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#][!SetVariable "LinkNum" "9"][!SetVariable "LMCT" "#LMCT9#"][!SetVariable "LMCL" "#LMCL9#"] #SoundBeep1#
+
+[SettLink10]
+	Meter=String
+	MeterStyle=SettLink1
+	X=10R
+	Y=r
+	SolidColor=#PRI#
+	Text=#SettLink10#
+	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#][!SetVariable "LinkNum" "10"][!SetVariable "LMCT" "#LMCT10#"][!SetVariable "LMCL" "#LMCL10#"] #SoundBeep1#
+
+[SettLink11]
+	Meter=String
+	MeterStyle=SettLink1
+	X=10R
+	Y=r
+	SolidColor=#PRI#
+	Text=#SettLink11#
+	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#][!SetVariable "LinkNum" "11"][!SetVariable "LMCT" "#LMCT11#"][!SetVariable "LMCL" "#LMCL11#"] #SoundBeep1#
+
+[SettLink12]
+	Meter=String
+	MeterStyle=SettLink1
+	X=10R
+	Y=r
+	SolidColor=#PRI#
+	Text=#SettLink12#
+	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#][!SetVariable "LinkNum" "12"][!SetVariable "LMCT" "#LMCT12#"][!SetVariable "LMCL" "#LMCL12#"] #SoundBeep1#
 
 
+[ChangeNameButton]
+	Meter=String
+	X=265
+	Y=470
+	W=410
+	H=105
+	Text=#SettingsLinkName# #LinkNum#:  #LMCT##CRLF##SettingsLinkCom# #LinkNum#:  #LMCL#
+	FontFace=#F#
+	FontSize=#F3#
+	AntiAlias=1
+	ClipString=1
+	SolidColor=#PRI#
+	Group=Panel2Set
+	Hidden=1
+	DynamicVariables=1
+	LeftMouseUpAction=!Execute [!PluginBang "Change_LinkNameVal ExecuteBatch 1"]
 
+[Change_LinkNameVal]
+	Measure=Plugin
+	Plugin=InputText
+	SolidColor=#PRI#
+	FontFace=#F#
+	FontSize=#F3#
+	X=265
+	Y=470
+	W=410
+	H=105
+	AntiAlias=1
+	FocusDismiss=0
+	DefaultValue=#LMCT#
+	DynamicVariables=1
+	Command1=!Execute [!WriteKeyValue Variables "LMCT#LinkNum#" "$UserInput$" #@#inc/Settings.inc][!PluginBang "Change_LinkComVal ExecuteBatch 1"]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[Change_LinkComVal]
+	Measure=Plugin
+	Plugin=InputText
+	SolidColor=#PRI#
+	FontFace=#F#
+	FontSize=#F3#
+	X=265
+	Y=470
+	W=410
+	H=105
+	AntiAlias=1
+	FocusDismiss=0
+	DefaultValue=#LMCL#
+	DynamicVariables=1
+	Command1=!Execute [!WriteKeyValue Variables "LMCL#LinkNum#" "$UserInput$" #@#inc/Settings.inc][!Refresh]
 
 
 

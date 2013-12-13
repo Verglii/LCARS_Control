@@ -10,7 +10,7 @@
 	StringAlign=RightBottom
 	SolidColor=#ELBOS#
 	AntiAlias=1
-	LeftMouseDownAction=!Execute #GR|IND_On# [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
+	LeftMouseDownAction=!Execute #GR|IND_On# [!SetOption #CURRENTSECTION# SolidColor #COL2#]
 	LeftMouseUpAction=!Execute [!SetVariable "CPU_MEM#GR|IND#" "0"][!RainmeterWriteKeyValue Variables "CPU_MEM#GR|IND#" "0" "#@#\Inc\Settings.inc"] [!SetVariable "CPU_MEM#IND|GR#" "1"][!RainmeterWriteKeyValue Variables "CPU_MEM#IND|GR#" "1" "#@#\Inc\Settings.inc"] #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#]
 	DynamicVariables=1
 	Hidden=#CPU_MEM#
@@ -28,8 +28,8 @@
 	SolidColor=#ELBOS#
 	AntiAlias=1
 	ClipString=1
-	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
-	LeftMouseUpAction=!Execute #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
+	LeftMouseDownAction=!Execute #LSettings2# [!SetOption #CURRENTSECTION# SolidColor #COL2#]
+	LeftMouseUpAction=!Execute #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#]#Close1280x768##OpenSettings#
 	DynamicVariables=1
 	Hidden=#CPU_MEM#
 
