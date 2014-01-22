@@ -62,11 +62,20 @@
 	SolidColor=#ELBOS#
 	DynamicVariables=1
 
+[Elbos2Block1]
+	Meter=Image
+	X=0
+	Y=510r
+	W=200
+	H=65
+	SolidColor=#ELBOS#
+	DynamicVariables=1
+
 [Elbos2]
 	Meter=IMAGE
 	ImageName=#@#/Static/Elbos/Elbos2#CS#.png
-	X=0
-	Y=510r
+	X=r
+	Y=R
 	AntiAlias=1
 	DynamicVariables=1
 
@@ -83,7 +92,7 @@
 	Meter=String
 	X=455
 	Y=R
-	H=40
+	H=50
 	W=130
 	Text=#Done#
 	FontFace=#F#
@@ -123,6 +132,15 @@
 	SolidColor=#ELBOS#
 	DynamicVariables=1
 
+[Elbos3Block2]
+	Meter=Image
+	X=700
+	Y=600
+	W=100
+	H=65
+	SolidColor=#ELBOS#
+	DynamicVariables=1
+
 [Elbos4]
 	Meter=IMAGE
 	ImageName=#@#/Static/Elbos/Elbos3_2#CS#.png
@@ -153,7 +171,7 @@ ScriptFile=#@#Inc/Settings.lua
 	X=0
 	Y=150
 	AntiAlias=1
-	ButtonCommand=!Execute #SStage0# #SStLoad# #SoundBeep1#
+	ButtonCommand=!Execute #SStage0# #SStLoad# [!HideMeterGroup "Panel2Set"] #SoundBeep1#
 	DynamicVariables=1
 
 [BLFT0T]

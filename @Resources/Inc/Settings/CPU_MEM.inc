@@ -97,7 +97,7 @@
 	X=250
 	Y=150
 	W=440
-	H=460
+	H=515
 	SolidColor=101010AA
 	Hidden=#SSt2#
 	DynamicVariables=1
@@ -105,7 +105,7 @@
 [CM_Fon]
 	Meter=String
 	X=260
-	Y=155
+	Y=160
 	W=160
 	H=30
 	Text=#LCARSCM_A_Fon#
@@ -141,7 +141,7 @@
 	FontFace=#F#
 	FontSize=#F3#
 	X=430
-	Y=155
+	Y=160
 	W=80
 	H=30
 	AntiAlias=1
@@ -247,7 +247,7 @@
 [CM_Core1]
 	Meter=String
 	MeterStyle=CM_Fon
-	Y=190
+	Y=200
 	Text=#LCARSCM_A_Core1#
 
 [CM_Core1Button]
@@ -265,7 +265,7 @@
 	FontFace=#F#
 	FontSize=#F3#
 	X=430
-	Y=190
+	Y=200
 	W=80
 	H=30
 	AntiAlias=1
@@ -330,7 +330,7 @@
 [CM_Core2]
 	Meter=String
 	MeterStyle=CM_Fon
-	Y=225
+	Y=235
 	Text=#LCARSCM_A_Core2#
 
 [CM_Core2Button]
@@ -348,7 +348,7 @@
 	FontFace=#F#
 	FontSize=#F3#
 	X=430
-	Y=225
+	Y=235
 	W=80
 	H=30
 	AntiAlias=1
@@ -412,7 +412,7 @@
 [CM_Core3]
 	Meter=String
 	MeterStyle=CM_Fon
-	Y=260
+	Y=270
 	Text=#LCARSCM_A_Core3#
 
 [CM_Core3Button]
@@ -430,7 +430,7 @@
 	FontFace=#F#
 	FontSize=#F3#
 	X=430
-	Y=260
+	Y=270
 	W=80
 	H=30
 	AntiAlias=1
@@ -494,7 +494,7 @@
 [CM_Core4]
 	Meter=String
 	MeterStyle=CM_Fon
-	Y=295
+	Y=305
 	Text=#LCARSCM_A_Core4#
 
 [CM_Core4Button]
@@ -512,7 +512,7 @@
 	FontFace=#F#
 	FontSize=#F3#
 	X=430
-	Y=295
+	Y=305
 	W=80
 	H=30
 	AntiAlias=1
@@ -576,7 +576,7 @@
 [CM_Core5]
 	Meter=String
 	MeterStyle=CM_Fon
-	Y=330
+	Y=340
 	Text=#LCARSCM_A_Core5#
 
 [CM_Core5Button]
@@ -594,7 +594,7 @@
 	FontFace=#F#
 	FontSize=#F3#
 	X=430
-	Y=330
+	Y=340
 	W=80
 	H=30
 	AntiAlias=1
@@ -658,7 +658,7 @@
 [CM_Core6]
 	Meter=String
 	MeterStyle=CM_Fon
-	Y=365
+	Y=375
 	Text=#LCARSCM_A_Core6#
 
 [CM_Core6Button]
@@ -676,7 +676,7 @@
 	FontFace=#F#
 	FontSize=#F3#
 	X=430
-	Y=365
+	Y=375
 	W=80
 	H=30
 	AntiAlias=1
@@ -740,7 +740,7 @@
 [CM_Core7]
 	Meter=String
 	MeterStyle=CM_Fon
-	Y=400
+	Y=410
 	Text=#LCARSCM_A_Core7#
 
 [CM_Core7Button]
@@ -758,7 +758,7 @@
 	FontFace=#F#
 	FontSize=#F3#
 	X=430
-	Y=400
+	Y=410
 	W=80
 	H=30
 	AntiAlias=1
@@ -823,7 +823,7 @@
 [CM_Core8]
 	Meter=String
 	MeterStyle=CM_Fon
-	Y=435
+	Y=445
 	Text=#LCARSCM_A_Core8#
 
 [CM_Core8Button]
@@ -841,7 +841,7 @@
 	FontFace=#F#
 	FontSize=#F3#
 	X=430
-	Y=435
+	Y=445
 	W=80
 	H=30
 	AntiAlias=1
@@ -905,7 +905,7 @@
 [CM_Core9]
 	Meter=String
 	MeterStyle=CM_Fon
-	Y=470
+	Y=480
 	Text=#LCARSCM_A_Core9#
 
 [CM_Core9Button]
@@ -923,7 +923,7 @@
 	FontFace=#F#
 	FontSize=#F3#
 	X=430
-	Y=470
+	Y=480
 	W=80
 	H=30
 	AntiAlias=1
@@ -987,7 +987,7 @@
 [CM_Core10]
 	Meter=String
 	MeterStyle=CM_Fon
-	Y=505
+	Y=515
 	Text=#LCARSCM_A_Core10#
 
 [CM_Core10Button]
@@ -1005,7 +1005,7 @@
 	FontFace=#F#
 	FontSize=#F3#
 	X=430
-	Y=505
+	Y=515
 	W=80
 	H=30
 	AntiAlias=1
@@ -1069,7 +1069,7 @@
 [CM_Core11]
 	Meter=String
 	MeterStyle=CM_Fon
-	Y=540
+	Y=550
 	Text=#LCARSCM_A_Core11#
 
 [CM_Core11Button]
@@ -1087,7 +1087,7 @@
 	FontFace=#F#
 	FontSize=#F3#
 	X=430
-	Y=540
+	Y=550
 	W=80
 	H=30
 	AntiAlias=1
@@ -1151,7 +1151,7 @@
 [CM_Core12]
 	Meter=String
 	MeterStyle=CM_Fon
-	Y=575
+	Y=585
 	Text=#LCARSCM_A_Core12#
 
 [CM_Core12Button]
@@ -1169,7 +1169,7 @@
 	FontFace=#F#
 	FontSize=#F3#
 	X=430
-	Y=575
+	Y=585
 	W=80
 	H=30
 	AntiAlias=1
@@ -1228,3 +1228,84 @@
 	X=(3+#CTestSize#/2)r
 	Y=3r
 	SolidColor=#CPUCL12#
+
+[CM_PhyMem]
+	Meter=String
+	MeterStyle=CM_Fon
+	Y=625
+	Text=#LCARSCM_A_PhyMem#
+
+[CM_PhyMemButton]
+	Meter=String
+	MeterStyle=CM_FonButton
+	Y=r
+	Text=#RAMCOL#
+	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#]
+	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#] [!PluginBang "CM_PhyMemInput ExecuteBatch 1"] #SoundBeep1#
+
+[CM_PhyMemInput]
+	Measure=Plugin
+	Plugin=InputText
+	SolidColor=#PRI#
+	FontFace=#F#
+	FontSize=#F3#
+	X=430
+	Y=625
+	W=80
+	H=30
+	AntiAlias=1
+	FocusDismiss=0
+	DefaultValue=#RAMCOL#
+	Command1=!Execute [!WriteKeyValue Variables RAMCOL "$UserInput$" #@#inc/Colours#CS#.inc][!Refresh]
+
+[CM_PhyMemTest1]
+	Meter=Image
+	MeterStyle=CM_FonTest1
+	X=5R
+	Y=r
+
+[CM_PhyMemTest1Center]
+	Meter=String
+	MeterStyle=CM_FonTest1Center
+	X=(3+#CTestSize#/2)r
+	Y=3r
+	SolidColor=#RAMCOL#
+
+[CM_PhyMemTest2]
+	Meter=Image
+	MeterStyle=CM_FonTest2
+	X=-4R
+	Y=-3r
+
+[CM_PhyMemTest2Center]
+	Meter=String
+	MeterStyle=CM_FonTest2Center
+	X=(3+#CTestSize#/2)r
+	Y=3r
+	SolidColor=#RAMCOL#
+
+[CM_PhyMemTest3]
+	Meter=Image
+	MeterStyle=CM_FonTest3
+	X=-4R
+	Y=-3r
+
+[CM_PhyMemTest3Center]
+	Meter=String
+	MeterStyle=CM_FonTest3Center
+	X=(3+#CTestSize#/2)r
+	Y=3r
+	SolidColor=#RAMCOL#
+
+[CM_PhyMemTest4]
+	Meter=Image
+	MeterStyle=CM_FonTest4
+	X=-4R
+	Y=-3r
+
+[CM_PhyMemTest4Center]
+	Meter=String
+	MeterStyle=CM_FonTest4Center
+	X=(3+#CTestSize#/2)r
+	Y=3r
+	SolidColor=#RAMCOL#

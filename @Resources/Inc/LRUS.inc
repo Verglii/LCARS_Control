@@ -150,7 +150,15 @@ LCARSCM_A_Core9=ядро 9
 LCARSCM_A_Core10=ядро 10
 LCARSCM_A_Core11=ядро 11
 LCARSCM_A_Core12=ядро 12
+LCARSCM_A_PhyMem=ќперативна€ пам€ть
 
 LitCore=яƒ–ќ
 Lit234Cores=яƒ–ј
 LitMoreCores=яƒ≈–
+
+;Database
+LCARSDB_Head_Fon=÷вет адреса
+LCARSDB_Normal_Fon=÷вет данных
+
+SettingsAdressName="Ќазвание"
+SettingsAdressVal="ѕуть"

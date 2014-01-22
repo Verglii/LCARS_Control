@@ -87,7 +87,7 @@
 	AntiAlias=1
 	FontFace=#F#
 	FontSize=#F3#
-	FontColor=#COL2#
+	FontColor=#Col_Btt_Font_A#
 	SolidColor=#Col_Btt_A#
 	Hidden=#PowerSource#
 	DynamicVariables=1
@@ -118,7 +118,7 @@
 	AntiAlias=1
 	FontFace=#F#
 	FontSize=#F3#
-	FontColor=#COL2#
+	FontColor=#Col_Btt_Font_A#
 	SolidColor=#Col_Btt_A#
 	Hidden=#PowerSource#
 	DynamicVariables=1

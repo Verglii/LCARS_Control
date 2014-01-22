@@ -15,9 +15,9 @@ FONY=270
 FONH=440
 FONW=750
 
-CompInfo=0
-CPU_MEM=1
-CPU_MEM0=1
+CompInfo=1
+CPU_MEM=0
+CPU_MEM0=0
 CPU_MEM1=1
 DATABASE=1
 PowerSource=1
@@ -98,23 +98,23 @@ QL5L=http://www.bracercom.com/tutorial/content/CoherentLCARSInterface/LCARSCoher
 QL6N=Yandex
 QL6L=http://Yandex.ru
 
-GR|IND=1
-IND|GR=0
+GR|IND=0
+IND|GR=1
 
 CPULCount=2
 
-CP1=1
-CP2=1
-CP3=1
-CP4=1
-CP5=1
-CP6=1
-CP7=1
-CP8=1
-CP9=1
-CP10=1
-CP11=1
-CP12=1
+CP1=#CP1_#
+CP2=#CP2_#
+CP3=#CP3_#
+CP4=#CP4_#
+CP5=#CP5_#
+CP6=#CP6_#
+CP7=#CP7_#
+CP8=#CP8_#
+CP9=#CP9_#
+CP10=#CP10_#
+CP11=#CP11_#
+CP12=#CP12_#
 
 CPN2=0
 CPN3=0
@@ -129,18 +129,22 @@ CPN11=0
 CPN12=0
 
 ;Database=================
-FBLB1Name=Компьютер
-FBLCom1=[!SetOption MeasurePath Path ""][!CommandMeasure MeasurePath Update]
+AdrNum=
+AdrName=
+AdrVal=
+
 FBLB1Path=
 FBLB2Path=C:\
-FBLB2Name=C
-FBLCom2=[!SetOption MeasurePath Path "C:\"][!CommandMeasure MeasurePath Update]
 FBLB3Path=D:\
-FBLB3Name=D
-FBLCom3=[!SetOption MeasurePath Path "D:\"][!CommandMeasure MeasurePath Update]
 FBLB4Path=D:\Programs\
+FBLB1Name=Компьютер
+FBLB2Name=C
+FBLB3Name=D
 FBLB4Name=Programs
-FBLCom4=[!SetOption MeasurePath Path "C:\Programs"][!CommandMeasure MeasurePath Update]
+FBLCom1=[!SetOption MeasurePath Path "#FBLB1Path#"][!CommandMeasure MeasurePath Update]
+FBLCom2=[!SetOption MeasurePath Path "#FBLB2Path#"][!CommandMeasure MeasurePath Update]
+FBLCom3=[!SetOption MeasurePath Path "#FBLB3Path#"][!CommandMeasure MeasurePath Update]
+FBLCom4=[!SetOption MeasurePath Path "#FBLB4Path#"][!CommandMeasure MeasurePath Update]
 
 SHMP=0
 FORMATMP=0
@@ -171,10 +175,10 @@ WeekNumber=1
 WeekHNumber=1
 
 ;Settings=================
-Settings_Stage=2
-SSt0=1
+Settings_Stage=0
+SSt0=0
 SSt1=1
-SSt2=0
+SSt2=1
 SSt3=1
 SSt4=1
 SSt5=1

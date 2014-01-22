@@ -52,6 +52,7 @@ Color_DB_B=FF990099
 ;===Colors of battery
 
 Col_Btt_A=FF990099
+Col_Btt_Font_A=FFFFCC
 Col_Btt_Font=99CCFF
 
 test=00000080
