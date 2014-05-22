@@ -5,7 +5,7 @@
 	ShowHidden=0
 	ShowDotDot=0
 	ShowFolder=0
-	HideExtensions=0
+	HideExtensions=1
 	Count=9
 	FinishAction=[!UpdateMeterGroup LCARS-Steam] #IcUpd1##IcUpd2##IcUpd3##IcUpd4##IcUpd5##IcUpd6##IcUpd7##IcUpd8#
 
