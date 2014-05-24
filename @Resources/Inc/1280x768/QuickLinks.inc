@@ -1,6 +1,6 @@
 [QL1]							;Quick links
 	Meter=Button
-	ButtonImage=#@#/Buttons/Button1#CS#.png
+	ButtonImage=#@#/Buttons/Button1_#CS#.png
 	X=#QLL#
 	Y=#QLU#
 	AntiAlias=1
@@ -22,7 +22,7 @@
 
 [QL2]
 	Meter=Button
-	ButtonImage=#@#/Buttons/Button1#CS#.png
+	ButtonImage=#@#/Buttons/Button1_#CS#.png
 	X=#QLR#
 	Y=#QLU#
 	AntiAlias=1
@@ -43,7 +43,7 @@
 
 [QL3]
 	Meter=Button
-	ButtonImage=#@#/Buttons/Button1#CS#.png
+	ButtonImage=#@#/Buttons/Button1_#CS#.png
 	X=#QLL#
 	Y=#QLD#
 	AntiAlias=1
@@ -64,7 +64,7 @@
 
 [QL4]
 	Meter=Button
-	ButtonImage=#@#/Buttons/Button1#CS#.png
+	ButtonImage=#@#/Buttons/Button1_#CS#.png
 	X=#QLR#
 	Y=#QLD#
 	AntiAlias=1
@@ -85,7 +85,7 @@
 
 [QL5]
 	Meter=Button
-	ButtonImage=#@#/Buttons/Button1#CS#.png
+	ButtonImage=#@#/Buttons/Button1_#CS#.png
 	X=#QLRR#
 	Y=#QLU#
 	AntiAlias=1
@@ -106,7 +106,7 @@
 
 [QL6]
 	Meter=Button
-	ButtonImage=#@#/Buttons/Button1#CS#.png
+	ButtonImage=#@#/Buttons/Button1_#CS#.png
 	X=#QLRR#
 	Y=#QLD#
 	AntiAlias=1

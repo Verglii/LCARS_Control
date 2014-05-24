@@ -1,6 +1,6 @@
 [ScheduleLua]
 Measure=Script
-ScriptFile=#@#Inc/1280x768/LuaSchedule.lua
+ScriptFile=#@#Inc/LuaSchedule.lua
 
 [FonSchedule]
 	Meter=Image
@@ -98,8 +98,8 @@ ScriptFile=#@#Inc/1280x768/LuaSchedule.lua
 
 [IndexDay1Text1]
 	Meter=String
-	X=655
-	Y=340
+	X=r
+	Y=60r
 	W=230
 	H=60
 	FontColor=#COL2#

@@ -1,6 +1,6 @@
 [Elbos2]
 	Meter=IMAGE
-	ImageName=#@#/Static/Elbos/Elbos2#CS#.png
+	ImageName=#@#/Static/Elbos/Elbos2_#CS#.png
 	X=0
 	Y=650
 	AntiAlias=1
@@ -15,7 +15,7 @@
 
 [Elbos3]
 	Meter=IMAGE
-	ImageName=#@#/Static/Elbos/Elbos3#CS#.png
+	ImageName=#@#/Static/Elbos/Elbos3_#CS#.png
 	X=390
 	Y=650
 	AntiAlias=1
@@ -31,7 +31,7 @@
 
 [Elbos4]
 	Meter=IMAGE
-	ImageName=#@#/Static/Elbos/Elbos3#CS#.png
+	ImageName=#@#/Static/Elbos/Elbos3_#CS#.png
 	X=420
 	Y=230
 	AntiAlias=1

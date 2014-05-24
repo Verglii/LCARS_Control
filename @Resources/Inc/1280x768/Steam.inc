@@ -11,8 +11,8 @@
 
 [FonSteam]
 	Meter=Image
-	X=890
-	Y=280
+	X=10R
+	Y=r
 	H=420
 	W=270
 	SolidColor=#FONSt#
@@ -21,7 +21,7 @@
 
 [Elbos6St]
 	Meter=IMAGE
-	ImageName=#@#/Static/Elbos/Elbos3#CS#.png
+	ImageName=#@#/Static/Elbos/Elbos3_#CS#.png
 	X=1150
 	Y=230
 	AntiAlias=1
@@ -31,8 +31,8 @@
 
 [Elbos6StBlock1]
 	Meter=Image
-	X=1180
-	Y=290
+	X=30r
+	Y=R
 	W=100
 	H=30
 	SolidColor=#ELBOS#
@@ -41,8 +41,8 @@
 
 [Elbos7St]
 	Meter=IMAGE
-	ImageName=#@#/Static/Elbos/Elbos5#CS#.png
-	X=1180
+	ImageName=#@#/Static/Elbos/Elbos5_#CS#.png
+	X=r
 	Y=610
 	AntiAlias=1
 	ImageFlip=Horizontal
@@ -70,7 +70,7 @@
 	Meter=String
 	MeterStyle=SteamLib
 	Text=#Settings#
-	Y=510
+	Y=90r
 	H=80
 	SolidColor=#ELBOS#
 	LeftMouseDownAction=!Execute #LSettings5# [!SetOption #CURRENTSECTION# SolidColor #COL2#]
@@ -80,7 +80,7 @@
 	Meter=String
 	MeterStyle=SteamLib
 	Text=#NewsSteam#
-	Y=600
+	Y=90r
 	H=80
 	SolidColor=#ELBOS#
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
@@ -100,8 +100,8 @@
 	Meter=String
 	MeterStyle=SteamLib
 	Text=#SteamFriends#
-	X=1180
-	Y=510
+	X=r
+	Y=90r
 	H=80
 	SolidColor=#ELBOS#
 	StringAlign=LeftBottom
@@ -112,8 +112,8 @@
 	Meter=String
 	MeterStyle=SteamLib
 	Text=#SteamInventory#
-	X=1180
-	Y=600
+	X=r
+	Y=90r
 	H=80
 	SolidColor=#ELBOS#
 	StringAlign=LeftBottom
@@ -361,7 +361,7 @@
 
 [GameListUp]
 	Meter=Button
-	ButtonImage=#@#\Buttons\Button4#CS#.png
+	ButtonImage=#@#\Buttons\Button4_#CS#.png
 	X=645
 	Y=650
 	AntiAlias=1
@@ -373,8 +373,8 @@
 
 [GameListDown]
 	Meter=Button
-	ButtonImage=#@#\Buttons\Button4#CS#.png
-	X=715
+	ButtonImage=#@#\Buttons\Button4_#CS#.png
+	X=10R
 	Y=650
 	ImageFlip=Horizontal
 	AntiAlias=1
@@ -465,7 +465,7 @@
 
 [GameSteamListUp]
 	Meter=Button
-	ButtonImage=#@#\Buttons\Button4#CS#.png
+	ButtonImage=#@#\Buttons\Button4_#CS#.png
 	X=960
 	Y=650
 	AntiAlias=1
@@ -477,9 +477,9 @@
 
 [GameSteamListDown]
 	Meter=Button
-	ButtonImage=#@#\Buttons\Button4#CS#.png
-	X=1030
-	Y=650
+	ButtonImage=#@#\Buttons\Button4_#CS#.png
+	X=10R
+	Y=r
 	ImageFlip=Horizontal
 	AntiAlias=1
 	Hidden=#STEAM_#

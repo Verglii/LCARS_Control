@@ -17,8 +17,8 @@
 
 [CPU_MEMSwitchSettings]
 	Meter=String
-	X=520
-	Y=510
+	X=r
+	Y=90r
 	H=80
 	W=100
 	Text=#Settings#
@@ -35,8 +35,8 @@
 
 [CPU_MEMSwitchInd]
 	Meter=String
-	X=520
-	Y=600
+	X=r
+	Y=90r
 	H=80
 	W=100
 	Text=#Indicators#
@@ -81,7 +81,7 @@
 
 [MeterCPUFon]
 	Meter=Image
-	x=540
+	x=r
 	y=330
 	h=250
 	w=500
@@ -104,7 +104,7 @@
 	MeasureName10=MeasureCPU10
 	MeasureName11=MeasureCPU11
 	MeasureName12=MeasureCPU12
-	x=540
+	x=r
 	y=330
 	w=500
 	h=250
@@ -130,7 +130,7 @@
 	Meter=String
 	MeasureName=MeasureCPU1
 	Text=#Core1N#  %1%
-	X=540
+	X=r
 	Y=590
 	H=30
 	W=110
@@ -146,8 +146,8 @@
 	Meter=String
 	MeasureName=MeasureCPU2
 	Text=#Core2N#  %1%
-	X=540
-	Y=630
+	X=r
+	Y=10R
 	H=30
 	W=110
 	FontFace=#F#
@@ -162,8 +162,8 @@
 	Meter=String
 	MeasureName=MeasureCPU3
 	Text=#Core3N#  %1%
-	X=540
-	Y=670
+	X=r
+	Y=10R
 	H=30
 	W=110
 	FontFace=#F#
@@ -178,7 +178,7 @@
 	Meter=String
 	MeasureName=MeasureCPU4
 	Text=#Core4N#  %1%
-	X=670
+	X=20R
 	Y=590
 	H=30
 	W=110
@@ -194,8 +194,8 @@
 	Meter=String
 	MeasureName=MeasureCPU5
 	Text=#Core5N#  %1%
-	X=670
-	Y=630
+	X=r
+	Y=10R
 	H=30
 	W=110
 	FontFace=#F#
@@ -210,8 +210,8 @@
 	Meter=String
 	MeasureName=MeasureCPU6
 	Text=#Core6N#  %1%
-	X=670
-	Y=670
+	X=r
+	Y=10R
 	H=30
 	W=110
 	FontFace=#F#
@@ -226,7 +226,7 @@
 	Meter=String
 	MeasureName=MeasureCPU7
 	Text=#Core7N#  %1%
-	X=800
+	X=20R
 	Y=590
 	H=30
 	W=110
@@ -242,8 +242,8 @@
 	Meter=String
 	MeasureName=MeasureCPU8
 	Text=#Core8N#  %1%
-	X=800
-	Y=630
+	X=r
+	Y=10R
 	H=30
 	W=110
 	FontFace=#F#
@@ -258,8 +258,8 @@
 	Meter=String
 	MeasureName=MeasureCPU9
 	Text=#Core9N#  %1%
-	X=800
-	Y=670
+	X=r
+	Y=10R
 	H=30
 	W=110
 	FontFace=#F#
@@ -274,7 +274,7 @@
 	Meter=String
 	MeasureName=MeasureCPU10
 	Text=#Core10N#  %1%
-	X=930
+	X=20R
 	Y=590
 	H=30
 	W=110
@@ -290,8 +290,8 @@
 	Meter=String
 	MeasureName=MeasureCPU11
 	Text=#Core11N#  %1%
-	X=930
-	Y=630
+	X=r
+	Y=10R
 	H=30
 	W=110
 	FontFace=#F#
@@ -306,8 +306,8 @@
 	Meter=String
 	MeasureName=MeasureCPU12
 	Text=#Core12N#  %1%
-	X=930
-	Y=670
+	X=r
+	Y=10R
 	H=30
 	W=110
 	FontFace=#F#
@@ -338,7 +338,7 @@
 [MeterCPUInd3]
 	Meter=Image
 	ImageName=#@#\Static\Indicator1.png
-	x=650
+	x=70r
 	y=(560-[MeasureCPU3]*2.3)
 	DynamicVariables=1
 	Hidden=#CPU_MEM1#
@@ -355,7 +355,7 @@
 [MeterCPUInd5]
 	Meter=Image
 	ImageName=#@#\Static\Indicator1.png
-	x=735
+	x=70r
 	y=(560-[MeasureCPU5]*2.3)
 	DynamicVariables=1
 	Hidden=#CPU_MEM1#
@@ -372,7 +372,7 @@
 [MeterCPUInd7]
 	Meter=Image
 	ImageName=#@#\Static\Indicator1.png
-	x=820
+	x=70r
 	y=(560-[MeasureCPU7]*2.3)
 	DynamicVariables=1
 	Hidden=#CPU_MEM1#
@@ -389,7 +389,7 @@
 [MeterCPUInd9]
 	Meter=Image
 	ImageName=#@#\Static\Indicator1.png
-	x=905
+	x=70r
 	y=(560-[MeasureCPU9]*2.3)
 	DynamicVariables=1
 	Hidden=#CPU_MEM1#
@@ -406,7 +406,7 @@
 [MeterCPUInd11]
 	Meter=Image
 	ImageName=#@#\Static\Indicator1.png
-	x=990
+	x=70r
 	y=(560-[MeasureCPU11]*2.3)
 	DynamicVariables=1
 	Hidden=#CPU_MEM1#
@@ -431,88 +431,88 @@
 [MeterCPUInd2Line]
 	Meter=Image
 	ImageName=#@#\Static\GRIDCPU2.png
-	x=590
-	y=340
+	x=50r
+	y=r
 	DynamicVariables=1
 	Hidden=#CPU_MEM1#
 
 [MeterCPUInd3Line]
 	Meter=Image
 	ImageName=#@#\Static\GRIDCPU2.png
-	x=625
-	y=340
+	x=35r
+	y=r
 	DynamicVariables=1
 	Hidden=#CPU_MEM1#
 
 [MeterCPUInd4Line]
 	Meter=Image
 	ImageName=#@#\Static\GRIDCPU2.png
-	x=675
-	y=340
+	x=50r
+	y=r
 	DynamicVariables=1
 	Hidden=#CPU_MEM1#
 
 [MeterCPUInd5Line]
 	Meter=Image
 	ImageName=#@#\Static\GRIDCPU2.png
-	x=710
-	y=340
+	x=35r
+	y=r
 	DynamicVariables=1
 	Hidden=#CPU_MEM1#
 
 [MeterCPUInd6Line]
 	Meter=Image
 	ImageName=#@#\Static\GRIDCPU2.png
-	x=760
-	y=340
+	x=50r
+	y=r
 	DynamicVariables=1
 	Hidden=#CPU_MEM1#
 
 [MeterCPUInd7Line]
 	Meter=Image
 	ImageName=#@#\Static\GRIDCPU2.png
-	x=795
-	y=340
+	x=35r
+	y=r
 	DynamicVariables=1
 	Hidden=#CPU_MEM1#
 
 [MeterCPUInd8Line]
 	Meter=Image
 	ImageName=#@#\Static\GRIDCPU2.png
-	x=845
-	y=340
+	x=50r
+	y=r
 	DynamicVariables=1
 	Hidden=#CPU_MEM1#
 
 [MeterCPUInd9Line]
 	Meter=Image
 	ImageName=#@#\Static\GRIDCPU2.png
-	x=880
-	y=340
+	x=35r
+	y=r
 	DynamicVariables=1
 	Hidden=#CPU_MEM1#
 
 [MeterCPUInd10Line]
 	Meter=Image
 	ImageName=#@#\Static\GRIDCPU2.png
-	x=930
-	y=340
+	x=50r
+	y=r
 	DynamicVariables=1
 	Hidden=#CPU_MEM1#
 
 [MeterCPUInd11Line]
 	Meter=Image
 	ImageName=#@#\Static\GRIDCPU2.png
-	x=965
-	y=340
+	x=35r
+	y=r
 	DynamicVariables=1
 	Hidden=#CPU_MEM1#
 
 [MeterCPUInd12Line]
 	Meter=Image
 	ImageName=#@#\Static\GRIDCPU2.png
-	x=1015
-	y=340
+	x=50r
+	y=r
 	DynamicVariables=1
 	Hidden=#CPU_MEM1#
 
@@ -529,7 +529,7 @@
 	Meter=Image
 	MeterStyle=MeterCPUFon
 	ImageName=#@#\Static\GRIDRAM1.png
-	x=1050
+	x=r
 	y=330
 	w=220
 	Hidden=#CPU_MEM#
@@ -537,8 +537,8 @@
 [MeterRAMLine]
 	Meter=Line
 	MeasureName=MeasurePhyMemory
-	x=1050
-	y=330
+	x=r
+	y=r
 	w=220
 	h=250
 	LineColor=#RAMCOL#
@@ -550,7 +550,7 @@
 [RAMBKG]
 	Meter=Image
 	ImageName=#@#\Static\Isochip.png
-	x=1050
+	x=r
 	y=590
 	SolidColor=#CPU_COL_A#
 	DynamicVariables=1
@@ -561,7 +561,7 @@
 	MeasureName=MeasurePhyMemory
 	MeasureName2=MeasurePhyMemoryTotal
 	Text=#Memory#   %1#Byte#/%2#Byte#
-	X=1150
+	X=100r
 	Y=615
 	H=35
 	W=200

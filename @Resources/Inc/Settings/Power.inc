@@ -96,7 +96,7 @@
 	X=8R
 	Y=-3r
 	ImageName=#@#/Static/ColorTester3.png
-	Hidden=#SSt5#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 [PW_Fon1Test3Center]

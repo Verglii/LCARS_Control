@@ -19,7 +19,8 @@
 [FBLButton2]
 	Meter=String
 	MeterStyle=FBLButton1
-	X=850
+	SolidColor=#ELBOS#
+	X=150r
 	Text=#FBLB2Name#
 	LeftMouseUpAction=!Execute #FBLCom2# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
 
@@ -27,7 +28,8 @@
 [FBLButton3]
 	Meter=String
 	MeterStyle=FBLButton1
-	X=1000
+	SolidColor=#ELBOS#
+	X=150r
 	Text=#FBLB3Name#
 	LeftMouseUpAction=!Execute #FBLCom3# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
 
@@ -35,14 +37,15 @@
 [FBLButton4]
 	Meter=String
 	MeterStyle=FBLButton1
-	X=1140
+	SolidColor=#ELBOS#
+	X=140r
 	W=130
 	Text=#FBLB4Name#
 	LeftMouseUpAction=!Execute #FBLCom4# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
 
 [FBLBlock]
 	Meter=IMAGE
-	X=1150
+	X=10r
 	Y=230
 	W=130
 	H=30
@@ -53,7 +56,7 @@
 
 [Elbos6DB]
 	Meter=IMAGE
-	ImageName=#@#/Static/Elbos/Elbos3#CS#.png
+	ImageName=#@#/Static/Elbos/Elbos3_#CS#.png
 	X=1150
 	Y=230
 	AntiAlias=1
@@ -63,7 +66,7 @@
 
 [Elbos6DBBlock1]
 	Meter=Image
-	X=1180
+	X=30r
 	Y=290
 	W=100
 	H=30
@@ -73,8 +76,8 @@
 
 [Elbos7DB]
 	Meter=IMAGE
-	ImageName=#@#/Static/Elbos/Elbos5#CS#.png
-	X=1180
+	ImageName=#@#/Static/Elbos/Elbos5_#CS#.png
+	X=r
 	Y=610
 	AntiAlias=1
 	ImageFlip=Horizontal
@@ -102,8 +105,8 @@
 [DatabaseSettings]
 	Meter=String
 	Text=#Settings#
-	X=520
-	Y=510
+	X=r
+	Y=90r
 	W=100
 	H=80
 	AntiAlias=1
@@ -119,8 +122,8 @@
 [RemembPath]
 	Meter=String
 	Text=#Remember#
-	X=520
-	Y=600
+	X=r
+	Y=90r
 	W=100
 	H=80
 	AntiAlias=1
@@ -157,7 +160,7 @@
 	Meter=String
 	Text=#ClearBin#
 	MeterStyle=Bin
-	Y=500
+	Y=40r
 	LeftMouseUpAction=!Execute [!RainmeterPluginBang "MeasureKorz EmptyBin"] #SoundBeep1# [!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
 	DynamicVariables=1
 
@@ -200,7 +203,7 @@
 [DownToString]
 	Meter=Image
 	ImageName=#@#\Static\Arrow1.png
-	X=1180
+	X=r
 	Y=510
 	ImageFlip=Vertical
 	SolidColor=#ELBOS#
@@ -215,7 +218,7 @@
 	Meter=Image
 	ImageName=#@#\Static\Arrow2.png
 	X=1235
-	Y=510
+	Y=r
 	ImageFlip=Vertical
 	SolidColor=#ELBOS#
 	AntiAlias=1
@@ -515,7 +518,7 @@
 	Meter=String
 	MeasureName=MeasureFrameworkText
 	X=545
-	Y=285
+	Y=r
 	Text="%1"
 	AutoScale=1
 	W=575

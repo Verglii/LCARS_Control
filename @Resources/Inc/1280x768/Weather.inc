@@ -10,7 +10,7 @@
 
 [Elbos6Weather]
 	Meter=Image
-	ImageName=#@#/Static/Elbos/Elbos3#CS#.png
+	ImageName=#@#/Static/Elbos/Elbos3_#CS#.png
 	X=1150
 	Y=230
 	AntiAlias=1
@@ -20,8 +20,8 @@
 
 [Elbos6WeatherBlock1]
 	Meter=Image
-	X=1180
-	Y=290
+	X=30r
+	Y=R
 	W=100
 	H=30
 	SolidColor=#ELBOS#
@@ -30,8 +30,8 @@
 
 [Elbos7Weather]
 	Meter=IMAGE
-	ImageName=#@#/Static/Elbos/Elbos5#CS#.png
-	X=1180
+	ImageName=#@#/Static/Elbos/Elbos5_#CS#.png
+	X=r
 	Y=610
 	AntiAlias=1
 	ImageFlip=Horizontal
@@ -41,7 +41,7 @@
 [WeatherCity1]
 	Meter=String
 	Text=#City1Name#
-	X=1180
+	X=r
 	Y=380
 	W=100
 	H=50
@@ -85,7 +85,7 @@
 
 [WMeterFonToday]
 	Meter=Image
-	X=540
+	X=-640r
 	Y=280
 	W=200
 	H=210
@@ -96,8 +96,8 @@
 [WMeterD1Text]
 	Meter=String
 	MeasureName=WMeasureDAY
-	X=540
-	Y=280
+	X=r
+	Y=r
 	W=150
 	H=50
 	FontColor=#COL2#
@@ -113,8 +113,8 @@
 	Meter=Image
 	MeasureName=WMeasureWET
 	Path="#@#Static/Wind"
-	X=690
-	Y=280
+	X=150r
+	Y=r
 	W=50
 	H=50
 	DynamicVariables=1
@@ -124,8 +124,8 @@
 	Meter=Image
 	MeasureName=WMeasureWeatherIconD1
 	Path="#@#Static/WeatherIcons"
-	X=540
-	Y=330
+	X=-150r
+	Y=50r
 	W=200
 	H=160
 	PreserveAspectRatio=1
@@ -136,8 +136,8 @@
 [WMeterName]
 	Meter=String
 	MeasureName=WMeasureName
-	X=1030
-	Y=330
+	X=490r
+	Y=r
 	W=260
 	H=100
 	FontColor=#COL2#
@@ -153,8 +153,8 @@
 [WMeterTMAX1]
 	Meter=String
 	MeasureName=WMeasureTMAX
-	X=820
-	Y=330
+	X=-210r
+	Y=r
 	W=140
 	H=100
 	FontColor=#COL2#
@@ -172,13 +172,14 @@
 	Meter=String
 	MeterStyle=WMeterTMAX1
 	MeasureName=WMeasureTMIN
-	Y=440
+	X=r
+	Y=110r
 
 [WMeterON]
 	Meter=String
 	MeasureName=WMeasureON
-	X=900
-	Y=390
+	X=80r
+	Y=-50r
 	W=260
 	H=25
 	FontSize=#F2#
@@ -195,6 +196,7 @@
 	Meter=String
 	MeterStyle=WMeterON
 	MeasureName=WMeasureFD
+	X=r
 	Y=R
 	Prefix="Давленение: "
 
@@ -202,6 +204,7 @@
 	Meter=String
 	MeterStyle=WMeterON
 	MeasureName=WMeasureOW
+	X=r
 	Y=R
 	Prefix="Влажность: "
 
@@ -209,12 +212,13 @@
 	Meter=String
 	MeterStyle=WMeterON
 	MeasureName=WMeasurewind
+	X=r
 	Y=R
 	Prefix="Скорость ветра: "
 
 [WMeterDay+1Fon]
 	Meter=Image
-	X=540
+	X=-360r
 	Y=500
 	W=200
 	H=200
@@ -341,5 +345,3 @@
 	MeterStyle=WMeterDay+1Icon
 	MeasureName=WMeasureWeatherIcon4
 	X=-200r
-
-

@@ -1,6 +1,6 @@
 [Elbos1]
 	Meter=IMAGE
-	ImageName=#@#/Static/Elbos/Elbos1#CS#.png
+	ImageName=#@#/Static/Elbos/Elbos1_#CS#.png
 	X=0
 	Y=0
 	AntiAlias=1
@@ -26,7 +26,7 @@
 
 [Elbos1End]
 	Meter=IMAGE
-	ImageName=#@#/Static/Elbos/Elbos1End#CS#.png
+	ImageName=#@#/Static/Elbos/Elbos1End_#CS#.png
 	X=765
 	Y=0
 	AntiAlias=1
@@ -73,7 +73,7 @@
 
 [Elbos2]
 	Meter=IMAGE
-	ImageName=#@#/Static/Elbos/Elbos2#CS#.png
+	ImageName=#@#/Static/Elbos/Elbos2_#CS#.png
 	X=r
 	Y=R
 	AntiAlias=1
@@ -116,7 +116,7 @@
 
 [Elbos3]
 	Meter=IMAGE
-	ImageName=#@#/Static/Elbos/Elbos3#CS#.png
+	ImageName=#@#/Static/Elbos/Elbos3_#CS#.png
 	X=670
 	Y=-30r
 	AntiAlias=1
@@ -143,7 +143,7 @@
 
 [Elbos4]
 	Meter=IMAGE
-	ImageName=#@#/Static/Elbos/Elbos3_2#CS#.png
+	ImageName=#@#/Static/Elbos/Elbos3_2_#CS#.png
 	X=670
 	Y=90
 	AntiAlias=1
@@ -167,7 +167,7 @@ ScriptFile=#@#Inc/Settings.lua
 
 [BLFT0]
 	Meter=Button
-	ButtonImage=#@#/Buttons/Button2#CS#.png
+	ButtonImage=#@#/Buttons/Button2_#CS#.png
 	X=0
 	Y=150
 	AntiAlias=1
@@ -288,7 +288,7 @@ ScriptFile=#@#Inc/Settings.lua
 ;Lang changers
 [English]
 	Meter=Button
-	ButtonImage=#@#/Buttons/Button1#CS#.png
+	ButtonImage=#@#/Buttons/Button1_#CS#.png
 	X=330
 	Y=100
 	AntiAlias=1

@@ -1,6 +1,6 @@
 [Elbos6PW]						;Power source
 	Meter=IMAGE
-	ImageName=#@#/Static/Elbos/Elbos3#CS#.png
+	ImageName=#@#/Static/Elbos/Elbos3_#CS#.png
 	X=420
 	Y=465
 	AntiAlias=1
@@ -9,8 +9,8 @@
 
 [Elbos6PWBlock1]
 	Meter=Image
-	X=420
-	Y=525
+	X=r
+	Y=R
 	W=100
 	H=85
 	SolidColor=#ELBOS#
@@ -19,7 +19,7 @@
 
 [Elbos7PW]
 	Meter=IMAGE
-	ImageName=#@#/Static/Elbos/Elbos3#CS#.png
+	ImageName=#@#/Static/Elbos/Elbos3_#CS#.png
 	X=1150
 	Y=230
 	AntiAlias=1
@@ -29,8 +29,8 @@
 
 [Elbos7PWBlock1]
 	Meter=Image
-	X=1180
-	Y=290
+	X=30r
+	Y=R
 	W=100
 	H=145
 	SolidColor=#ELBOS#
@@ -39,7 +39,7 @@
 
 [Elbos8PW]
 	Meter=IMAGE
-	ImageName=#@#/Static/Elbos/Elbos5#CS#.png
+	ImageName=#@#/Static/Elbos/Elbos5_#CS#.png
 	X=420
 	Y=355
 	AntiAlias=1
@@ -49,7 +49,7 @@
 
 [Elbos8PWBlock1]
 	Meter=Image
-	X=420
+	X=r
 	Y=320
 	W=100
 	H=35
@@ -59,7 +59,7 @@
 
 [Elbos9PW]
 	Meter=IMAGE
-	ImageName=#@#/Static/Elbos/Elbos3#CS#.png
+	ImageName=#@#/Static/Elbos/Elbos3_#CS#.png
 	X=1150
 	Y=435
 	AntiAlias=1
@@ -97,7 +97,7 @@
 	MeasureName=MeasurePowerStatus
 	MeasureName2=MeasurePercent
 	Text=%2%  %1
-	X=745
+	X=55r
 	Y=335
 	H=30
 	W=165
@@ -126,7 +126,7 @@
 [BTLifeTime]
 	Meter=String
 	MeasureName=MeasureLifetime
-	X=1000
+	X=70r
 	Y=335
 	H=30
 	W=150
@@ -151,7 +151,7 @@
 
 [BatteryImage]
 	Meter=Image
-	X=690
+	X=-4r
 	Y=320
 	ImageName=#@#\Static\BT[MeasurePowerSource]_PRI.png
 	Hidden=#PowerSource#
@@ -186,13 +186,13 @@
 	Meter=String
 	MeterStyle=Shotdown
 	Text=#Reload#
-	X=905
+	X=160r
 	LeftMouseUpAction=!Execute [%windir%\System32\shutdown.exe -r -t 00] #SoundBeep1# [!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]
 
 [Sleep]
 	Meter=String
 	MeterStyle=Shotdown
 	Text=#Hibernation#
-	X=1065
+	X=160r
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
 	LeftMouseUpAction=!Execute [rundll32.exe powrprof.dll,SetSuspendState] #SoundBeep1# [!SetOption #CURRENTSECTION# SolidColor #ELBOS#][!RainmeterRedraw]

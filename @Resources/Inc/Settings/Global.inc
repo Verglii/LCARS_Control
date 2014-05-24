@@ -245,26 +245,26 @@
 	Hidden=#SSt0#
 	DynamicVariables=1
 
-[CSPRI]
+[CS1]
 	Meter=Image
 	X=10R
 	Y=-35r
 	W=80
 	H=30
-	SolidColor=#CorrectColorPRI#
+	SolidColor=#CorrectColor1#
 	Hidden=#SSt0#
-	LeftMouseDownAction=!Execute [!SetVariable "CS" "PRI"][!RainmeterWriteKeyValue Variables "CS" "PRI" "#@#\Inc\Settings.inc"] [!Refresh]
+	LeftMouseDownAction=!Execute [!SetVariable "CS" "1"][!RainmeterWriteKeyValue Variables "CS" "1" "#@#\Inc\Settings.inc"] [!Refresh]
 	DynamicVariables=1
 
-[CSSEC]
+[CS2]
 	Meter=Image
 	X=5R
 	Y=r
 	W=80
 	H=30
-	SolidColor=#CorrectColorSEC#
+	SolidColor=#CorrectColor2#
 	Hidden=#SSt0#
-	LeftMouseDownAction=!Execute [!SetVariable "CS" "SEC"][!RainmeterWriteKeyValue Variables "CS" "SEC" "#@#\Inc\Settings.inc"] [!Refresh]
+	LeftMouseDownAction=!Execute [!SetVariable "CS" "2"][!RainmeterWriteKeyValue Variables "CS" "2" "#@#\Inc\Settings.inc"] [!Refresh]
 	DynamicVariables=1
 
 [CSANC]
@@ -273,7 +273,7 @@
 	Y=r
 	W=80
 	H=30
-	SolidColor=#CorrectColorANC#
+	SolidColor=#CorrectColor3#
 	Hidden=#SSt0#
 	DynamicVariables=1
 
@@ -283,7 +283,7 @@
 	Y=10R
 	W=80
 	H=30
-	SolidColor=#CorrectColorDAT#
+	SolidColor=#CorrectColor4#
 	Hidden=#SSt0#
 	DynamicVariables=1
 
@@ -293,7 +293,7 @@
 	Y=r
 	W=80
 	H=30
-	SolidColor=#CorrectColorRED#
+	SolidColor=#CorrectColor5#
 	Hidden=#SSt0#
 	DynamicVariables=1
 
@@ -303,7 +303,7 @@
 	Y=r
 	W=80
 	H=30
-	SolidColor=#CorrectColorMUL#
+	SolidColor=#CorrectColor6#
 	Hidden=#SSt0#
 	DynamicVariables=1
 
