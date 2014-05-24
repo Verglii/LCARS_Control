@@ -148,15 +148,6 @@ HWeek2=[!SetVariable "WeekHNumber" "2"][!RainmeterWriteKeyValue Variables "WeekH
 SchReload=[!CommandMeasure "ScheduleLua" "SpawnText()"]
 
 ;======================Settings
-LSettings0=[!RainmeterWriteKeyValue Variables "Settings_Stage" "0" "#@#\Inc\Settings.inc"]
-LSettings1=[!RainmeterWriteKeyValue Variables "Settings_Stage" "1" "#@#\Inc\Settings.inc"]
-LSettings2=[!RainmeterWriteKeyValue Variables "Settings_Stage" "2" "#@#\Inc\Settings.inc"]
-LSettings3=[!RainmeterWriteKeyValue Variables "Settings_Stage" "3" "#@#\Inc\Settings.inc"]
-LSettings4=[!RainmeterWriteKeyValue Variables "Settings_Stage" "4" "#@#\Inc\Settings.inc"]
-LSettings5=[!RainmeterWriteKeyValue Variables "Settings_Stage" "5" "#@#\Inc\Settings.inc"]
-LSettings6=[!RainmeterWriteKeyValue Variables "Settings_Stage" "6" "#@#\Inc\Settings.inc"]
-LSettings7=[!RainmeterWriteKeyValue Variables "Settings_Stage" "7" "#@#\Inc\Settings.inc"]
-LSettings8=[!RainmeterWriteKeyValue Variables "Settings_Stage" "8" "#@#\Inc\Settings.inc"]
 
 TextRus=[!SetVariable "Lang" "RUS"][!RainmeterWriteKeyValue Variables "Lang" "RUS" "#@#\Inc\Settings.inc"]
 TextEng=[!SetVariable "Lang" "ENG"][!RainmeterWriteKeyValue Variables "Lang" "ENG" "#@#\Inc\Settings.inc"]
@@ -172,5 +163,6 @@ SStage5=[!SetVariable "Settings_Stage" "5"][!RainmeterWriteKeyValue Variables "S
 SStage6=[!SetVariable "Settings_Stage" "6"][!RainmeterWriteKeyValue Variables "Settings_Stage" "6" "#@#\Inc\Settings.inc"]
 SStage7=[!SetVariable "Settings_Stage" "7"][!RainmeterWriteKeyValue Variables "Settings_Stage" "7" "#@#\Inc\Settings.inc"]
 SStage8=[!SetVariable "Settings_Stage" "8"][!RainmeterWriteKeyValue Variables "Settings_Stage" "8" "#@#\Inc\Settings.inc"]
+SStage9=[!SetVariable "Settings_Stage" "9"][!RainmeterWriteKeyValue Variables "Settings_Stage" "9" "#@#\Inc\Settings.inc"]
 
 CTestSize=24

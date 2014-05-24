@@ -87,8 +87,8 @@
 	MeterStyle=MenuButtonStyle
 	Y=#LMYO#
 	Text=#LMB1_8#
-	LeftMouseDownAction=!Execute #LSettings0# [!SetOption #CURRENTSECTION# SolidColor #COL2#]
-	LeftMouseUpAction=!Execute #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #PRI#]#Close1280x768##OpenSettings#
+	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute #MediaPl_On# #Schedule_Off# #Weather_Off# #STEAM_Off# #PowerSource_Off# #DATABASE_Off# #CoIn_Off# #CPU_MEM_Off# #CPU_MEM|N_Off# #CPU_Off# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #PRI#][!RainmeterRedraw]
 	DynamicVariables=1
 	Hidden=#LMC1#
 
@@ -97,8 +97,8 @@
 	MeterStyle=MenuButtonStyle
 	Y=#LMYO#
 	Text=#LMB1_9#
-	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
-	LeftMouseUpAction=!Execute [%WINDIR%\System32\control.exe] #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #PRI#][!RainmeterRedraw]
+	LeftMouseDownAction=!Execute #LSettings0# [!SetOption #CURRENTSECTION# SolidColor #COL2#]
+	LeftMouseUpAction=!Execute #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #PRI#]#Close1280x768##OpenSettings#
 	DynamicVariables=1
 	Hidden=#LMC1#
 
@@ -107,9 +107,8 @@
 	MeterStyle=MenuButtonStyle
 	Y=#LMYO#
 	Text=#LMB1_10#
-	SolidColor=[MeasureMediaProcessButton]
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
-	LeftMouseUpAction=!Execute #MediaPl_On# #Schedule_Off# #Weather_Off# #STEAM_Off# #PowerSource_Off# #DATABASE_Off# #CoIn_Off# #CPU_MEM_Off# #CPU_MEM|N_Off# #CPU_Off# #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor [MeasureMediaProcessButton]][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute [%WINDIR%\System32\control.exe] #SoundBeep1#[!SetOption #CURRENTSECTION# SolidColor #PRI#][!RainmeterRedraw]
 	DynamicVariables=1
 	Hidden=#LMC1#
 

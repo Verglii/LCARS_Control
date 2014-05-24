@@ -393,6 +393,7 @@
 	ImageName=#@#\Static\Steam.jpg
 	Hidden=#STEAM_#
 	AntiAlias=1
+	LeftMouseUpAction=!Execute #LIcUpd1##LIcUpd2##LIcUpd3##LIcUpd4##LIcUpd5##LIcUpd6##LIcUpd7##LIcUpd8#
 	DynamicVariables=1
 
 [SteamIcon1]

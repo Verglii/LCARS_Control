@@ -49,7 +49,7 @@
 	X=0
 	Y=90
 	W=200
-	H=50
+	H=40
 	SolidColor=#ELBOS#
 	DynamicVariables=1
 
@@ -58,16 +58,16 @@
 	X=210
 	Y=90
 	W=110
-	H=50
+	H=40
 	SolidColor=#ELBOS#
 	DynamicVariables=1
 
 [Elbos2Block1]
 	Meter=Image
 	X=0
-	Y=510r
+	Y=550r
 	W=200
-	H=65
+	H=10
 	SolidColor=#ELBOS#
 	DynamicVariables=1
 
@@ -92,7 +92,7 @@
 	Meter=String
 	X=455
 	Y=R
-	H=50
+	H=40
 	W=130
 	Text=#Done#
 	FontFace=#F#
@@ -137,13 +137,13 @@
 	X=700
 	Y=600
 	W=100
-	H=65
+	H=50
 	SolidColor=#ELBOS#
 	DynamicVariables=1
 
 [Elbos4]
 	Meter=IMAGE
-	ImageName=#@#/Static/Elbos/Elbos3_2_#CS#.png
+	ImageName=#@#/Static/Elbos/Elbos3_3_#CS#.png
 	X=670
 	Y=90
 	AntiAlias=1
@@ -155,7 +155,7 @@
 	X=550
 	Y=90
 	W=110
-	H=50
+	H=40
 	SolidColor=#ELBOS#
 	DynamicVariables=1
 
@@ -169,7 +169,7 @@ ScriptFile=#@#Inc/Settings.lua
 	Meter=Button
 	ButtonImage=#@#/Buttons/Button2_#CS#.png
 	X=0
-	Y=150
+	Y=140
 	AntiAlias=1
 	ButtonCommand=!Execute #SStage0# #SStLoad# [!HideMeterGroup "Panel2Set"] #SoundBeep1#
 	DynamicVariables=1
@@ -199,7 +199,7 @@ ScriptFile=#@#Inc/Settings.lua
 	Meter=String
 	MeterStyle=BLFT0T
 	Y=20r
-	Text=#LMB1_1#
+	Text=#LMB_Center#
 
 [BLFT2]
 	Meter=Button
@@ -211,7 +211,7 @@ ScriptFile=#@#Inc/Settings.lua
 	Meter=String
 	MeterStyle=BLFT0T
 	Y=20r
-	Text=#LMB1_2#
+	Text=#LMB1_1#
 
 [BLFT3]
 	Meter=Button
@@ -223,7 +223,7 @@ ScriptFile=#@#Inc/Settings.lua
 	Meter=String
 	MeterStyle=BLFT0T
 	Y=20r
-	Text=#LMB1_3#
+	Text=#LMB1_2#
 
 [BLFT4]
 	Meter=Button
@@ -235,7 +235,7 @@ ScriptFile=#@#Inc/Settings.lua
 	Meter=String
 	MeterStyle=BLFT0T
 	Y=20r
-	Text=#LMB1_4#
+	Text=#LMB1_3#
 
 [BLFT5]
 	Meter=Button
@@ -247,7 +247,7 @@ ScriptFile=#@#Inc/Settings.lua
 	Meter=String
 	MeterStyle=BLFT0T
 	Y=20r
-	Text=#LMB1_5#
+	Text=#LMB1_4#
 
 [BLFT6]
 	Meter=Button
@@ -259,7 +259,7 @@ ScriptFile=#@#Inc/Settings.lua
 	Meter=String
 	MeterStyle=BLFT0T
 	Y=20r
-	Text=#LMB1_6#
+	Text=#LMB1_5#
 
 [BLFT7]
 	Meter=Button
@@ -271,7 +271,7 @@ ScriptFile=#@#Inc/Settings.lua
 	Meter=String
 	MeterStyle=BLFT0T
 	Y=20r
-	Text=#LMB1_7#
+	Text=#LMB1_6#
 
 [BLFT8]
 	Meter=Button
@@ -283,14 +283,26 @@ ScriptFile=#@#Inc/Settings.lua
 	Meter=String
 	MeterStyle=BLFT0T
 	Y=20r
-	Text=#LMB1_10#
+	Text=#LMB1_7#
+
+[BLFT9]
+	Meter=Button
+	MeterStyle=BLFT0
+	Y=30r
+	ButtonCommand=!Execute #SStage9# #SStLoad# [!HideMeterGroup "Panel2Set"] #SoundBeep1#
+
+[BLFT9T]
+	Meter=String
+	MeterStyle=BLFT0T
+	Y=20r
+	Text=#LMB1_8#
 
 ;Lang changers
 [English]
 	Meter=Button
 	ButtonImage=#@#/Buttons/Button1_#CS#.png
 	X=330
-	Y=100
+	Y=95
 	AntiAlias=1
 	ButtonCommand=!Execute #SoundBeep1# #TextEng# [!Refresh]
 	DynamicVariables=1

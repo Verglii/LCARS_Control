@@ -13,20 +13,20 @@ FONHID=0
 FONX=530
 FONY=270
 FONH=440
-FONW=750
+FONW=640
 
-CompInfo=0
+CompInfo=1
 CPU_MEM=1
 CPU_MEM0=1
 CPU_MEM1=1
 DATABASE=1
 PowerSource=1
-STEAM_=1
+STEAM_=0
 Weather_=1
 Schedule_=1
 MediaPl=1
 
-DATABASELinksBorder=0
+DATABASELinksBorder=1
 ;Drive1
 D1=C
 ;Drive2
@@ -171,13 +171,13 @@ City3Name=Челябинск
 
 WeatherSettings=НАСТРОЙКА
 ;Schedule=================
-WeekNumber=1
+WeekNumber=2
 WeekHNumber=1
 
 ;Settings=================
-Settings_Stage=0
-SSt0=0
-SSt1=1
+Settings_Stage=1
+SSt0=1
+SSt1=0
 SSt2=1
 SSt3=1
 SSt4=1
@@ -189,3 +189,4 @@ SSt8=1
 ;Global
 LCARSUserNameVar=Verglii
 LCARSUserRankVar=Коммандер
+SSt9=1

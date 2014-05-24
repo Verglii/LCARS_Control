@@ -1,7 +1,7 @@
 function Control()
 Stage=tonumber(SKIN:GetVariable('Settings_Stage'))
 Cycle=0
-while Cycle <= 8 do
+while Cycle <= 9 do
 	if Stage == Cycle then
 		SKIN:Bang('!SetVariable', 'SSt' .. tostring(Cycle), '0')
 		SKIN:Bang('!WriteKeyValue', 'Variables', 'SSt' .. tostring(Cycle), '0', '#@#Inc/Settings.inc')

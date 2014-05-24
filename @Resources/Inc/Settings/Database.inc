@@ -5,7 +5,7 @@
 	W=440
 	H=240
 	SolidColor=101010AA
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 
@@ -23,7 +23,7 @@
 	AntiAlias=1
 	ClipString=1
 	SolidColor=#PRI#
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 [DB_Fon1Button]
@@ -38,7 +38,7 @@
 	AntiAlias=1
 	ClipString=1
 	SolidColor=#PRI#
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#]
 	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#] [!PluginBang "DB_Fon1Input ExecuteBatch 1"] #SoundBeep1#
 	DynamicVariables=1
@@ -63,7 +63,7 @@
 	X=5R
 	Y=r
 	ImageName=#@#/Static/ColorTester1.png
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 [DB_Fon1Test1Center]
@@ -73,7 +73,7 @@
 	W=#CTestSize#
 	H=#CTestSize#
 	SolidColor=#Color_DB_B#
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 [DB_Fon1Test2]
@@ -81,7 +81,7 @@
 	X=8R
 	Y=-3r
 	ImageName=#@#/Static/ColorTester2.png
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 [DB_Fon1Test2Center]
@@ -91,7 +91,7 @@
 	W=#CTestSize#
 	H=#CTestSize#
 	SolidColor=#Color_DB_B#
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 [DB_Fon1Test3]
@@ -99,7 +99,7 @@
 	X=8R
 	Y=-3r
 	ImageName=#@#/Static/ColorTester3.png
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 [DB_Fon1Test3Center]
@@ -109,7 +109,7 @@
 	W=#CTestSize#
 	H=#CTestSize#
 	SolidColor=#Color_DB_B#
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 [DB_Fon1Test4]
@@ -117,7 +117,7 @@
 	X=8R
 	Y=-3r
 	ImageName=#@#/Static/ColorTester4.png
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 [DB_Fon1Test4Center]
@@ -127,7 +127,7 @@
 	W=#CTestSize#
 	H=#CTestSize#
 	SolidColor=#Color_DB_B#
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 [DB_Fon2]
@@ -142,7 +142,7 @@
 	AntiAlias=1
 	ClipString=1
 	SolidColor=#PRI#
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 [DB_Fon2Button]
@@ -157,7 +157,7 @@
 	AntiAlias=1
 	ClipString=1
 	SolidColor=#PRI#
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#]
 	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#] [!PluginBang "DB_Fon2Input ExecuteBatch 1"] #SoundBeep1#
 	DynamicVariables=1
@@ -182,7 +182,7 @@
 	X=5R
 	Y=r
 	ImageName=#@#/Static/ColorTester1.png
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 [DB_Fon2Test1Center]
@@ -192,7 +192,7 @@
 	W=#CTestSize#
 	H=#CTestSize#
 	SolidColor=#Color_DB_A#
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 [DB_Fon2Test2]
@@ -200,7 +200,7 @@
 	X=8R
 	Y=-3r
 	ImageName=#@#/Static/ColorTester2.png
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 [DB_Fon2Test2Center]
@@ -210,7 +210,7 @@
 	W=#CTestSize#
 	H=#CTestSize#
 	SolidColor=#Color_DB_A#
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 [DB_Fon2Test3]
@@ -218,7 +218,7 @@
 	X=8R
 	Y=-3r
 	ImageName=#@#/Static/ColorTester3.png
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 [DB_Fon2Test3Center]
@@ -228,7 +228,7 @@
 	W=#CTestSize#
 	H=#CTestSize#
 	SolidColor=#Color_DB_A#
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 [DB_Fon2Test4]
@@ -236,7 +236,7 @@
 	X=8R
 	Y=-3r
 	ImageName=#@#/Static/ColorTester4.png
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 [DB_Fon2Test4Center]
@@ -246,7 +246,7 @@
 	W=#CTestSize#
 	H=#CTestSize#
 	SolidColor=#Color_DB_A#
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 [DatabaseAdressFon]
@@ -256,7 +256,7 @@
 	W=420
 	H=140
 	SolidColor=202020AA
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 
 [DatabaseAdress1]
@@ -271,7 +271,7 @@
 	AntiAlias=1
 	ClipString=1
 	SolidColor=#PRI#
-	Hidden=#SSt3#
+	Hidden=#SSt4#
 	DynamicVariables=1
 	LeftMouseDownAction=!Execute [!ShowMeter "ChangeAdress"] [!SetOption #CURRENTSECTION# SolidColor #COL2#]
 	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#][!SetVariable "AdrNum" "1"][!SetVariable "AdrName" "#FBLB1Name#"][!SetVariable "AdrVal" "#FBLB1Path#"] #SoundBeep1#

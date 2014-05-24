@@ -5,7 +5,7 @@
 	W=440
 	H=90
 	SolidColor=101010AA
-	Hidden=#SSt4#
+	Hidden=#SSt5#
 	DynamicVariables=1
 
 [PW_Fon1]
@@ -20,7 +20,7 @@
 	AntiAlias=1
 	ClipString=1
 	SolidColor=#PRI#
-	Hidden=#SSt4#
+	Hidden=#SSt5#
 	DynamicVariables=1
 
 [PW_Fon1Button]
@@ -35,7 +35,7 @@
 	AntiAlias=1
 	ClipString=1
 	SolidColor=#PRI#
-	Hidden=#SSt4#
+	Hidden=#SSt5#
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#]
 	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #PRI#] [!PluginBang "CI_Fon1Input ExecuteBatch 1"] #SoundBeep1#
 	DynamicVariables=1
@@ -60,7 +60,7 @@
 	X=5R
 	Y=r
 	ImageName=#@#/Static/ColorTester1.png
-	Hidden=#SSt4#
+	Hidden=#SSt5#
 	DynamicVariables=1
 
 [PW_Fon1Test1Center]
@@ -70,7 +70,7 @@
 	W=#CTestSize#
 	H=#CTestSize#
 	SolidColor=#CompInfoHeadFon#
-	Hidden=#SSt4#
+	Hidden=#SSt5#
 	DynamicVariables=1
 
 [PW_Fon1Test2]
@@ -78,7 +78,7 @@
 	X=8R
 	Y=-3r
 	ImageName=#@#/Static/ColorTester2.png
-	Hidden=#SSt4#
+	Hidden=#SSt5#
 	DynamicVariables=1
 
 [PW_Fon1Test2Center]
@@ -88,7 +88,7 @@
 	W=#CTestSize#
 	H=#CTestSize#
 	SolidColor=#CompInfoHeadFon#
-	Hidden=#SSt4#
+	Hidden=#SSt5#
 	DynamicVariables=1
 
 [PW_Fon1Test3]
@@ -96,7 +96,7 @@
 	X=8R
 	Y=-3r
 	ImageName=#@#/Static/ColorTester3.png
-	Hidden=#SSt4#
+	Hidden=#SSt5#
 	DynamicVariables=1
 
 [PW_Fon1Test3Center]
@@ -106,7 +106,7 @@
 	W=#CTestSize#
 	H=#CTestSize#
 	SolidColor=#CompInfoHeadFon#
-	Hidden=#SSt4#
+	Hidden=#SSt5#
 	DynamicVariables=1
 
 [PW_Fon1Test4]
@@ -114,7 +114,7 @@
 	X=8R
 	Y=-3r
 	ImageName=#@#/Static/ColorTester4.png
-	Hidden=#SSt4#
+	Hidden=#SSt5#
 	DynamicVariables=1
 
 [PW_Fon1Test4Center]
@@ -124,7 +124,7 @@
 	W=#CTestSize#
 	H=#CTestSize#
 	SolidColor=#CompInfoHeadFon#
-	Hidden=#SSt4#
+	Hidden=#SSt5#
 	DynamicVariables=1
 
 
