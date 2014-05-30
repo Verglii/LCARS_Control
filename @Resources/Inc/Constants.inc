@@ -18,8 +18,8 @@ OpenHide1366x768=[!RainmeterActivateConfig "LCARS_Control\1366x768" "LCARS_Hidde
 ;=================================================!Bangs============================================
 ;============================================
 ;Sounds========================================
-SoundBeep1=[PLAY "#@#Sounds\Computer\Beep1.wav"]
-SoundScreenUp=[PLAY "#@#Sounds\Computer\ScreenUp.wav"]
+SoundBeep1=[PLAY "#@#Sounds\Computer\205.wav"]
+SoundScreenUp=[PLAY "#@#Sounds\Computer\211.wav"]
 ;==============================================
 ;Commands1======================================
 CoIn_On=[!SetVariable "CompInfo" "0"][!RainmeterWriteKeyValue Variables "CompInfo" "0" "#@#\Inc\Settings.inc"][!EnableMeasureGroup CompInfo]#Fon1##DATABASELinksBorder_On#
@@ -40,9 +40,12 @@ Weather_On=[!SetVariable "Weather_" "0"][!RainmeterWriteKeyValue Variables "Weat
 Weather_Off=[!SetVariable "Weather_" "1"][!RainmeterWriteKeyValue Variables "Weather_" "1" "#@#\Inc\Settings.inc"]
 Schedule_On=[!SetVariable "Schedule_" "0"][!RainmeterWriteKeyValue Variables "Schedule_" "0" "#@#\Inc\Settings.inc"]#Fon1##DATABASELinksBorder_On#
 Schedule_Off=[!SetVariable "Schedule_" "1"][!RainmeterWriteKeyValue Variables "Schedule_" "1" "#@#\Inc\Settings.inc"]
-MediaPl_On=[!SetVariable "MediaPl" "0"][!RainmeterWriteKeyValue Variables "MediaPl" "0" "#@#\Inc\Settings.inc"]#Fon1##DATABASELinksBorder_On#
-MediaPl_Off=[!SetVariable "MediaPl" "1"][!RainmeterWriteKeyValue Variables "MediaPl" "1" "#@#\Inc\Settings.inc"]
+Sun_On=[!SetVariable "Sun" "0"][!RainmeterWriteKeyValue Variables "Sun" "0" "#@#\Inc\Settings.inc"]#Fon1##DATABASELinksBorder_On#
+Sun_Off=[!SetVariable "Sun" "1"][!RainmeterWriteKeyValue Variables "Sun" "1" "#@#\Inc\Settings.inc"]
 
+ControlPanelWin=[%WINDIR%\System32\control.exe]
+
+All_Off=[!SetVariable "CompInfo" "1"][!RainmeterWriteKeyValue Variables "CompInfo" "1" "#@#\Inc\Settings.inc"][!DisableMeasureGroup CompInfo][!SetVariable "CPU_MEM" "1"][!RainmeterWriteKeyValue Variables "CPU_MEM" "1" "#@#\Inc\Settings.inc"][!SetVariable "CPU_MEM0" "1"][!RainmeterWriteKeyValue Variables "CPU_MEM0" "1" "#@#\Inc\Settings.inc"][!SetVariable "CPU_MEM1" "1"][!RainmeterWriteKeyValue Variables "CPU_MEM1" "1" "#@#\Inc\Settings.inc"][!SetVariable "DATABASE" "1"][!RainmeterWriteKeyValue Variables "DATABASE" "1" "#@#\Inc\Settings.inc"][!SetVariable "PowerSource" "1"][!RainmeterWriteKeyValue Variables "PowerSource" "1" "#@#\Inc\Settings.inc"][!SetVariable "STEAM_" "1"][!RainmeterWriteKeyValue Variables "STEAM_" "1" "#@#\Inc\Settings.inc"][!SetVariable "Weather_" "1"][!RainmeterWriteKeyValue Variables "Weather_" "1" "#@#\Inc\Settings.inc"][!SetVariable "Schedule_" "1"][!RainmeterWriteKeyValue Variables "Schedule_" "1" "#@#\Inc\Settings.inc"][!SetVariable "Sun" "1"][!RainmeterWriteKeyValue Variables "Sun" "1" "#@#\Inc\Settings.inc"]
 
 DATABASELinksBorder_On=[!SetVariable "DATABASELinksBorder" "0"][!RainmeterWriteKeyValue Variables "DATABASELinksBorder" "0" "#@#\Inc\Settings.inc"]
 DATABASELinksBorder_Off=[!SetVariable "DATABASELinksBorder" "1"][!RainmeterWriteKeyValue Variables "DATABASELinksBorder" "1" "#@#\Inc\Settings.inc"]
@@ -52,6 +55,9 @@ CPU_On=[!SetVariable CP1 "#CP1_#"][!RainmeterWriteKeyValue Variables "CP1" "#CP1
 CPU_Off=[!SetVariable "CP1" "1"][!RainmeterWriteKeyValue Variables "CP1" "1" "#@#\Inc\Settings.inc"][!SetVariable "CP2" "1"][!RainmeterWriteKeyValue Variables "CP2" "1" "#@#\Inc\Settings.inc"][!SetVariable "CP3" "1"][!RainmeterWriteKeyValue Variables "CP3" "1" "#@#\Inc\Settings.inc"][!SetVariable "CP4" "1"][!RainmeterWriteKeyValue Variables "CP4" "1" "#@#\Inc\Settings.inc"][!SetVariable "CP5" "1"][!RainmeterWriteKeyValue Variables "CP5" "1" "#@#\Inc\Settings.inc"][!SetVariable "CP6" "1"][!RainmeterWriteKeyValue Variables "CP6" "1" "#@#\Inc\Settings.inc"][!SetVariable "CP7" "1"][!RainmeterWriteKeyValue Variables "CP7" "1" "#@#\Inc\Settings.inc"][!SetVariable "CP8" "1"][!RainmeterWriteKeyValue Variables "CP8" "1" "#@#\Inc\Settings.inc"][!SetVariable "CP9" "1"][!RainmeterWriteKeyValue Variables "CP9" "1" "#@#\Inc\Settings.inc"][!SetVariable "CP10" "1"][!RainmeterWriteKeyValue Variables "CP10" "1" "#@#\Inc\Settings.inc"][!SetVariable "CP11" "1"][!RainmeterWriteKeyValue Variables "CP11" "1" "#@#\Inc\Settings.inc"][!SetVariable "CP12" "1"][!RainmeterWriteKeyValue Variables "CP12" "1" "#@#\Inc\Settings.inc"]
 
 Rate1=5
+
+LMBLoad=[!CommandMeasure "LMBSet" "Initialize()"]
+LMBSelToPRI=[!SetOption LMButtonSet1 SolidColor #PRI#][!SetOption LMButtonSet2 SolidColor #PRI#][!SetOption LMButtonSet3 SolidColor #PRI#][!SetOption LMButtonSet4 SolidColor #PRI#][!SetOption LMButtonSet5 SolidColor #PRI#][!SetOption LMButtonSet6 SolidColor #PRI#][!SetOption LMButtonSet7 SolidColor #PRI#][!SetOption LMButtonSet8 SolidColor #PRI#][!SetOption LMButtonSet9 SolidColor #PRI#][!SetOption LMButtonSet10 SolidColor #PRI#][!SetOption LMButtonSet11 SolidColor #PRI#][!SetOption LMButtonSet12 SolidColor #PRI#]
 ;===============================================
 
 ;Database=================

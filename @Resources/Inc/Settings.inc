@@ -3,8 +3,6 @@ CS=1
 
 Lang=RUS
 
-MediaPlayer=AIMP
-
 LMC1=0
 LMC2=1
 
@@ -24,7 +22,22 @@ PowerSource=1
 STEAM_=0
 Weather_=1
 Schedule_=1
-MediaPl=1
+Sun=1
+
+LMB1=1
+LMB2=2
+LMB3=3
+LMB4=4
+LMB5=5
+LMB6=6
+LMB7=7
+LMB8=8
+LMB9=9
+LMB10=10
+LMB11=11
+LMB12=12
+
+LMBSetV=1
 
 DATABASELinksBorder=1
 ;Drive1
@@ -103,10 +116,10 @@ IND|GR=0
 
 CPULCount=4
 
-CP1=1
-CP2=1
-CP3=1
-CP4=1
+CP1=0
+CP2=0
+CP3=0
+CP4=0
 CP5=1
 CP6=1
 CP7=1
@@ -151,10 +164,6 @@ FORMATMP=0
 
 LastPlace=
 
-;Player===================
-
-MediaPl_=0
-
 ;Weather==================
 URL=http://www.foreca.ru/Russia/Trekhgornyy
 UpdateRateWeather=5000
@@ -171,7 +180,7 @@ City3Name=Челябинск
 
 WeatherSettings=НАСТРОЙКА
 ;Schedule=================
-WeekNumber=2
+WeekNumber=1
 WeekHNumber=1
 
 ;Settings=================

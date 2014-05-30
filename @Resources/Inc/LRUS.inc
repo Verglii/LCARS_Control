@@ -28,7 +28,23 @@ LMB1_9=НАСТРОЙКИ
 LMB1_10=ПАНЕЛЬ УПРАВЛЕНИЯ
 LMB1_11=ОБНОВИТЬ
 LMB1_12=СВЕРНУТЬ
+LMB1_OFF=X
 LMB_Center=ФУНКЦИИ
+
+LMBF_1=КОМПЬЮТЕР
+LMBF_2=ЦП/ОЗУ
+LMBF_3=НАКОПИТЕЛИ
+LMBF_4=ПИТАНИЕ
+LMBF_5=STEAM И ИГРЫ
+LMBF_6=ПОГОДА
+LMBF_7=РАСПИСАНИЕ
+LMBF_8=СОЛНЦЕ
+LMBF_9=НАСТРОЙКИ
+LMBF_10=ПАНЕЛЬ УПРАВЛЕНИЯ
+LMBF_11=ОБНОВИТЬ
+LMBF_12=СВЕРНУТЬ
+LMBF_OFF=
+
 
 ;Computer info
 Name=СВОЙСТВО
@@ -162,3 +178,17 @@ LCARSDB_Normal_Fon=Цвет данных
 
 SettingsAdressName="Название"
 SettingsAdressVal="Путь"
+
+;LMBControl
+TLMButton1=Кнопка 1
+TLMButton2=Кнопка 2
+TLMButton3=Кнопка 3
+TLMButton4=Кнопка 4
+TLMButton5=Кнопка 5
+TLMButton6=Кнопка 6
+TLMButton7=Кнопка 7
+TLMButton8=Кнопка 8
+TLMButton9=Кнопка 9
+TLMButton10=Кнопка 10
+TLMButton11=Кнопка 11
+TLMButton12=Кнопка 12

@@ -1,15 +1,15 @@
 [Variables]
 Week1Day1_1=-
 Week1Day1_2=-
-Week1Day1_3=Информатика, 1 группа
-Week1Day1_4=Информатика, 2 группа
-Week1Day1_5=17:10 Основы телевидения
+Week1Day1_3=-
+Week1Day1_4=-
+Week1Day1_5=-
 Week1Day1_6=-
 
-Week1Day2_1=Допуски и посадки
-Week1Day2_2=Иностранный язык
-Week1Day2_3=Экология
-Week1Day2_4=БЖД
+Week1Day2_1=-
+Week1Day2_2=-
+Week1Day2_3=-
+Week1Day2_4=-
 Week1Day2_5=-
 Week1Day2_6=-
 

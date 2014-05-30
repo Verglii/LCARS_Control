@@ -402,22 +402,6 @@
 	ProcessName=Steam.exe
 	Substitute="-1":"#UNAV#","1":"#PRI#"
 
-[MeasurePlayer]
-	Measure=Plugin
-	Plugin=NowPlaying.dll
-	PlayerName=#MediaPlayer#
-	PlayerType=TITLE
-	Substitute="":"N\A"
-	IfEqualValue=1
-	IfEqualAction=!Execute [!RainmeterShowMeter ErrorMessage][!RainmeterRedraw]
-
-[MeasureMediaProcessButton]
-	Measure=Plugin
-	Plugin=NowPlaying.dll
-	PlayerName=[MeasurePlayer]
-	PlayerType=STATUS
-	Substitute="0":"#UNAV#","1":"#PRI#"
-
 [MeasureBatteryButton]
 	Measure=Plugin
 	Plugin=PowerPlugin
