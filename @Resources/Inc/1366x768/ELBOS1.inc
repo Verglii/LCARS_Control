@@ -51,6 +51,14 @@
 	Meter=Image
 	X=646
 	Y=190
-	W=720
+	W=580
+	H=30
+	SolidColor=#ELBOS#
+
+[Elbos5Block3]
+	Meter=Image
+	X=1236
+	Y=190
+	W=130
 	H=30
 	SolidColor=#ELBOS#
