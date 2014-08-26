@@ -13,7 +13,7 @@ FONY=270
 FONH=440
 FONW=750
 
-CompInfo=0
+CompInfo=1
 CPU_MEM=1
 CPU_MEM0=1
 CPU_MEM1=1
@@ -21,7 +21,7 @@ DATABASE=1
 PowerSource=1
 STEAM_=1
 Weather_=1
-Schedule_=1
+Schedule_=0
 Sun=1
 
 LMB1=1
