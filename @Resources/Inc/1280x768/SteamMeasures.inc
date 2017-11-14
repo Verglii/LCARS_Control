@@ -310,7 +310,7 @@
 [Game1_Icon_WP]
 	Measure=Plugin
 	Plugin=WebParser.dll
-	URL="http://cdn3.steampowered.com/v/gfx/apps/#SteamGame1#/header_292x136.jpg"
+	URL="http://cdn.edgecast.steamstatic.com/steam/apps/#SteamGame1#/header.jpg"
 	Group=LCARS-SteamIcons
 	UpdateDivider=-1
 	Download=1
@@ -321,7 +321,7 @@
 [Game2_Icon_WP]
 	Measure=Plugin
 	Plugin=WebParser.dll
-	URL="http://cdn3.steampowered.com/v/gfx/apps/#SteamGame2#/header_292x136.jpg"
+	URL="http://cdn.edgecast.steamstatic.com/steam/apps/#SteamGame2#/header.jpg"
 	Group=LCARS-SteamIcons
 	UpdateDivider=-1
 	Download=1
@@ -332,7 +332,7 @@
 [Game3_Icon_WP]
 	Measure=Plugin
 	Plugin=WebParser.dll
-	URL="http://cdn3.steampowered.com/v/gfx/apps/#SteamGame3#/header_292x136.jpg"
+	URL="http://cdn.edgecast.steamstatic.com/steam/apps/#SteamGame3#/header.jpg"
 	Group=LCARS-SteamIcons
 	UpdateDivider=-1
 	Download=1
@@ -343,7 +343,7 @@
 [Game4_Icon_WP]
 	Measure=Plugin
 	Plugin=WebParser.dll
-	URL="http://cdn3.steampowered.com/v/gfx/apps/#SteamGame4#/header_292x136.jpg"
+	URL="http://cdn.edgecast.steamstatic.com/steam/apps/#SteamGame4#/header.jpg"
 	Group=LCARS-SteamIcons
 	UpdateDivider=-1
 	Download=1
@@ -354,7 +354,7 @@
 [Game5_Icon_WP]
 	Measure=Plugin
 	Plugin=WebParser.dll
-	URL="http://cdn3.steampowered.com/v/gfx/apps/#SteamGame5#/header_292x136.jpg"
+	URL="http://cdn.edgecast.steamstatic.com/steam/apps/#SteamGame5#/header.jpg"
 	Group=LCARS-SteamIcons
 	UpdateDivider=-1
 	Download=1
@@ -365,7 +365,7 @@
 [Game6_Icon_WP]
 	Measure=Plugin
 	Plugin=WebParser.dll
-	URL="http://cdn3.steampowered.com/v/gfx/apps/#SteamGame6#/header_292x136.jpg"
+	URL="http://cdn.edgecast.steamstatic.com/steam/apps/#SteamGame6#/header.jpg"
 	Group=LCARS-SteamIcons
 	UpdateDivider=-1
 	Download=1
@@ -376,7 +376,7 @@
 [Game7_Icon_WP]
 	Measure=Plugin
 	Plugin=WebParser.dll
-	URL="http://cdn3.steampowered.com/v/gfx/apps/#SteamGame7#/header_292x136.jpg"
+	URL="http://cdn.edgecast.steamstatic.com/steam/apps/#SteamGame7#/header.jpg"
 	Group=LCARS-SteamIcons
 	UpdateDivider=-1
 	Download=1
@@ -387,7 +387,7 @@
 [Game8_Icon_WP]
 	Measure=Plugin
 	Plugin=WebParser.dll
-	URL="http://cdn3.steampowered.com/v/gfx/apps/#SteamGame8#/header_292x136.jpg"
+	URL="http://cdn.edgecast.steamstatic.com/steam/apps/#SteamGame8#/header.jpg"
 	Group=LCARS-SteamIcons
 	UpdateDivider=-1
 	Download=1

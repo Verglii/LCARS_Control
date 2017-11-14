@@ -11,7 +11,7 @@ FONHID=0
 FONX=530
 FONY=270
 FONH=440
-FONW=750
+FONW=640
 
 CompInfo=1
 CPU_MEM=1
@@ -19,9 +19,9 @@ CPU_MEM0=1
 CPU_MEM1=1
 DATABASE=1
 PowerSource=1
-STEAM_=1
+STEAM_=0
 Weather_=1
-Schedule_=0
+Schedule_=1
 Sun=1
 
 LMB1=1
@@ -39,7 +39,7 @@ LMB12=12
 
 LMBSetV=1
 
-DATABASELinksBorder=0
+DATABASELinksBorder=1
 ;Drive1
 D1=C
 ;Drive2
@@ -114,16 +114,16 @@ QL6L=http://Yandex.ru
 GR|IND=0
 IND|GR=1
 
-CPULCount=4
+CPULCount=8
 
 CP1=0
 CP2=0
 CP3=0
 CP4=0
-CP5=1
-CP6=1
-CP7=1
-CP8=1
+CP5=0
+CP6=0
+CP7=0
+CP8=0
 CP9=1
 CP10=1
 CP11=1
@@ -184,12 +184,12 @@ WeekNumber=1
 WeekHNumber=1
 
 ;Settings=================
-Settings_Stage=0
-SSt0=0
+Settings_Stage=4
+SSt0=1
 SSt1=1
 SSt2=1
 SSt3=1
-SSt4=1
+SSt4=0
 SSt5=1
 SSt6=1
 SSt7=1
