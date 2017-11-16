@@ -5,13 +5,17 @@ QLL=950
 QLR=1060
 QLRR=1170
 
-LMY1=145
+LMY1=1145
 LMYO=10R
 
+FONX=530
+FONY=270
+FONH=440
+FONW=750
 
-Fon1=[!SetVariable "FONH" "440"][!RainmeterWriteKeyValue Variables "FONH" "440" "#@#\Inc\Settings.inc"][!SetVariable "FONW" "750"][!RainmeterWriteKeyValue Variables "FONW" "750" "#@#\Inc\Settings.inc"][!SetVariable "FONX" "530"][!RainmeterWriteKeyValue Variables "FONX" "530" "#@#\Inc\Settings.inc"][!SetVariable "FONY" "270"][!RainmeterWriteKeyValue Variables "FONY" "270" "#@#\Inc\Settings.inc"]
-Fon2=[!SetVariable "FONH" "440"][!RainmeterWriteKeyValue Variables "FONH" "440" "#@#\Inc\Settings.inc"][!SetVariable "FONW" "640"][!RainmeterWriteKeyValue Variables "FONW" "640" "#@#\Inc\Settings.inc"][!SetVariable "FONX" "530"][!RainmeterWriteKeyValue Variables "FONX" "530" "#@#\Inc\Settings.inc"][!SetVariable "FONY" "270"][!RainmeterWriteKeyValue Variables "FONY" "270" "#@#\Inc\Settings.inc"]
-Fon3=[!SetVariable "FONH" "185"][!RainmeterWriteKeyValue Variables "FONH" "185" "#@#\Inc\Settings.inc"][!SetVariable "FONW" "490"][!RainmeterWriteKeyValue Variables "FONW" "490" "#@#\Inc\Settings.inc"][!SetVariable "FONX" "680"][!RainmeterWriteKeyValue Variables "FONX" "680" "#@#\Inc\Settings.inc"][!SetVariable "FONY" "270"][!RainmeterWriteKeyValue Variables "FONY" "270" "#@#\Inc\Settings.inc"]
+Fon1=[!SetVariable "FONH" "440"][!RainmeterWriteKeyValue Variables "FONH" "440" "#@#\Inc\#Resolution#\SizesCoordinates.inc"][!SetVariable "FONW" "750"][!RainmeterWriteKeyValue Variables "FONW" "750" "#@#\Inc\#Resolution#\SizesCoordinates.inc"][!SetVariable "FONX" "530"][!RainmeterWriteKeyValue Variables "FONX" "530" "#@#\Inc\#Resolution#\SizesCoordinates.inc"][!SetVariable "FONY" "270"][!RainmeterWriteKeyValue Variables "FONY" "270" "#@#\Inc\#Resolution#\SizesCoordinates.inc"]
+Fon2=[!SetVariable "FONH" "440"][!RainmeterWriteKeyValue Variables "FONH" "440" "#@#\Inc\#Resolution#\SizesCoordinates.inc"][!SetVariable "FONW" "640"][!RainmeterWriteKeyValue Variables "FONW" "640" "#@#\Inc\#Resolution#\SizesCoordinates.inc"][!SetVariable "FONX" "530"][!RainmeterWriteKeyValue Variables "FONX" "530" "#@#\Inc\#Resolution#\SizesCoordinates.inc"][!SetVariable "FONY" "270"][!RainmeterWriteKeyValue Variables "FONY" "270" "#@#\Inc\#Resolution#\SizesCoordinates.inc"]
+Fon3=[!SetVariable "FONH" "185"][!RainmeterWriteKeyValue Variables "FONH" "185" "#@#\Inc\#Resolution#\SizesCoordinates.inc"][!SetVariable "FONW" "490"][!RainmeterWriteKeyValue Variables "FONW" "490" "#@#\Inc\#Resolution#\SizesCoordinates.inc"][!SetVariable "FONX" "680"][!RainmeterWriteKeyValue Variables "FONX" "680" "#@#\Inc\#Resolution#\SizesCoordinates.inc"][!SetVariable "FONY" "270"][!RainmeterWriteKeyValue Variables "FONY" "270" "#@#\Inc\#Resolution#\SizesCoordinates.inc"]
 ;===============================================
 
 ;Computer====================

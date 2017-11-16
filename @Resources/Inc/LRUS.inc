@@ -12,8 +12,8 @@ SubstDay="Sunday":"бняйпеяемэе","Monday":"онмедекэмхй","Tuesday":"брнпмхй","Wedn
 SubstMonth="January":"ъмбюпъ","February":"тебпюкъ","March":"люпрю","April":"юопекъ","May":"люъ","June":"хчмъ","JulY":"хчкъ","August":"юбцсярю","September":"яемръапъ","October":"нйръапъ","November":"мнъапъ","December":"дейюапэ"
 
 ;Left menu settings
-AccessPanel1=оюмекэ днярсою 1
-AccessPanel2=оюмекэ днярсою 2
+AccessPanel1=лемч 1
+AccessPanel2=лемч 2
 
 ;Left menu buttons
 LMB1_1=йнлоэчреп

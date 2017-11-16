@@ -15,6 +15,11 @@ Close1366x768=[!RainmeterDeActivateConfig "LCARS_Control\1366x768" "LCARS.ini"]
 CloseHide1366x768=[!RainmeterDeActivateConfig "LCARS_Control\1366x768" "LCARS_Hidden.ini"]
 OpenHide1366x768=[!RainmeterActivateConfig "LCARS_Control\1366x768" "LCARS_Hidden.ini"]
 
+Open1920x1080=[!RainmeterActivateConfig "LCARS_Control\1920x1080" "LCARS.ini"]
+Close1920x1080=[!RainmeterDeActivateConfig "LCARS_Control\1920x1080" "LCARS.ini"]
+CloseHide1920x1080=[!RainmeterDeActivateConfig "LCARS_Control\1920x1080" "LCARS_Hidden.ini"]
+OpenHide1920x1080=[!RainmeterActivateConfig "LCARS_Control\1920x1080" "LCARS_Hidden.ini"]
+
 ;=================================================!Bangs============================================
 ;============================================
 ;Sounds========================================

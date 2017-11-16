@@ -1,23 +1,27 @@
 [Variables]
 QLU=110
 QLD=150
-QLL=1036
-QLR=1146
-QLRR=1256
+QLL=950
+QLR=1060
+QLRR=1170
 
 LMY1=145
 LMYO=10R
 
+FONX=530
+FONY=270
+FONH=440
+FONW=750
 
-Fon1=[!SetVariable "FONH" "440"][!RainmeterWriteKeyValue Variables "FONH" "440" "#@#\Inc\Settings.inc"][!SetVariable "FONW" "750"][!RainmeterWriteKeyValue Variables "FONW" "750" "#@#\Inc\Settings.inc"][!SetVariable "FONX" "530"][!RainmeterWriteKeyValue Variables "FONX" "530" "#@#\Inc\Settings.inc"][!SetVariable "FONY" "270"][!RainmeterWriteKeyValue Variables "FONY" "270" "#@#\Inc\Settings.inc"]
-Fon2=[!SetVariable "FONH" "440"][!RainmeterWriteKeyValue Variables "FONH" "440" "#@#\Inc\Settings.inc"][!SetVariable "FONW" "640"][!RainmeterWriteKeyValue Variables "FONW" "640" "#@#\Inc\Settings.inc"][!SetVariable "FONX" "530"][!RainmeterWriteKeyValue Variables "FONX" "530" "#@#\Inc\Settings.inc"][!SetVariable "FONY" "270"][!RainmeterWriteKeyValue Variables "FONY" "270" "#@#\Inc\Settings.inc"]
-Fon3=[!SetVariable "FONH" "185"][!RainmeterWriteKeyValue Variables "FONH" "185" "#@#\Inc\Settings.inc"][!SetVariable "FONW" "490"][!RainmeterWriteKeyValue Variables "FONW" "490" "#@#\Inc\Settings.inc"][!SetVariable "FONX" "680"][!RainmeterWriteKeyValue Variables "FONX" "680" "#@#\Inc\Settings.inc"][!SetVariable "FONY" "270"][!RainmeterWriteKeyValue Variables "FONY" "270" "#@#\Inc\Settings.inc"]
+Fon1=[!SetVariable "FONH" "440"][!RainmeterWriteKeyValue Variables "FONH" "440" "#@#\Inc\#Resolution#\SizesCoordinates.inc"][!SetVariable "FONW" "750"][!RainmeterWriteKeyValue Variables "FONW" "750" "#@#\Inc\#Resolution#\SizesCoordinates.inc"][!SetVariable "FONX" "530"][!RainmeterWriteKeyValue Variables "FONX" "530" "#@#\Inc\#Resolution#\SizesCoordinates.inc"][!SetVariable "FONY" "270"][!RainmeterWriteKeyValue Variables "FONY" "270" "#@#\Inc\#Resolution#\SizesCoordinates.inc"]
+Fon2=[!SetVariable "FONH" "440"][!RainmeterWriteKeyValue Variables "FONH" "440" "#@#\Inc\#Resolution#\SizesCoordinates.inc"][!SetVariable "FONW" "640"][!RainmeterWriteKeyValue Variables "FONW" "640" "#@#\Inc\#Resolution#\SizesCoordinates.inc"][!SetVariable "FONX" "530"][!RainmeterWriteKeyValue Variables "FONX" "530" "#@#\Inc\#Resolution#\SizesCoordinates.inc"][!SetVariable "FONY" "270"][!RainmeterWriteKeyValue Variables "FONY" "270" "#@#\Inc\#Resolution#\SizesCoordinates.inc"]
+Fon3=[!SetVariable "FONH" "185"][!RainmeterWriteKeyValue Variables "FONH" "185" "#@#\Inc\#Resolution#\SizesCoordinates.inc"][!SetVariable "FONW" "490"][!RainmeterWriteKeyValue Variables "FONW" "490" "#@#\Inc\#Resolution#\SizesCoordinates.inc"][!SetVariable "FONX" "680"][!RainmeterWriteKeyValue Variables "FONX" "680" "#@#\Inc\#Resolution#\SizesCoordinates.inc"][!SetVariable "FONY" "270"][!RainmeterWriteKeyValue Variables "FONY" "270" "#@#\Inc\#Resolution#\SizesCoordinates.inc"]
 ;===============================================
 
 ;Computer====================
 ;Head
-CX1=626
-CX2=896
+CX1=540
+CX2=810
 CHeY=280
 CH1=40
 CH2=30
@@ -42,8 +46,8 @@ NameH=40
 NameW=550
 IcW=600
 
-IcX1=636
-IcX2=686
+IcX1=550
+IcX2=600
 
 IcY1=340
 IcY2=(#IcY1#+#IcSize#+#IcYD#)
@@ -55,7 +59,7 @@ IcYD=10
 ;=========================
 
 ;=================================Steam
-GameIconX=636
+GameIconX=550
 GameIcon1Y=290
 GameIcon2Y=410
 GameIcon3Y=530
@@ -63,5 +67,5 @@ GameIconH=70
 GameIconW=100
 GameNameH=40
 
-SteamIconX=986
+SteamIconX=900
 SteamIconY=370

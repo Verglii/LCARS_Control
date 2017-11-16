@@ -1,6 +1,8 @@
 [Variables]
 CS=1
 
+ELBOS0=0
+
 Lang=RUS
 
 LMC1=0
@@ -8,18 +10,13 @@ LMC2=1
 
 FONHID=0
 
-FONX=530
-FONY=270
-FONH=440
-FONW=640
-
-CompInfo=1
+CompInfo=0
 CPU_MEM=1
 CPU_MEM0=1
 CPU_MEM1=1
 DATABASE=1
 PowerSource=1
-STEAM_=0
+STEAM_=1
 Weather_=1
 Schedule_=1
 Sun=1
@@ -39,7 +36,7 @@ LMB12=12
 
 LMBSetV=1
 
-DATABASELinksBorder=1
+DATABASELinksBorder=0
 ;Drive1
 D1=C
 ;Drive2
@@ -180,16 +177,16 @@ City3Name=Челябинск
 
 WeatherSettings=НАСТРОЙКА
 ;Schedule=================
-WeekNumber=1
+WeekNumber=2
 WeekHNumber=1
 
 ;Settings=================
-Settings_Stage=4
+Settings_Stage=9
 SSt0=1
 SSt1=1
 SSt2=1
 SSt3=1
-SSt4=0
+SSt4=1
 SSt5=1
 SSt6=1
 SSt7=1
@@ -198,4 +195,4 @@ SSt8=1
 ;Global
 LCARSUserNameVar=Verglii
 LCARSUserRankVar=Коммандер
-SSt9=1
+SSt9=0
