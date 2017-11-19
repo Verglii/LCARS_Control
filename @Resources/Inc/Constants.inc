@@ -20,6 +20,13 @@ Close1920x1080=[!RainmeterDeActivateConfig "LCARS_Control\1920x1080" "LCARS.ini"
 CloseHide1920x1080=[!RainmeterDeActivateConfig "LCARS_Control\1920x1080" "LCARS_Hidden.ini"]
 OpenHide1920x1080=[!RainmeterActivateConfig "LCARS_Control\1920x1080" "LCARS_Hidden.ini"]
 
+Path_1=#@#/1_Static/
+Path_2=#@#/2_Buttons/
+
+;===================================================================================================
+
+SteppingCorners=5
+
 ;=================================================!Bangs============================================
 ;============================================
 ;Sounds========================================
@@ -175,5 +182,3 @@ SStage6=[!SetVariable "Settings_Stage" "6"][!RainmeterWriteKeyValue Variables "S
 SStage7=[!SetVariable "Settings_Stage" "7"][!RainmeterWriteKeyValue Variables "Settings_Stage" "7" "#@#\Inc\Settings.inc"]
 SStage8=[!SetVariable "Settings_Stage" "8"][!RainmeterWriteKeyValue Variables "Settings_Stage" "8" "#@#\Inc\Settings.inc"]
 SStage9=[!SetVariable "Settings_Stage" "9"][!RainmeterWriteKeyValue Variables "Settings_Stage" "9" "#@#\Inc\Settings.inc"]
-
-CTestSize=24

@@ -1,38 +1,3 @@
-[Elbos2]
-	Meter=IMAGE
-	ImageName=#@#/Static_#Resolution#/Elbos/Elbos2_#CS#.png
-	X=5
-	Y=(#ResY#-130)
-	W=260
-	H=85
-	AntiAlias=1
-
-[Elbos2Block1]
-	Meter=Image
-	X=5
-	Y=-65r
-	W=225
-	H=65
-	SolidColor=#ELBOS#
-
-[Elbos3]
-	Meter=IMAGE
-	ImageName=#@#/Static_#Resolution#/Elbos/Elbos2_#CS#.png
-	X=395
-	Y=(#ResY#-130)
-	W=260
-	H=85
-	AntiAlias=1
-	ImageFlip=Horizontal
-
-[Elbos3Block1]
-	Meter=Image
-	X=430
-	Y=-40r
-	W=225
-	H=40
-	SolidColor=#ELBOS#
-
 [Elbos4]
 	Meter=IMAGE
 	ImageName=#@#/Static_#Resolution#/Elbos/Elbos2_#CS#.png
