@@ -1,3 +1,30 @@
+[MeasureDiskLabel_1]
+	Measure=FreeDiskSpace
+	Drive=#Disk_1#:
+	Label=1
+	UpdateDivider=500
+	Disabled=#CompInfo#
+
+[MeasureDiskFree_1]
+	Measure=FreeDiskSpace
+	Drive=#Disk_1#:
+	Disabled=#CompInfo#
+	Substitute=#SubstBit#
+
+[MeasureDiskUsed_1]
+	Measure=FreeDiskSpace
+	Drive=#Disk_1#:
+	InvertMeasure=1
+	UpdateDivider=500
+	Disabled=#CompInfo#
+
+[MeasureDiskTotal_1]
+	Measure=FreeDiskSpace
+	Drive=#Disk_1#:
+	Total=1
+	UpdateDivider=500
+	Disabled=#CompInfo#
+	
 [MeasurePCName]
 	Measure=Plugin
 	Plugin=Plugins\SysInfo.dll
@@ -12,11 +39,13 @@
 	SysInfoData=1
 	Group=CompInfo
 	Disabled=#CompInfo#
+	UpdateDivider=-1
 
 [MeasureUpTime]
 	Measure=Uptime
 	Substitute="d":" #Days#,",":":" #Hours#, "
 	Group=CompInfo
+	UpdateDivider=2000
 	Disabled=#CompInfo#
 
 [MeasureOS]
@@ -41,6 +70,7 @@
 	PerfMonDifference=0
 	Group=CompInfo
 	Disabled=#CompInfo#
+	UpdateDivider=5
 
 [MeasureTopProcessName] 
 	Measure=Plugin 
@@ -56,7 +86,7 @@
 	Plugin=AdvancedCPU
 	TopProcess=1
 	CPUExclude=Idle
-	UpdateDivider=5
+	UpdateDivider=10
 	Group=CompInfo
 	Disabled=#CompInfo#
 
@@ -65,7 +95,6 @@
 	RegHKey=HKEY_LOCAL_MACHINE
 	RegKey=HARDWARE\DESCRIPTION\System\CentralProcessor\0
 	RegValue=ProcessorNameString
-	UpdateDivider=3600
 	Substitute="@":""
 	UpdateDivider=-1
 
@@ -95,6 +124,7 @@
 	Processor=1
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
+	Paused=#CPU_MEM#
 
 [MeasureCPU2]
 	Measure=CPU
@@ -102,6 +132,7 @@
 	Processor=#CPN2#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
+	Paused=#CPU_MEM#
 
 [MeasureCPU3]
 	Measure=CPU
@@ -109,6 +140,7 @@
 	Processor=#CPN3#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
+	Paused=#CPU_MEM#
 
 [MeasureCPU4]
 	Measure=CPU
@@ -116,6 +148,7 @@
 	Processor=#CPN4#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
+	Paused=#CPU_MEM#
 
 [MeasureCPU5]
 	Measure=CPU
@@ -123,6 +156,7 @@
 	Processor=#CPN5#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
+	Paused=#CPU_MEM#
 
 [MeasureCPU6]
 	Measure=CPU
@@ -130,6 +164,7 @@
 	Processor=#CPN6#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
+	Paused=#CPU_MEM#
 
 [MeasureCPU7]
 	Measure=CPU
@@ -137,6 +172,7 @@
 	Processor=#CPN7#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
+	Paused=#CPU_MEM#
 
 [MeasureCPU8]
 	Measure=CPU
@@ -144,6 +180,7 @@
 	Processor=#CPN8#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
+	Paused=#CPU_MEM#
 
 [MeasureCPU9]
 	Measure=CPU
@@ -151,6 +188,7 @@
 	Processor=#CPN9#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
+	Paused=#CPU_MEM#
 
 [MeasureCPU10]
 	Measure=CPU
@@ -158,6 +196,7 @@
 	Processor=#CPN10#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
+	Paused=#CPU_MEM#
 
 [MeasureCPU11]
 	Measure=CPU
@@ -165,6 +204,7 @@
 	Processor=#CPN11#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
+	Paused=#CPU_MEM#
 
 [MeasureCPU12]
 	Measure=CPU
@@ -172,6 +212,7 @@
 	Processor=#CPN12#
 	UpdateDivider=#Rate1#
 	DynamicVariables=1
+	Paused=#CPU_MEM#
 
 
 [MeasurePhyMemory]
@@ -179,6 +220,7 @@
 	Disabled=#CPU_MEM#
 	Substitute=#SubstBit#
 	DynamicVariables=1
+	Paused=#CPU_MEM#
 
 
 [MeasureBin]
@@ -349,10 +391,10 @@
 	Disabled=#DATABASE#
 
 
-
-[MeasureCoreTime]
-	Measure=Time
-	Format="%S"
+;хз, зачем это
+;[MeasureCoreTime]
+;	Measure=Time
+;	Format="%S"
 
 
 [PowerCoreMeasure]
@@ -361,6 +403,7 @@
 	Disabled=#PowerSource#
 	DynamicVariables=1
 	UpdateDivider=1
+	Paused=#PowerSource#
 
 
 [MeasurePowerSource]
@@ -368,6 +411,7 @@
 	PlugIn=PlugIns\PowerPlugin.dll
 	PowerState=ACLine
 	UpdateDivider=200
+	Paused=#PowerSource#
 
 
 [MeasurePercent]
@@ -375,6 +419,7 @@
 	PlugIn=PlugIns\PowerPlugin.dll
 	PowerState=Percent
 	UpdateDivider=200
+	Paused=#PowerSource#
 
 
 [MeasureLifetime]
@@ -384,6 +429,7 @@
 	Format=%H:%M:%S
 	UpdateDivider=200
 	Substitute=#BTSubs2#
+	Paused=#PowerSource#
 
 
 [MeasurePowerStatus]
@@ -392,6 +438,7 @@
 	PowerState=Status
 	Substitute=#BTSubs#
 	UpdateDivider=200
+	Paused=#PowerSource#
 
 
 

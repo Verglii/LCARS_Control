@@ -37,7 +37,38 @@
 	DynamicVariables=1
 ;=============================================================Computer
 ;Head
-[Computer_Head_Name]			;Computer info
+[Computer_DiskSpace]			;Computer info
+	Meter=String
+	Text=#Computer_Disk#
+	X=#CX0#
+	Y=#CHeY#
+	H=#CH1#
+	W=#CW0#
+	FontFace=#F#
+	FontSize=#F5#
+	FontColor=#COL2#
+	AntiAlias=1
+	SolidColor=#CompInfoHeadFon#
+	ClipString=1
+	Hidden=#CompInfo#
+	DynamicVariables=1
+
+[MeterDriveInfo_1]
+	Meter=String
+	MeasureName=MeasureDiskLabel_1
+	MeasureName2=MeasureDiskTotal_1
+	MeasureName3=MeasureDiskFree_1
+	MeasureName4=MeasureDiskUsed_1
+	X=0
+	Y=0
+	FontSize=10
+	FontColor=255,255,255,255
+	SolidColor=0,0,0,255
+	AntiAlias=1
+	AutoScale=1
+	Text="#Disk_1#:\(%1): [Total: %2#Byte#][Free: %3#Byte#][Used: %4#Byte#]"
+	
+[Computer_Head_Name]
 	Meter=String
 	Text=#Name#
 	X=#CX1#
@@ -45,7 +76,7 @@
 	H=#CH1#
 	W=#CW1#
 	FontFace=#F#
-	FontSize=#F4#
+	FontSize=#F5#
 	FontColor=#COL2#
 	AntiAlias=1
 	SolidColor=#CompInfoHeadFon#
@@ -61,7 +92,7 @@
 	H=#CH1#
 	W=#CW2#
 	FontFace=#F#
-	FontSize=#F4#
+	FontSize=#F5#
 	FontColor=#COL2#
 	AntiAlias=1
 	SolidColor=#CompInfoHeadFon#

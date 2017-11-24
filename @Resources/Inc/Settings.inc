@@ -111,6 +111,14 @@ QL6L=http://Yandex.ru
 GR|IND=0
 IND|GR=1
 
+;CompInfo
+Disk_1=C
+Disk_2=D
+Disk_3=E
+Disk_4=F
+
+;CPU/OM====================================================
+
 CPULCount=8
 
 CP1=0

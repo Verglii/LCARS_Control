@@ -47,6 +47,7 @@ LMBF_OFF=
 
 
 ;Computer info
+Computer_Disk=пюгдекш
 Name=ябниярбн
 Value=гмювемхе
 CompName=хлъ йнлоэчрепю

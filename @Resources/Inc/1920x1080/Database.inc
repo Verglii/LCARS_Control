@@ -55,7 +55,7 @@
 
 [Elbos6DB]
 	Meter=IMAGE
-	ImageName=#@#/Static/Elbos/Elbos3_#CS#.png
+	ImageName=#Path_1##Resolution#/Elbos/Elbos3_#CS#.png
 	X=1150
 	Y=230
 	AntiAlias=1
@@ -75,7 +75,7 @@
 
 [Elbos7DB]
 	Meter=IMAGE
-	ImageName=#@#/Static/Elbos/Elbos5_#CS#.png
+	ImageName=#Path_1##Resolution#/Elbos/Elbos5_#CS#.png
 	X=r
 	Y=610
 	AntiAlias=1
@@ -175,7 +175,7 @@
 
 [UpToList]
 	Meter=Image
-	ImageName=#@#\Static\Arrow2.png
+	ImageName=#Path_1##Resolution#/Arrow2.png
 	X=1235
 	Y=330
 	SolidColor=#ELBOS#
@@ -188,7 +188,7 @@
 
 [UpToString]
 	Meter=Image
-	ImageName=#@#\Static\Arrow1.png
+	ImageName=#Path_1##Resolution#/Arrow1.png
 	X=1180
 	Y=330
 	SolidColor=#ELBOS#
@@ -201,7 +201,7 @@
 
 [DownToString]
 	Meter=Image
-	ImageName=#@#\Static\Arrow1.png
+	ImageName=#Path_1##Resolution#/Arrow1.png
 	X=r
 	Y=510
 	ImageFlip=Vertical
@@ -215,7 +215,7 @@
 
 [DownToList]
 	Meter=Image
-	ImageName=#@#\Static\Arrow2.png
+	ImageName=#Path_1##Resolution#/Arrow2.png
 	X=1235
 	Y=r
 	ImageFlip=Vertical
@@ -503,7 +503,7 @@
 
 [UpLevelFolder]
 	Meter=Image
-	ImageName=#@#\Static\UpLevel.png
+	ImageName=#Path_1##Resolution#\UpLevel.png
 	X=1125
 	Y=285
 	SolidColor=#Color_DB_B#

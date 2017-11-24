@@ -46,7 +46,7 @@
 	Meter=Image
 	X=265
 	Y=#SteppingCorners#
-	W=1277
+	W=1309
 	H=55
 	SolidColor=#ELBOS#
 
@@ -62,12 +62,12 @@
 [Elbos1OverlayText]
 	Meter=STRING
 	Text="LCARS-8923741"
-	X=10r
-	Y=-7
+	X=8r
+	Y=35r
 	FontFace=#F#
-	FontSize=#F6#
+	FontSize=#F7#
 	FontColor=#COL2#
-	StringAlign=Right
+	StringAlign=RightCenter
 	AntiAlias=1
 
 [Elbos2]
@@ -104,3 +104,13 @@
 	W=225
 	H=40
 	SolidColor=#ELBOS#
+	
+[ELBOSScreen]
+	Meter=IMAGE
+	ImageName=#Path_1##Resolution#/Elbos/Elbos2_#CS#.png
+	X=430
+	Y=260
+	W=260
+	H=85
+	ImageFlip=Vertical
+	AntiAlias=1

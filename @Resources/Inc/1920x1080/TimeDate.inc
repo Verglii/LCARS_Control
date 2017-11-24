@@ -32,7 +32,7 @@
 	AntiAlias=1
 	SolidColor=#COL1#
 	LeftMouseDownAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL2#][!RainmeterRedraw]
-	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL1#][Shell:::{E2E7934B-DCE5-43C4-9576-7FE4F75E7480}][PLAY "#@#Sounds\Computer\ScreenUp.wav"][!RainmeterRedraw]
+	LeftMouseUpAction=!Execute [!SetOption #CURRENTSECTION# SolidColor #COL1#][Shell:::{E2E7934B-DCE5-43C4-9576-7FE4F75E7480}][PLAY "#SoundScreenUp#"][!RainmeterRedraw]
 
 [MeterTimeHMS]
 	Meter=String
@@ -58,6 +58,7 @@
 	H=30
 	W=100
 	FontColor=#COL2#
+	StringCase=Upper
 	FontFace=#F#
 	FontSize=#F4#
 	AntiAlias=1
@@ -70,6 +71,7 @@
 	H=30
 	W=100
 	FontColor=#COL2#
+	StringCase=Upper
 	FontFace=#F#
 	FontSize=#F4#
 	AntiAlias=1
@@ -82,6 +84,7 @@
 	H=30
 	W=100
 	FontColor=#COL2#
+	StringCase=Upper
 	FontFace=#F#
 	FontSize=#F4#
 	AntiAlias=1

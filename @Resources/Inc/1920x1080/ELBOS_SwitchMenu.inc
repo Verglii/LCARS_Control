@@ -1,23 +1,3 @@
-[Elbos4]
-	Meter=IMAGE
-	ImageName=#@#/Static_#Resolution#/Elbos/Elbos2_#CS#.png
-	X=430
-	Y=260
-	W=260
-	H=85
-	ImageFlip=Vertical
-	AntiAlias=1
-
-;[Elbos4Block1]
-;	Meter=Image
-;	X=420
-;	Y=290
-;	W=100
-;	H=30
-;	SolidColor=#ELBOS#
-;
-;
-;
 [LeftMenuAcPan1]
 	Meter=String
 	X=230

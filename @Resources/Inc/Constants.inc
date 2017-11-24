@@ -20,8 +20,8 @@ Close1920x1080=[!RainmeterDeActivateConfig "LCARS_Control\1920x1080" "LCARS.ini"
 CloseHide1920x1080=[!RainmeterDeActivateConfig "LCARS_Control\1920x1080" "LCARS_Hidden.ini"]
 OpenHide1920x1080=[!RainmeterActivateConfig "LCARS_Control\1920x1080" "LCARS_Hidden.ini"]
 
-Path_1=#@#/1_Static/
-Path_2=#@#/2_Buttons/
+Path_1=#@#1_Static\
+Path_2=#@#2_Buttons\
 
 ;===================================================================================================
 

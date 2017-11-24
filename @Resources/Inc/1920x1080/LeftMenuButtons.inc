@@ -1,6 +1,6 @@
 [LMBSet]
 Measure=Script
-ScriptFile=#@#Inc/LMBSet.lua
+ScriptFile=#@#Inc/LeftMenuButtonsSet.lua
 
 ;[LMBUpdater]
 ;	Meter=Image

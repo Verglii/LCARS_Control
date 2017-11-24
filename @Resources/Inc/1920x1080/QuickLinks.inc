@@ -1,126 +1,91 @@
+[QLText]
+	X=85r
+	Y=27r
+	H=55
+	W=168
+	FontFace=#F#
+	FontSize=#F3#
+	StringAlign=CenterCenter
+	AntiAlias=1
+	ClipString=1
+
 [QL1]							;Quick links
 	Meter=Button
-	ButtonImage=#@#/Buttons/Button1_#CS#.png
-	X=#QLL#
-	Y=#QLU#
+	ButtonImage=#Path_2##Resolution#/Button1_#CS#.png
+	X=#QColumn1#
+	Y=#QLine1#
 	AntiAlias=1
 	ButtonCommand=!Execute #SoundBeep1#[#QL1L#]
 
 
 [QL1T]
 	Meter=String
-	X=-10R
-	Y=15r
-	H=30
-	W=80
+	MeterStyle=QLText
 	Text=#QL1N#
-	FontFace=#F#
-	FontSize=#F3#
-	StringAlign=RightCenter
-	AntiAlias=1
-	ClipString=1
+
 
 [QL2]
 	Meter=Button
-	ButtonImage=#@#/Buttons/Button1_#CS#.png
-	X=#QLR#
-	Y=#QLU#
+	ButtonImage=#Path_2##Resolution#/Button1_#CS#.png
+	X=#QColumn2#
+	Y=#QLine1#
 	AntiAlias=1
 	ButtonCommand=!Execute #SoundBeep1#[#QL2L#]
 
 [QL2T]
 	Meter=String
-	X=-10R
-	Y=15r
-	H=30
-	W=80
+	MeterStyle=QLText
 	Text=#QL2N#
-	FontFace=#F#
-	FontSize=#F3#
-	StringAlign=RightCenter
-	AntiAlias=1
-	ClipString=1
 
 [QL3]
 	Meter=Button
-	ButtonImage=#@#/Buttons/Button1_#CS#.png
-	X=#QLL#
-	Y=#QLD#
+	ButtonImage=#Path_2##Resolution#/Button1_#CS#.png
+	X=#QColumn1#
+	Y=#QLine2#
 	AntiAlias=1
 	ButtonCommand=!Execute #SoundBeep1#[#QL3L#]
 
 [QL3T]
 	Meter=String
-	X=-10R
-	Y=15r
-	H=30
-	W=80
+	MeterStyle=QLText
 	Text=#QL3N#
-	FontFace=#F#
-	FontSize=#F3#
-	StringAlign=RightCenter
-	AntiAlias=1
-	ClipString=1
 
 [QL4]
 	Meter=Button
-	ButtonImage=#@#/Buttons/Button1_#CS#.png
-	X=#QLR#
-	Y=#QLD#
+	ButtonImage=#Path_2##Resolution#/Button1_#CS#.png
+	X=#QColumn2#
+	Y=#QLine2#
 	AntiAlias=1
 	ButtonCommand=!Execute #SoundBeep1#[#QL4L#]
 
 [QL4T]
 	Meter=String
-	X=-10R
-	Y=15r
-	H=30
-	W=80
+	MeterStyle=QLText
 	Text=#QL4N#
-	FontFace=#F#
-	FontSize=#F3#
-	StringAlign=RightCenter
-	AntiAlias=1
-	ClipString=1
 
 [QL5]
 	Meter=Button
-	ButtonImage=#@#/Buttons/Button1_#CS#.png
-	X=#QLRR#
-	Y=#QLU#
+	ButtonImage=#Path_2##Resolution#/Button1_#CS#.png
+	X=#QColumn3#
+	Y=#QLine1#
 	AntiAlias=1
 	ButtonCommand=!Execute #SoundBeep1#[#QL5L#]
 
 [QL5T]
 	Meter=String
-	X=-10R
-	Y=15r
-	H=30
-	W=80
+	MeterStyle=QLText
 	Text=#QL5N#
-	FontFace=#F#
-	FontSize=#F3#
-	StringAlign=RightCenter
-	AntiAlias=1
-	ClipString=1
+
 
 [QL6]
 	Meter=Button
-	ButtonImage=#@#/Buttons/Button1_#CS#.png
-	X=#QLRR#
-	Y=#QLD#
+	ButtonImage=#Path_2##Resolution#/Button1_#CS#.png
+	X=#QColumn3#
+	Y=#QLine2#
 	AntiAlias=1
 	ButtonCommand=!Execute #SoundBeep1#[#QL6L#]
 
 [QL6T]
 	Meter=String
-	X=-10R
-	Y=15r
-	H=30
-	W=80
+	MeterStyle=QLText
 	Text=#QL6N#
-	FontFace=#F#
-	FontSize=#F3#
-	StringAlign=RightCenter
-	AntiAlias=1
-	ClipString=1
